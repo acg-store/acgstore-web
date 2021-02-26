@@ -24,6 +24,7 @@ jobs:
         run: |
           git config user.email acgstore25252@gmail.com
           git config user.name acg-store
+          git add index.html
           git add 动漫/*.html
           git add 漫画/*.html
           git add 阅读/*.html
