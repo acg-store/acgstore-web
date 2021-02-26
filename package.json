@@ -1,0 +1,24 @@
+{
+  "name": "acgstore-web",
+  "version": "1.0.0",
+  "description": "merge otaku file",
+  "scripts": {
+    "dev": "node merge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acg-store/acgstore-web.git"
+  },
+  "keywords": [
+    "otaku"
+  ],
+  "author": "acg-store",
+  "license": "ISC",
+  "dependencies": {
+    "zlib": "1.0.5"
+  },
+  "bugs": {
+    "url": "https://github.com/acg-store/acgstore-web/issues"
+  },
+  "homepage": "https://github.com/acg-store/acgstore-web#readme"
+}

@@ -1,2 +1,2 @@
-# acgstore-web
-acg store plugins
+# AcgStoreWeb
+acg store website
