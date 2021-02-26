@@ -45,8 +45,8 @@ function connectDiv(site, link) {
 </div>`;
 }
 
-function createHtml(title, data) {
-    return `
+function createHtml(dirpath, title, data) {
+    let html = `
 <!DOCTYPE html>
 <html>
 <head>
@@ -59,6 +59,7 @@ function createHtml(title, data) {
     ${data.join('')}
 </body>
 </html>`;
+    writeFileSync(dirpath + '/index.html', html);
 }
 
 function connectLink(name, version, author, data) {
@@ -77,13 +78,15 @@ function mergeSite(dirpath) {
         link = connectDiv(site, link);
         list.push(link);
     });
-    let result = createHtml(dirpath.substring(dirpath.length - 2), list);
-    writeFileSync(dirpath + '/index.html', result);
+    createHtml(dirpath, dirpath.substring(dirpath.length - 2), list);
+    return list;
 }
 
 (async => {
+    var total = [];
     dirs.forEach(dir => {
-        mergeSite(`./${dir}`);
+        total.push(...mergeSite(`./${dir}`));
     });
+    createHtml('./', "ACG Store", total);
     console.log('done');
 })();
