@@ -29,4 +29,4 @@ jobs:
           git add 阅读/*.html
           git add 有声/*.html
           git commit -m "merge" -a
-          git push origin main     
+          git push origin node
