@@ -70,11 +70,12 @@ function mergeSite(dirpath) {
     let sites = parseOtaku(dirpath);
     let list = [];
     sites.forEach(site => {
-        var data = site.data;
-        if (data == null) {
-            data = JSON.stringify(site);
+        var data = JSON.stringify(site);
+        var author = site.author;
+        if (site.data == null) {
+            author = site.author.name;
         }
-        let link = connectLink(site.name, site.version, site.author, data);
+        let link = connectLink(site.name, site.version, author, data);
         link = connectDiv(site, link);
         list.push(link);
     });
