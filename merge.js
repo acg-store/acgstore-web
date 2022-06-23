@@ -77,7 +77,7 @@ function connectDiv(site, link) {
     return `
 <div>
     <p>
-        <a href='${link}' target='_blank'>${site.name}-${site.version}</a>
+        <a href='${link}' target='_blank'>${site.name}-${site.version}@${site.author.name}</a>
     </p>
     <p>${site.info}</p>
 </div>`;
