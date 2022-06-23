@@ -75,27 +75,59 @@ function enXor(data) {
 
 function connectDiv(site, link) {
     return `
-<div>
-    <p>
-        <a href='${link}' target='_blank'>${site.name}-${site.version}@${site.author.name}</a>
-    </p>
-    <p>${site.info}</p>
-</div>`;
+            <van-grid-item>
+                <div class="site-item">
+                    <van-image src="${site.logo}" width="48" height="48"></van-image>
+                        <h4>${site.name}</h4>
+                        <p>${site.author.name}</p>
+                        <p>${site.version}</p>
+                        <p class="site-info van-multi-ellipsis--l3">${site.info}</p>
+                        <p>
+                            <van-button type="primary" url="${link}" target="_blank">导入</van-button>
+                        </p>
+                </div>
+            </van-grid-item>`;
 }
 
 function createHtml(dirpath, title, data) {
     let html = `
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
-    <title>${title}-合集</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>${title}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vant@2.12/lib/index.css" />
 </head>
-<body">
-    ${data.join('')}
+
+<body>
+    <div id="app">
+        <van-grid direction="horizontal">
+            ${data.join('')}
+        </van-grid>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vant@2.12/lib/vant.min.js"></script>
+    <script>
+    new Vue({
+        el: '#app',
+        data: {
+        },
+    })
+    Vue.use(vant.Lazyload)
+    </script>
+    <style type="text/css">
+    .site-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 30px;
+    }
+    </style>
 </body>
+
 </html>`;
     writeFileSync(dirpath + '/index.html', html);
 }
@@ -139,7 +171,6 @@ function mergeSiteHtml(dirpath) {
         html.push(...mergeSiteHtml(`./${dir}`));
         json.push(...mergeSiteJSON(`./${dir}`));
     });
-    createHtml('./', "ACG Store", html);
     createJSON('./', '/index.json', json);
     console.info('done');
 })();
