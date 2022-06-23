@@ -19,20 +19,58 @@ function writeFileSync(nodePath, data) {
 }
 
 
-function listOtaku(dirpath) {
+function listPluginJSON(dirpath) {
     if (fs.existsSync(dirpath)) {
         let files = fs.readdirSync(dirpath);
-        return files.filter(f => f.endsWith('.otaku'));
+        return files.filter(f => f != 'index.json' && f.endsWith('.json'));
     }
     return [];
 }
 
-function parseOtaku(dirpath) {
-    let list = listOtaku(dirpath);
+function listPluginJS(dirpath) {
+    if (fs.existsSync(dirpath)) {
+        let files = fs.readdirSync(dirpath);
+        return files.filter(f => f.endsWith('.js'));
+    }
+    return [];
+}
+
+
+function parsePlugin(dirpath) {
+    let jsonList = listPluginJSON(dirpath);
+    let jsList = listPluginJS(dirpath);
+
     if (!dirpath.endsWith('/')) {
         dirpath += '/';
     }
-    return list.map(e => JSON.parse(fs.readFileSync(dirpath + e)));
+    return jsonList.map(e => {
+        var site = JSON.parse(fs.readFileSync(dirpath + e));
+        try {
+            let jsFileName = e.substring(0, e.length - 2);
+            if (jsList.indexOf(jsFileName) != -1) {
+                var js = fs.readFileSync(dirpath + jsFileName);
+                site.script.code = new Buffer.from(js).toString('base64');
+                createJSON(dirpath, `/${e}`, site);
+            }
+        } catch (e) {
+            console.error(`合并${site.name}插件出错，${e}`);
+            return site;
+        }
+        return site;
+    });
+}
+
+function enXor(data) {
+    let key = '@';
+    let length = data.length;
+    var result = [];
+    for (var i = 0; i < length; i++) {
+        let msgCode = data.charCodeAt(i);
+        let keyCode = key.charCodeAt(i % key.length);
+        var res = msgCode ^ keyCode;
+        result.push(res);
+    }
+    return String.fromCharCode(...result);
 }
 
 function connectDiv(site, link) {
@@ -62,12 +100,22 @@ function createHtml(dirpath, title, data) {
     writeFileSync(dirpath + '/index.html', html);
 }
 
-function connectLink(name, version, author, data) {
-    return `otaku://${name}-${version}-${author}@@${new Buffer.from(zlib.gzipSync(data)).toString('base64')}`;
+function createJSON(dirpath, filename, data) {
+    writeFileSync(dirpath + filename, JSON.stringify(data));
 }
 
-function mergeSite(dirpath) {
-    let sites = parseOtaku(dirpath);
+function connectLink(name, version, author, data) {
+    return `acg-store://${name}-${version}-${author}￥${encodeURIComponent(new Buffer.from(zlib.gzipSync(enXor(data))).toString('base64'))}`;
+}
+
+function mergeSiteJSON(dirpath) {
+    let sites = parsePlugin(dirpath);
+    createJSON(dirpath, '/index.json', sites);
+    return sites;
+}
+
+function mergeSiteHtml(dirpath) {
+    let sites = parsePlugin(dirpath);
     let list = [];
     sites.forEach(site => {
         var data = JSON.stringify(site);
@@ -84,10 +132,14 @@ function mergeSite(dirpath) {
 }
 
 (async => {
-    var total = [];
+    var html = [];
+    var json = [];
+
     dirs.forEach(dir => {
-        total.push(...mergeSite(`./${dir}`));
+        html.push(...mergeSiteHtml(`./${dir}`));
+        json.push(...mergeSiteJSON(`./${dir}`));
     });
-    createHtml('./', "ACG Store", total);
-    console.log('done');
+    createHtml('./', "ACG Store", html);
+    createJSON('./', '/index.json', json);
+    console.info('done');
 })();
