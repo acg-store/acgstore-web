@@ -75,18 +75,24 @@ function enXor(data) {
 
 function connectDiv(site, link) {
     return `
-            <van-grid-item>
-                <div class="site-item">
-                    <van-image src="${site.logo}" width="48" height="48"></van-image>
-                        <h4>${site.name}</h4>
-                        <p>${site.author.name}</p>
-                        <p>${site.version}</p>
-                        <p class="site-info van-multi-ellipsis--l3">${site.info}</p>
-                        <p>
-                            <van-button type="primary" url="${link}" target="_blank">导入</van-button>
-                        </p>
+        <van-grid-item>
+            <div class="site-item" >
+                <div class="site-top">
+                    <van-image round fit="cover" src="${site.logo}" width="80px" height="80px">
+                        <template v-slot:error><van-image round fit="cover" src="https://files.catbox.moe/790n4j.png"></van-image></template>
+                    </van-image>
+                    <div class="site-info">
+                        <h4 class="info">${site.name}</h4>
+                        <p class="info">${site.author.name}</p>
+                        <p class="info">${site.version}</p>
+                    </div>
                 </div>
-            </van-grid-item>`;
+                <p class="site-desc van-multi-ellipsis--l3">${site.info}</p>
+                <p>
+                    <van-button style="width: 120px" type="primary" url="${link}" target="_blank">导入</van-button>
+                </p>
+            </div>
+        </van-grid-item>`;
 }
 
 function createHtml(dirpath, title, data) {
@@ -104,7 +110,7 @@ function createHtml(dirpath, title, data) {
 
 <body>
     <div id="app">
-        <van-grid direction="horizontal">
+        <van-grid :border="true" :column-num="col">
             ${data.join('')}
         </van-grid>
     </div>
@@ -113,17 +119,81 @@ function createHtml(dirpath, title, data) {
     <script>
     new Vue({
         el: '#app',
-        data: {
+        data() {
+                return {
+                    col: 2,
+                    windowWidth: document.documentElement.clientWidth,  //实时屏幕宽度
+                    windowHeight: document.documentElement.clientHeight,   //实时屏幕高度
+                }
         },
+        watch: {
+            windowHeight(val) {
+            },
+            windowWidth(val) {
+                this.setCol();
+            }
+        },
+        mounted() {
+            this.setCol();
+            var that = this;
+            window.onresize = () => {
+                return (() => {
+                    window.fullHeight = document.documentElement.clientHeight;
+                    window.fullWidth = document.documentElement.clientWidth;
+                    that.windowHeight = window.fullHeight;
+                    that.windowWidth = window.fullWidth;
+                })()
+            };
+        },
+        methods:{
+            setCol(){
+
+                if(this.windowWidth < 400){
+                    this.col = 1;
+                }else if(this.windowWidth < 550){
+                    this.col = 2;
+                }else if(this.windowWidth < 900){
+                    this.col = 3;
+                }else{
+                    this.col = 4;
+                }
+            }
+        }
     })
     Vue.use(vant.Lazyload)
     </script>
     <style type="text/css">
+    #app{
+        margin-top: 48px; 
+    }
+    .site-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .site-info {
+        width: 100% display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 8px;
+    }
+
+    .info {
+        margin: 0px;
+    }
+
+    .site-desc{
+        margin: 0px 20px;
+    }
+
     .site-item {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-        padding: 10px 30px;
+        padding: 5px 8px;
+        height: 240px;
     }
     </style>
 </body>
