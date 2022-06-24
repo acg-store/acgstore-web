@@ -78,7 +78,7 @@ function connectDiv(site, link) {
         <van-grid-item>
             <div class="site-item" >
                 <div class="site-top">
-                    <van-image round fit="cover" src="${site.logo}" width="80px" height="80px">
+                    <van-image round fit="cover" src="${site.logo}" width="60px" height="60px">
                         <template v-slot:error><van-image round fit="cover" src="https://files.catbox.moe/790n4j.png"></van-image></template>
                     </van-image>
                     <div class="site-info">
@@ -127,8 +127,6 @@ function createHtml(dirpath, title, data) {
                 }
         },
         watch: {
-            windowHeight(val) {
-            },
             windowWidth(val) {
                 this.setCol();
             }
@@ -148,7 +146,7 @@ function createHtml(dirpath, title, data) {
         methods:{
             setCol(){
 
-                if(this.windowWidth < 400){
+                if(this.windowWidth < 300){
                     this.col = 1;
                 }else if(this.windowWidth < 550){
                     this.col = 2;
@@ -173,7 +171,7 @@ function createHtml(dirpath, title, data) {
     }
 
     .site-info {
-        width: 100% display: flex;
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding-left: 8px;
@@ -184,7 +182,9 @@ function createHtml(dirpath, title, data) {
     }
 
     .site-desc{
-        margin: 0px 20px;
+        margin: 0px 10px;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.6);
     }
 
     .site-item {
