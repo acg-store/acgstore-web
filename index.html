@@ -11,18 +11,18 @@
 
 <body>
     <div id="app">
-        <van-tabs>
+        <van-tabs @click="onTabClick">
             <van-tab title="漫画">
-                <iframe frameborder="0" width="100%" :height="windowHeight" src="/漫画/index.html"></iframe>
+                <iframe ref="comic_iframe" frameborder="0" width="100%" scrolling="no" src="/漫画/index.html"></iframe>
             </van-tab>
             <van-tab title="动漫">
-                <iframe frameborder="0" width="100%" :height="windowHeight" src="/动漫/index.html"></iframe>
+                <iframe ref="anime_iframe" frameborder="0" width="100%" scrolling="no" src="/动漫/index.html"></iframe>
             </van-tab>
             <van-tab title="阅读">
-                <iframe frameborder="0" width="100%" :height="windowHeight" src="/阅读/index.html"></iframe>
+                <iframe ref="novel_iframe" frameborder="0" width="100%" scrolling="no" src="/阅读/index.html"></iframe>
             </van-tab>
             <van-tab title="有声">
-                <iframe frameborder="0" width="100%" :height="windowHeight" src="/有声/index.html"></iframe>
+                <iframe ref="audio_iframe" frameborder="0" width="100%" scrolling="no" src="/有声/index.html"></iframe>
             </van-tab>
         </van-tabs>
     </div>
@@ -39,30 +39,63 @@
                     windowHeight: document.documentElement.clientHeight,   //实时屏幕高度
                 }
             },
-            // <!--在watch中监听实时宽高-->
-            watch: {
-                windowHeight(val) {
-                    let that = this;
-                    console.log("实时屏幕高度：", val, that.windowHeight);
-                },
-                windowWidth(val) {
-                    let that = this;
-                    console.log("实时屏幕宽度：", val, that.windowWidth);
-                }
-            },
             mounted() {
                 var that = this;
-                // <!--把window.onresize事件挂在到mounted函数上-->
+                setTimeout(function () {
+                    that.resetHeight(that.$refs.comic_iframe);
+                }, 800);
+
                 window.onresize = () => {
                     return (() => {
                         window.fullHeight = document.documentElement.clientHeight;
                         window.fullWidth = document.documentElement.clientWidth;
-                        that.windowHeight = window.fullHeight;  // 高
-                        that.windowWidth = window.fullWidth; // 宽
+                        that.windowHeight = window.fullHeight;
+                        that.windowWidth = window.fullWidth;
                     })()
                 };
             },
-
+            methods: {
+                onTabClick(name, title) {
+                    var that = this;
+                    switch (title) {
+                        case "漫画":
+                            setTimeout(function () {
+                                that.resetHeight(that.$refs.comic_iframe);
+                            }, 300);
+                            break;
+                        case "动漫":
+                            setTimeout(function () {
+                                that.resetHeight(that.$refs.anime_iframe);
+                            }, 300);
+                            break;
+                        case "阅读":
+                            setTimeout(function () {
+                                that.resetHeight(that.$refs.novel_iframe);
+                            }, 300);
+                            break;
+                        case "有声":
+                            setTimeout(function () {
+                                that.resetHeight(that.$refs.audio_iframe);
+                            }, 300);
+                            break;
+                    }
+                },
+                resetHeight(iframe) {
+                    var _wh = document.documentElement.clientHeight - 130;//浏览器中间数据展示区域高度
+                    var h = 0;
+                    try {
+                        var a = iframe.contentWindow.document.body.scrollHeight;
+                        var b = iframe.contentWindow.document.documentElement.scrollHeight;
+                        h = a > b ? a : b;
+                        h += 150;
+                    } catch (e) { }
+                    //如果没有读到，那就使用默认的浏览器中间数据展示区域的高度
+                    if (!h || h < _wh) {
+                        h = _wh;
+                    }
+                    iframe.style.height = h + 'px';
+                }
+            }
         })
         Vue.use(vant.Lazyload)
     </script>
