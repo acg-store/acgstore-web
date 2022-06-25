@@ -1,0 +1,1249 @@
+{
+    "sid": "f2cb5cb9-8d3b-460a-ae42-be10560f1380",
+    "name": "CoCo漫画",
+    "logo": "",
+    "info": "原One(OH)漫画，为您提供优质的漫画阅读体验。优质漫画源。",
+    "baseUrl": "https://www.cocomanga.com/",
+    "type": 1,
+    "grade": 6,
+    "imgMode": 2,
+    "http2": true,
+    "cloudflare": true,
+    "engine": 20,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "isOpenSource": false,
+    "version": "1.2.2",
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio",
+                "url": ""
+            },
+            {
+                "lib": "crypto",
+                "url": ""
+            },
+            {
+                "lib": "base64",
+                "url": ""
+            }
+        ],
+        "code": "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"
+    },
+    "home": {
+        "title": "首页",
+        "url": "https://www.cocomanga.com/show?orderBy=update&page=@page",
+        "method": "GET",
+        "parse": "home_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "imageMode": 2,
+        "cacheAge": "1h"
+    },
+    "tag": {
+        "title": "分类",
+        "method": "GET",
+        "parse": "home_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "cacheAge": "1h",
+        "items": [
+            {
+                "group": "状态",
+                "title": "连载中",
+                "url": "/show?orderBy=update&mainCategoryId=10024&status=1&page=@page"
+            },
+            {
+                "group": "状态",
+                "title": "已完结",
+                "url": "/show?orderBy=update&mainCategoryId=10024&status=2&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "玄幻",
+                "url": "/show?orderBy=update&mainCategoryId=10024&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "热血",
+                "url": "/show?orderBy=update&mainCategoryId=10023&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "恋爱",
+                "url": "/show?orderBy=update&mainCategoryId=10126&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "都市",
+                "url": "/show?orderBy=update&mainCategoryId=10124&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "冒险",
+                "url": "/show?orderBy=update&mainCategoryId=10210&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "古风",
+                "url": "/show?orderBy=update&mainCategoryId=10143&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "穿越",
+                "url": "/show?orderBy=update&mainCategoryId=10129&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "爆笑",
+                "url": "/show?orderBy=update&mainCategoryId=10201&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "校园",
+                "url": "/show?orderBy=update&mainCategoryId=10131&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "少年",
+                "url": "/show?orderBy=update&mainCategoryId=10321&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "修真",
+                "url": "/show?orderBy=update&mainCategoryId=10133&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "霸总",
+                "url": "/show?orderBy=update&mainCategoryId=10127&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "搞笑",
+                "url": "/show?orderBy=update&mainCategoryId=10122&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "奇幻",
+                "url": "/show?orderBy=update&mainCategoryId=10242&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "生活",
+                "url": "/show?orderBy=update&mainCategoryId=10142&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "后宫",
+                "url": "/show?orderBy=update&mainCategoryId=10138&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "动作",
+                "url": "/show?orderBy=update&mainCategoryId=10125&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "少女",
+                "url": "/show?orderBy=update&mainCategoryId=10301&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "其他",
+                "url": "/show?orderBy=update&mainCategoryId=10560&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "武侠",
+                "url": "/show?orderBy=update&mainCategoryId=10139&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "逆转",
+                "url": "/show?orderBy=update&mainCategoryId=10702&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "科幻",
+                "url": "/show?orderBy=update&mainCategoryId=10181&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "总裁",
+                "url": "/show?orderBy=update&mainCategoryId=10306&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "恐怖",
+                "url": "/show?orderBy=update&mainCategoryId=10185&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "悬疑",
+                "url": "/show?orderBy=update&mainCategoryId=10183&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "少男",
+                "url": "/show?orderBy=update&mainCategoryId=10641&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "重生",
+                "url": "/show?orderBy=update&mainCategoryId=10461&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "魔幻",
+                "url": "/show?orderBy=update&mainCategoryId=10227&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "剧情",
+                "url": "/show?orderBy=update&mainCategoryId=10480&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "唯美",
+                "url": "/show?orderBy=update&mainCategoryId=10221&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "复仇",
+                "url": "/show?orderBy=update&mainCategoryId=10206&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "大女主",
+                "url": "/show?orderBy=update&mainCategoryId=10706&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "修仙",
+                "url": "/show?orderBy=update&mainCategoryId=10453&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "励志",
+                "url": "/show?orderBy=update&mainCategoryId=10207&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "福利",
+                "url": "/show?orderBy=update&mainCategoryId=10448&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "纯爱",
+                "url": "/show?orderBy=update&mainCategoryId=10209&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "情感",
+                "url": "/show?orderBy=update&mainCategoryId=10579&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "竞技",
+                "url": "/show?orderBy=update&mainCategoryId=10223&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "推理",
+                "url": "/show?orderBy=update&mainCategoryId=10211&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "格斗",
+                "url": "/show?orderBy=update&mainCategoryId=10202&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "魔法",
+                "url": "/show?orderBy=update&mainCategoryId=10465&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "美食",
+                "url": "/show?orderBy=update&mainCategoryId=10208&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "日常",
+                "url": "/show?orderBy=update&mainCategoryId=10308&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "漫改",
+                "url": "/show?orderBy=update&mainCategoryId=10165&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "彩虹",
+                "url": "/show?orderBy=update&mainCategoryId=10235&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "历史",
+                "url": "/show?orderBy=update&mainCategoryId=10163&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "仙侠",
+                "url": "/show?orderBy=update&mainCategoryId=10303&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "金手指",
+                "url": "/show?orderBy=update&mainCategoryId=10543&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "治愈",
+                "url": "/show?orderBy=update&mainCategoryId=10234&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "青春",
+                "url": "/show?orderBy=update&mainCategoryId=10230&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "古装",
+                "url": "/show?orderBy=update&mainCategoryId=10302&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "宫斗",
+                "url": "/show?orderBy=update&mainCategoryId=10229&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "游戏",
+                "url": "/show?orderBy=update&mainCategoryId=10162&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "灵异",
+                "url": "/show?orderBy=update&mainCategoryId=10231&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "开挂",
+                "url": "/show?orderBy=update&mainCategoryId=10544&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "惊险",
+                "url": "/show?orderBy=update&mainCategoryId=10222&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "虐心",
+                "url": "/show?orderBy=update&mainCategoryId=10205&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "日漫",
+                "url": "/show?orderBy=update&mainCategoryId=10281&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "明星",
+                "url": "/show?orderBy=update&mainCategoryId=10203&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "战争",
+                "url": "/show?orderBy=update&mainCategoryId=10184&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "爽",
+                "url": "/show?orderBy=update&mainCategoryId=10460&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "末世",
+                "url": "/show?orderBy=update&mainCategoryId=10545&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "机甲",
+                "url": "/show?orderBy=update&mainCategoryId=10232&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "暧昧",
+                "url": "/show?orderBy=update&mainCategoryId=10703&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "惊奇",
+                "url": "/show?orderBy=update&mainCategoryId=10322&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "萌系",
+                "url": "/show?orderBy=update&mainCategoryId=10204&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "虐恋",
+                "url": "/show?orderBy=update&mainCategoryId=10474&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "其它",
+                "url": "/show?orderBy=update&mainCategoryId=10261&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "偶像",
+                "url": "/show?orderBy=update&mainCategoryId=10305&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "改编",
+                "url": "/show?orderBy=update&mainCategoryId=10661&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "战斗",
+                "url": "/show?orderBy=update&mainCategoryId=10309&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "叛逆",
+                "url": "/show?orderBy=update&mainCategoryId=10712&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "言情",
+                "url": "/show?orderBy=update&mainCategoryId=10549&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "女尊",
+                "url": "/show?orderBy=update&mainCategoryId=10541&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "御姐",
+                "url": "/show?orderBy=update&mainCategoryId=10468&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "生化",
+                "url": "/show?orderBy=update&mainCategoryId=10711&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "血族",
+                "url": "/show?orderBy=update&mainCategoryId=10472&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "蔷薇",
+                "url": "/show?orderBy=update&mainCategoryId=10421&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "震撼",
+                "url": "/show?orderBy=update&mainCategoryId=10381&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "僵尸",
+                "url": "/show?orderBy=update&mainCategoryId=10243&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "异能",
+                "url": "/show?orderBy=update&mainCategoryId=10485&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "独家",
+                "url": "/show?orderBy=update&mainCategoryId=10422&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "美少女",
+                "url": "/show?orderBy=update&mainCategoryId=10307&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "橘味",
+                "url": "/show?orderBy=update&mainCategoryId=10721&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "奇闻",
+                "url": "/show?orderBy=update&mainCategoryId=10708&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "真人",
+                "url": "/show?orderBy=update&mainCategoryId=10361&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "浪漫",
+                "url": "/show?orderBy=update&mainCategoryId=10224&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "权谋",
+                "url": "/show?orderBy=update&mainCategoryId=10228&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "异族",
+                "url": "/show?orderBy=update&mainCategoryId=10705&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "神鬼",
+                "url": "/show?orderBy=update&mainCategoryId=10762&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "幻想",
+                "url": "/show?orderBy=update&mainCategoryId=10713&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "耽美",
+                "url": "/show?orderBy=update&mainCategoryId=10456&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "间谍",
+                "url": "/show?orderBy=update&mainCategoryId=10464&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "特工",
+                "url": "/show?orderBy=update&mainCategoryId=10462&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "美女",
+                "url": "/show?orderBy=update&mainCategoryId=10463&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "替身",
+                "url": "/show?orderBy=update&mainCategoryId=10447&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "养成",
+                "url": "/show?orderBy=update&mainCategoryId=10446&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "神魔",
+                "url": "/show?orderBy=update&mainCategoryId=10304&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "豪门",
+                "url": "/show?orderBy=update&mainCategoryId=10492&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "宠爱",
+                "url": "/show?orderBy=update&mainCategoryId=10707&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "社会",
+                "url": "/show?orderBy=update&mainCategoryId=10239&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "漫客栈",
+                "url": "/show?orderBy=update&mainCategoryId=10643&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "青年",
+                "url": "/show?orderBy=update&mainCategoryId=10644&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "猎奇",
+                "url": "/show?orderBy=update&mainCategoryId=10802&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "运动",
+                "url": "/show?orderBy=update&mainCategoryId=10233&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "军阀",
+                "url": "/show?orderBy=update&mainCategoryId=10457&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "丧尸",
+                "url": "/show?orderBy=update&mainCategoryId=10681&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "日本",
+                "url": "/show?orderBy=update&mainCategoryId=10580&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "吸血鬼",
+                "url": "/show?orderBy=update&mainCategoryId=10443&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "脑洞",
+                "url": "/show?orderBy=update&mainCategoryId=10226&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "男神",
+                "url": "/show?orderBy=update&mainCategoryId=10444&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "萝莉",
+                "url": "/show?orderBy=update&mainCategoryId=10166&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "轮回",
+                "url": "/show?orderBy=update&mainCategoryId=10445&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "三角恋",
+                "url": "/show?orderBy=update&mainCategoryId=10441&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "前世",
+                "url": "/show?orderBy=update&mainCategoryId=10442&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "怀旧",
+                "url": "/show?orderBy=update&mainCategoryId=10581&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "系统",
+                "url": "/show?orderBy=update&mainCategoryId=10722&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "民国",
+                "url": "/show?orderBy=update&mainCategoryId=10478&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "婚恋",
+                "url": "/show?orderBy=update&mainCategoryId=10458&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "甜宠",
+                "url": "/show?orderBy=update&mainCategoryId=10450&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "恶搞",
+                "url": "/show?orderBy=update&mainCategoryId=10236&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "女强",
+                "url": "/show?orderBy=update&mainCategoryId=10481&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "百合",
+                "url": "/show?orderBy=update&mainCategoryId=10384&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "体育",
+                "url": "/show?orderBy=update&mainCategoryId=10341&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "探案",
+                "url": "/show?orderBy=update&mainCategoryId=10710&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "娱乐圈",
+                "url": "/show?orderBy=update&mainCategoryId=10648&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "乙女",
+                "url": "/show?orderBy=update&mainCategoryId=10822&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "绅士",
+                "url": "/show?orderBy=update&mainCategoryId=10763&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "智斗",
+                "url": "/show?orderBy=update&mainCategoryId=10823&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "种田",
+                "url": "/show?orderBy=update&mainCategoryId=10570&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "魔王",
+                "url": "/show?orderBy=update&mainCategoryId=10471&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "经典",
+                "url": "/show?orderBy=update&mainCategoryId=10451&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "宅斗",
+                "url": "/show?orderBy=update&mainCategoryId=10714&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "怪谈",
+                "url": "/show?orderBy=update&mainCategoryId=10709&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "同人",
+                "url": "/show?orderBy=update&mainCategoryId=10241&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "少儿",
+                "url": "/show?orderBy=update&mainCategoryId=10491&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "美型",
+                "url": "/show?orderBy=update&mainCategoryId=10522&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "暗黑",
+                "url": "/show?orderBy=update&mainCategoryId=10383&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "惊悚",
+                "url": "/show?orderBy=update&mainCategoryId=10500&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "神话",
+                "url": "/show?orderBy=update&mainCategoryId=10484&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "宫廷",
+                "url": "/show?orderBy=update&mainCategoryId=10459&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "阴暗",
+                "url": "/show?orderBy=update&mainCategoryId=10518&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "燃向",
+                "url": "/show?orderBy=update&mainCategoryId=10479&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "兄妹",
+                "url": "/show?orderBy=update&mainCategoryId=10551&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "侦探",
+                "url": "/show?orderBy=update&mainCategoryId=10382&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "吃鸡",
+                "url": "/show?orderBy=update&mainCategoryId=10557&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "枪战",
+                "url": "/show?orderBy=update&mainCategoryId=10558&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "特种兵",
+                "url": "/show?orderBy=update&mainCategoryId=10559&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "爱情",
+                "url": "/show?orderBy=update&mainCategoryId=10482&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "兄弟",
+                "url": "/show?orderBy=update&mainCategoryId=10552&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "异世",
+                "url": "/show?orderBy=update&mainCategoryId=10553&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "魂穿",
+                "url": "/show?orderBy=update&mainCategoryId=10473&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "男穿女",
+                "url": "/show?orderBy=update&mainCategoryId=10524&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "异世界",
+                "url": "/show?orderBy=update&mainCategoryId=10523&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "死神",
+                "url": "/show?orderBy=update&mainCategoryId=10646&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "死亡",
+                "url": "/show?orderBy=update&mainCategoryId=10645&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "江湖",
+                "url": "/show?orderBy=update&mainCategoryId=10498&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "阿衰",
+                "url": "/show?orderBy=update&mainCategoryId=10452&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "兽耳",
+                "url": "/show?orderBy=update&mainCategoryId=10455&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "神界漫画",
+                "url": "/show?orderBy=update&mainCategoryId=10469&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "血腥",
+                "url": "/show?orderBy=update&mainCategoryId=10401&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "宠婚",
+                "url": "/show?orderBy=update&mainCategoryId=10564&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "致郁",
+                "url": "/show?orderBy=update&mainCategoryId=10683&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "幽默",
+                "url": "/show?orderBy=update&mainCategoryId=10601&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "节操",
+                "url": "/show?orderBy=update&mainCategoryId=10621&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "悬疑、惊悚",
+                "url": "/show?orderBy=update&mainCategoryId=10647&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "国漫",
+                "url": "/show?orderBy=update&mainCategoryId=10495&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "四格",
+                "url": "/show?orderBy=update&mainCategoryId=10467&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "飒漫画",
+                "url": "/show?orderBy=update&mainCategoryId=10642&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "可爱",
+                "url": "/show?orderBy=update&mainCategoryId=10466&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "韩漫",
+                "url": "/show?orderBy=update&mainCategoryId=10494&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "病娇",
+                "url": "/show?orderBy=update&mainCategoryId=10493&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "异界",
+                "url": "/show?orderBy=update&mainCategoryId=10506&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "召唤",
+                "url": "/show?orderBy=update&mainCategoryId=10505&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "萌",
+                "url": "/show?orderBy=update&mainCategoryId=10454&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "小僵尸",
+                "url": "/show?orderBy=update&mainCategoryId=10561&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "条漫",
+                "url": "/show?orderBy=update&mainCategoryId=10516&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "婚宠",
+                "url": "/show?orderBy=update&mainCategoryId=10546&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "鬼怪",
+                "url": "/show?orderBy=update&mainCategoryId=10682&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "毒鸡汤",
+                "url": "/show?orderBy=update&mainCategoryId=10517&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "新妻",
+                "url": "/show?orderBy=update&mainCategoryId=10566&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "故事漫画",
+                "url": "/show?orderBy=update&mainCategoryId=10782&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "栏目",
+                "url": "/show?orderBy=update&mainCategoryId=10704&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "长篇",
+                "url": "/show?orderBy=update&mainCategoryId=10486&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "陈岚",
+                "url": "/show?orderBy=update&mainCategoryId=10487&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "漫画会",
+                "url": "/show?orderBy=update&mainCategoryId=10509&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "龙刃",
+                "url": "/show?orderBy=update&mainCategoryId=10510&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "LOL",
+                "url": "/show?orderBy=update&mainCategoryId=10574&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "青青树",
+                "url": "/show?orderBy=update&mainCategoryId=10503&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "三次元",
+                "url": "/show?orderBy=update&mainCategoryId=10550&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "轻松",
+                "url": "/show?orderBy=update&mainCategoryId=10519&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "喜欢",
+                "url": "/show?orderBy=update&mainCategoryId=10507&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "有趣岛",
+                "url": "/show?orderBy=update&mainCategoryId=10547&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "萌宠",
+                "url": "/show?orderBy=update&mainCategoryId=10504&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "断头岛",
+                "url": "/show?orderBy=update&mainCategoryId=10496&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "西游记",
+                "url": "/show?orderBy=update&mainCategoryId=10502&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "狠西游",
+                "url": "/show?orderBy=update&mainCategoryId=10501&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "雪月花",
+                "url": "/show?orderBy=update&mainCategoryId=10565&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "人性",
+                "url": "/show?orderBy=update&mainCategoryId=10568&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "翼纪元",
+                "url": "/show?orderBy=update&mainCategoryId=10578&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "片玉",
+                "url": "/show?orderBy=update&mainCategoryId=10512&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "梦骑士",
+                "url": "/show?orderBy=update&mainCategoryId=10563&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "漫画一番 女王点坑",
+                "url": "/show?orderBy=update&mainCategoryId=10742&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "天上空",
+                "url": "/show?orderBy=update&mainCategoryId=10475&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "渡之鸟",
+                "url": "/show?orderBy=update&mainCategoryId=10476&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "短篇",
+                "url": "/show?orderBy=update&mainCategoryId=10573&page=@page"
+            },
+            {
+                "group": "类型",
+                "title": "知音漫客",
+                "url": "/show?orderBy=update&mainCategoryId=10701&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "A",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10182&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "B",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10081&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "C",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10134&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "D",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10001&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "E",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10238&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "F",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10161&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "G",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10225&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "H",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10137&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "I",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10284&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "J",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10141&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "K",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10283&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "L",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10132&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "M",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10136&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "N",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10130&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "O",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10282&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "P",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10262&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "Q",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10164&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "R",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10240&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "S",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10121&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "T",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10123&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "W",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10135&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "X",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10061&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "Y",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10082&page=@page"
+            },
+            {
+                "group": "字母",
+                "title": "Z",
+                "url": "/show?orderBy=update&mainCategoryId=10024&charCategoryId=10128&page=@page"
+            }
+        ]
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/search?searchString=@key&page=@page&fromCountry=CN",
+        "method": "GET",
+        "parse": "search_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "cacheAge": "1h"
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "cacheAge": "1h",
+        "requestType": 0
+    },
+    "openSource": false
+}
