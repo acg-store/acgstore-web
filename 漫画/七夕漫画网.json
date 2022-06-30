@@ -1,1 +1,132 @@
-{"sid":"6e90d655-599d-4a5e-a0ce-a326cb3feaeb","name":"七夕漫画网","logo":"https://i.loli.net/2021/02/19/euMWN9YBGzin71H.png","info":"网友推荐，流畅漫画阅读体验","baseUrl":"http://m.qiximh1.com/","type":1,"grade":2,"needProxy":0,"encode":"utf-8","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1","style":2,"version":"1.0.6","openSource":true,"engine":16,"imgMode":2,"headers":"Connection:keep-alive\nAccept:*/*\nAccept-Encoding:gzip, deflate, br","author":{"name":"静静","info":"我是静静，App和轻应用有问题都可以联系我哦","contact":"1077674403","donateLink":["https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg","https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"]},"script":{"requires":[{"lib":"cheerio"}],"code":"ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIGxldCBqc29uID0gSlNPTi5wYXJzZShodG1sKTsKICAgIHZhciBsaXN0ID0gW107CiAgICBqc29uLmZvckVhY2goY29taWMgPT4gewogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiBjb21pYy5uYW1lLAogICAgICAgICAgICBjb3ZlcjogY29taWMuaW1ndXJsLAogICAgICAgICAgICBpbmZvOiAn5L2c6ICFOicgKyBjb21pYy5hdXRob3IgKyAnXG4nICsgY29taWMuaW50cm8sCiAgICAgICAgICAgIGxpbms6ICcvJyArIGNvbWljLmlkICsgJy8nLAogICAgICAgICAgICB1cGRhdGVUaW1lOiBjb21pYy5yZW1hcmtzCiAgICAgICAgfSk7CiAgICB9KTsKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCmZ1bmN0aW9uIHNlYXJjaF9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIGxldCBqc29uID0gSlNPTi5wYXJzZShodG1sKTsKICAgIHZhciBsaXN0ID0gW107CiAgICBpZiAoIWpzb24gfHwgIWpzb24uc2VhcmNoX2RhdGEpIHsKICAgICAgICB0aHJvdyAi5rKh5pyJ57uT5p6cIjsKICAgIH0KICAgIGpzb24uc2VhcmNoX2RhdGEuZm9yRWFjaChjb21pYyA9PiB7CiAgICAgICAgbGlzdC5wdXNoKHsKICAgICAgICAgICAgdGl0bGU6IGNvbWljLm5hbWUsCiAgICAgICAgICAgIGNvdmVyOiBjb21pYy5pbWdzLAogICAgICAgICAgICBpbmZvOiAn5L2c6ICFOicgKyBjb21pYy5hdXRob3IgKyAnXG4nICsgY29taWMuYmlhb3FpYW4sCiAgICAgICAgICAgIGxpbms6ICcvJyArIGNvbWljLmlkICsgJy8nLAogICAgICAgICAgICB1cGRhdGVUaW1lOiBjb21pYy5uZXdjaGFwdGVyCiAgICAgICAgfSk7CiAgICB9KTsKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCmZ1bmN0aW9uIHRhZ19idWlsZF9wYXJhbXModXJsLCBwYWdlLCBrZXkpIHsKICAgIHZhciBkYXRhOwogICAgdmFyIG5ld1BhZ2UgPSBwYXJzZUludChwYWdlKTsKICAgIHN3aXRjaCAoa2V5KSB7CiAgICAgICAgY2FzZSAn5YaS6Zmp54Ot6KGAJzoKICAgICAgICAgICAgZGF0YSA9ICJwYWdlX251bT0iICsgbmV3UGFnZSArICImdHlwZT0xIjsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSAn5q2m5L6g5qC85paXJzoKICAgICAgICAgICAgZGF0YSA9ICJwYWdlX251bT0iICsgbmV3UGFnZSArICImdHlwZT0yIjsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSAn546E5bm756eR5bm7JzoKICAgICAgICAgICAgZGF0YSA9ICJwYWdlX251bT0iICsgbmV3UGFnZSArICImdHlwZT0zIjsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSAn5L6m5o6i5o6o55CGJzoKICAgICAgICAgICAgZGF0YSA9ICJwYWdlX251bT0iICsgbmV3UGFnZSArICImdHlwZT00IjsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSAn6IC9576O54ix5oOFJzoKICAgICAgICAgICAgZGF0YSA9ICJwYWdlX251bT0iICsgbmV3UGFnZSArICImdHlwZT01IjsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSAn55Sf5rS75ryr55S7JzoKICAgICAgICAgICAgZGF0YSA9ICJwYWdlX251bT0iICsgbmV3UGFnZSArICImdHlwZT02IjsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSAn57K+5ZOB5ryr55S7JzoKICAgICAgICAgICAgZGF0YSA9ICJwYWdlX251bT0iICsgbmV3UGFnZSArICImdHlwZT0xMSI7CiAgICAgICAgICAgIGJyZWFrOwogICAgICAgIGNhc2UgJ+i/nui9vea8q+eUuyc6CiAgICAgICAgICAgIGRhdGEgPSAicGFnZV9udW09IiArIG5ld1BhZ2UgKyAiJnR5cGU9MTIiOwogICAgICAgICAgICBicmVhazsKICAgICAgICBjYXNlICflroznu5PmvKvnlLsnOgogICAgICAgICAgICBkYXRhID0gInBhZ2VfbnVtPSIgKyBuZXdQYWdlICsgIiZ0eXBlPTEzIjsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgZGVmYXVsdDoKICAgICAgICAgICAgYnJlYWs7CiAgICB9CiAgICByZXR1cm4gZGF0YTsKfQoKZnVuY3Rpb24gdGFnX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgdmFyIGxpc3QgPSBbXTsKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCmZ1bmN0aW9uIGJvb2tfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBib29rID0gewogICAgICAgIGNvdmVyOiAkKCcuY29taWNfY292ZXInKS5maXJzdCgpLmF0dHIoJ2RhdGEtb3JpZ2luYWwnKSArICdAQGhlYWRlcnM9eyJ1c2VyLWFnZW50IjoiVVNFUl9BR0VOVCIsInByb3RvY29sIjoiaDIifScsCiAgICAgICAgaW5mbzogJCgnLmRldGFpbHMnKS50ZXh0KCksCiAgICAgICAgc2VjdGlvbnM6IG5ldyBNYXAoKSwKICAgICAgICBpc1NlY3Rpb25Bc2M6IDAsCiAgICAgICAgdXBkYXRlVGltZTogJCgnLmxvb2tpbmdfY2hhcHRlcicpLnRleHQoKQogICAgfTsKICAgIHZhciBzZWN0aW9ucyA9IFtdOwogICAgJCgnLmNhdGFsb2dfbGlzdCcpLmNoaWxkcmVuKCdhJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIHNlY3Rpb25zLnB1c2goewogICAgICAgICAgICB0aXRsZTogJCh0aGlzKS50ZXh0KCksCiAgICAgICAgICAgIGxpbms6ICQodGhpcykuYXR0cignaHJlZicpCiAgICAgICAgfSk7CiAgICB9KTsKICAgIGlmICgkKCcubW9yZWNoYXB0ZXInKSAhPSBudWxsICYmICQoJy5tb3JlY2hhcHRlcicpICE9IHVuZGVmaW5lZCkgewogICAgICAgIGJvb2suZXh0cmEgPSBKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgICAgIGlkOiAkKCcubW9yZWNoYXB0ZXInKS5hdHRyKCdkYXRhLWlkJyksCiAgICAgICAgICAgIGlkMjogJCgnLm1vcmVjaGFwdGVyJykuYXR0cignZGF0YS12aWQnKSwKICAgICAgICB9KTsKICAgIH0KICAgIGJvb2suc2VjdGlvbnNbJ+ebruW9lSddID0gc2VjdGlvbnM7CgoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShib29rKTsKfQoKZnVuY3Rpb24gYm9va19zZWN0aW9uc19idWlsZF91cmwodXJsLCBsYXN0UmVzdWx0KSB7CiAgICBsZXQgYm9vayA9IEpTT04ucGFyc2UobGFzdFJlc3VsdCk7CiAgICBsZXQgZXh0cmEgPSBKU09OLnBhcnNlKGJvb2suZXh0cmEpOwoKICAgIGlmIChleHRyYS5pZCkgewogICAgICAgIHJldHVybiAnaHR0cDovL20ucWl4aW1oMS5jb20vYm9va2NoYXB0ZXIvJyArICc6OmlkPScgKyBleHRyYS5pZCArICcmaWQyPScgKyBleHRyYS5pZDI7CiAgICB9IGVsc2UgewogICAgICAgIHJldHVybiAiX19fTk9fX05FRURfX1JFUVVFU1RfXyI7CiAgICB9Cn0KCi8vIOWOu+mHjQpmdW5jdGlvbiB1bmlxdWUoYXJyKSB7CiAgICBmb3IgKHZhciBpID0gMDsgaSA8IGFyci5sZW5ndGg7IGkrKykgewogICAgICAgIGZvciAodmFyIGogPSBpICsgMTsgaiA8IGFyci5sZW5ndGg7IGorKykgewogICAgICAgICAgICBpZiAoYXJyW2ldLmxpbmsgPT0gYXJyW2pdLmxpbmspIHsKICAgICAgICAgICAgICAgIGFyci5zcGxpY2UoaiwgMSk7CiAgICAgICAgICAgICAgICBqLS07CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICByZXR1cm4gYXJyOwp9CgpmdW5jdGlvbiBib29rX3NlY3Rpb25zX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycywgbGFzdFJlc3VsdCkgewogICAgdmFyIGJvb2sgPSBKU09OLnBhcnNlKGxhc3RSZXN1bHQpOwogICAgbGV0IGV4dHJhID0gSlNPTi5wYXJzZShib29rLmV4dHJhKTsKICAgIGNvbnNvbGUubG9nKGh0bWwpOwogICAgaWYgKGh0bWwuc3RhcnRzV2l0aCgnXycpKSB7CiAgICAgICAgcmV0dXJuIGxhc3RSZXN1bHQ7CiAgICB9CiAgICBsZXQgZGF0YSA9IEpTT04ucGFyc2UoaHRtbCk7CiAgICB2YXIgc2VjdGlvbnMgPSBib29rLnNlY3Rpb25zWyfnm67lvZUnXTsKICAgIGlmIChzZWN0aW9ucyA9PSBudWxsKSBzZWN0aW9ucyA9IFtdOwogICAgZGF0YS5mb3JFYWNoKGl0ZW0gPT4gewogICAgICAgIHNlY3Rpb25zLnB1c2goewogICAgICAgICAgICB0aXRsZTogaXRlbS5jaGFwdGVybmFtZSwKICAgICAgICAgICAgbGluazogJy8nICsgZXh0cmEuaWQgKyAnLycgKyBpdGVtLmNoYXB0ZXJpZCArICcuaHRtbCcKICAgICAgICB9KTsKICAgIH0pOwoKICAgIGJvb2suc2VjdGlvbnNbJ+ebruW9lSddID0gdW5pcXVlKHNlY3Rpb25zKTsKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoYm9vayk7Cn0KCmZ1bmN0aW9uIGJvb2tfY29tbWVudF9idWlsZF91cmwodXJsLCBsYXN0UmVzdWx0KSB7CiAgICBsZXQgYm9vayA9IEpTT04ucGFyc2UobGFzdFJlc3VsdCk7CiAgICBsZXQgZXh0cmEgPSBKU09OLnBhcnNlKGJvb2suZXh0cmEpOwogICAgaWYgKGV4dHJhICE9IG51bGwpIHsKICAgICAgICByZXR1cm4gJ2h0dHA6Ly9tLnFpeGltaDEuY29tL3BpbmdsdW4vP2lkPScgKyBleHRyYS5pZDsKICAgIH0gZWxzZSB7CiAgICAgICAgcmV0dXJuICJfX19OT19fTkVFRF9fUkVRVUVTVF9fIjsKICAgIH0KfQoKZnVuY3Rpb24gYm9va19jb21tZW50X3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycywgbGFzdFJlc3VsdCkgewogICAgdmFyIGJvb2sgPSBKU09OLnBhcnNlKGxhc3RSZXN1bHQpOwogICAgbGV0IGRhdGEgPSBKU09OLnBhcnNlKGh0bWwpOwogICAgaWYgKGh0bWwuc3RhcnRzV2l0aCgnXycpKSB7CiAgICAgICAgcmV0dXJuIGxhc3RSZXN1bHQ7CiAgICB9CiAgICB2YXIgY29tbWVudExpc3QgPSBbXTsKICAgIGRhdGEuZm9yRWFjaChpdGVtID0+IHsKICAgICAgICBjb21tZW50TGlzdC5wdXNoKHsKICAgICAgICAgICAgbmlja05hbWU6IGl0ZW0ubmFtZSwKICAgICAgICAgICAgYXZhdGFyOiBpdGVtLnRvdXhpYW5nLAogICAgICAgICAgICBjb250ZW50OiBpdGVtLmNvbnQsCiAgICAgICAgICAgIGRhdGU6IGl0ZW0uYWRkdGltZQogICAgICAgIH0pOwogICAgfSk7CiAgICBib29rLmNvbW1lbnRzID0gY29tbWVudExpc3Q7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoYm9vayk7Cn0KCmZ1bmN0aW9uIGRldGFpbHNfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBzY3JpcHQgPSAnJzsKICAgICQoJ3NjcmlwdCcpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICBpZiAoJCh0aGlzKS50ZXh0KCkuaW5kZXhPZignZXZhbCgnKSAhPSAtMSkgewogICAgICAgICAgICBzY3JpcHQgPSAkKHRoaXMpLnRleHQoKTsKICAgICAgICB9CiAgICB9KTsKCiAgICBzY3JpcHQgPSBzY3JpcHQucmVwbGFjZSgnXHcrJywgJ1xcdysnKTsKICAgIGNvbnNvbGUubG9nKHNjcmlwdCk7CiAgICBzY3JpcHQgPSBzY3JpcHQucmVwbGFjZUFsbCgiJ1xcYiciLCAiJ1xcXFxiJyIpOwogICAgY29uc29sZS5sb2coc2NyaXB0KTsKCiAgICBldmFsKHNjcmlwdCk7CgogICAgaWYgKHNjcmlwdCA9PSAnJyB8fCAhbmV3SW1ncykgewogICAgICAgIHRocm93ICfop6PmnpDmvKvnlLvlpLHotKUnOwogICAgfQogICAgdmFyIGRldGFpbHMgPSB7CiAgICAgICAgaW1hZ2VzOiBbXQogICAgfTsKCiAgICBuZXdJbWdzLmZvckVhY2goaSA9PiBkZXRhaWxzLmltYWdlcy5wdXNoKGkpKTsKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoZGV0YWlscyk7Cgp9"},"home":{"title":"最近更新","url":"/rankdata.php","method":"POST","params":"page_num=@page&type=5","parse":"home_parse","headers":"Connection:keep-alive\nAccept:*/*\nAccept-Encoding:gzip, deflate, br","startPage":1,"addPage":1,"imageMode":1,"requestType":0},"tag":{"title":"分类","method":"POST","url":"/sortdata.php","parse":"home_parse","buildParams":"tag_build_params","startPage":1,"addPage":1,"headers":"Connection:keep-alive\nAccept:*/*\nAccept-Encoding:gzip, deflate, br","items":[{"group":"分类","title":"冒险热血"},{"group":"分类","title":"武侠格斗"},{"group":"分类","title":"玄幻科幻"},{"group":"分类","title":"侦探推理"},{"group":"分类","title":"耽美爱情"},{"group":"分类","title":"生活漫画"},{"group":"分类","title":"精品漫画"},{"group":"分类","title":"连载漫画"},{"group":"分类","title":"完结漫画"}]},"search":{"title":"搜索","url":"/search.php","params":"keyword=@key","method":"POST","headers":"Connection:keep-alive\nAccept:*/*\nAccept-Encoding:gzip, deflate, br","parse":"search_parse"},"book":{"title":"详情","method":"GET","parse":"book_parse","headers":"Connection:keep-alive\nAccept:*/*\nAccept-Encoding:gzip, deflate, br","cacheAge":"1h","adds":[{"title":"解析更多目录","method":"POST","headers":"Content-Type:application/x-www-form-urlencoded; charset=UTF-8\nConnection:keep-alive\nAccept:*/*\nAccept-Encoding:gzip, deflate, br","buildUrl":"book_sections_build_url","parse":"book_sections_parse"},{"title":"解析评论","method":"GET","buildUrl":"book_comment_build_url","parse":"book_comment_parse"}]},"details":{"title":"内容","method":"GET","parse":"details_parse","cacheAge":"1h","headers":"Connection:keep-alive\nAccept:*/*\nAccept-Encoding:gzip, deflate, br"}}
+{
+    "sid": "6e90d655-599d-4a5e-a0ce-a326cb3feaeb",
+    "name": "七夕漫画网",
+    "logo": "https://i.loli.net/2021/02/19/euMWN9YBGzin71H.png",
+    "info": "网友推荐，流畅漫画阅读体验",
+    "baseUrl": "http://m.qiximh1.com/",
+    "type": 1,
+    "grade": 2,
+    "needProxy": 0,
+    "encode": "utf-8",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+    "style": 2,
+    "version": "1.0.7",
+    "openSource": true,
+    "engine": 16,
+    "imgMode": 2,
+    "headers": "Connection:keep-alive\nAccept:*/*\nAccept-Encoding:gzip, deflate, br",
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            }
+        ],
+        "code": "ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIGxldCBqc29uID0gSlNPTi5wYXJzZShodG1sKTsKICAgIHZhciBsaXN0ID0gW107CiAgICBqc29uLmZvckVhY2goY29taWMgPT4gewogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiBjb21pYy5uYW1lLAogICAgICAgICAgICBjb3ZlcjogY29taWMuaW1ndXJsLAogICAgICAgICAgICBpbmZvOiAn5L2c6ICFOicgKyBjb21pYy5hdXRob3IgKyAnXG4nICsgY29taWMuaW50cm8sCiAgICAgICAgICAgIGxpbms6ICcvJyArIGNvbWljLmlkICsgJy8nLAogICAgICAgICAgICB1cGRhdGVUaW1lOiBjb21pYy5yZW1hcmtzCiAgICAgICAgfSk7CiAgICB9KTsKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCmZ1bmN0aW9uIHNlYXJjaF9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIGxldCBqc29uID0gSlNPTi5wYXJzZShodG1sKTsKICAgIHZhciBsaXN0ID0gW107CiAgICBpZiAoIWpzb24gfHwgIWpzb24uc2VhcmNoX2RhdGEpIHsKICAgICAgICB0aHJvdyAi5rKh5pyJ57uT5p6cIjsKICAgIH0KICAgIGpzb24uc2VhcmNoX2RhdGEuZm9yRWFjaChjb21pYyA9PiB7CiAgICAgICAgbGlzdC5wdXNoKHsKICAgICAgICAgICAgdGl0bGU6IGNvbWljLm5hbWUsCiAgICAgICAgICAgIGNvdmVyOiBjb21pYy5pbWdzLAogICAgICAgICAgICBpbmZvOiAn5L2c6ICFOicgKyBjb21pYy5hdXRob3IgKyAnXG4nICsgY29taWMuYmlhb3FpYW4sCiAgICAgICAgICAgIGxpbms6ICcvJyArIGNvbWljLmlkICsgJy8nLAogICAgICAgICAgICB1cGRhdGVUaW1lOiBjb21pYy5uZXdjaGFwdGVyCiAgICAgICAgfSk7CiAgICB9KTsKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCmZ1bmN0aW9uIHRhZ19idWlsZF9wYXJhbXModXJsLCBwYWdlLCBrZXkpIHsKICAgIHZhciBkYXRhOwogICAgdmFyIG5ld1BhZ2UgPSBwYXJzZUludChwYWdlKTsKICAgIHN3aXRjaCAoa2V5KSB7CiAgICAgICAgY2FzZSAn5YaS6Zmp54Ot6KGAJzoKICAgICAgICAgICAgZGF0YSA9ICJwYWdlX251bT0iICsgbmV3UGFnZSArICImdHlwZT0xIjsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSAn5q2m5L6g5qC85paXJzoKICAgICAgICAgICAgZGF0YSA9ICJwYWdlX251bT0iICsgbmV3UGFnZSArICImdHlwZT0yIjsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSAn546E5bm756eR5bm7JzoKICAgICAgICAgICAgZGF0YSA9ICJwYWdlX251bT0iICsgbmV3UGFnZSArICImdHlwZT0zIjsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSAn5L6m5o6i5o6o55CGJzoKICAgICAgICAgICAgZGF0YSA9ICJwYWdlX251bT0iICsgbmV3UGFnZSArICImdHlwZT00IjsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSAn6IC9576O54ix5oOFJzoKICAgICAgICAgICAgZGF0YSA9ICJwYWdlX251bT0iICsgbmV3UGFnZSArICImdHlwZT01IjsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSAn55Sf5rS75ryr55S7JzoKICAgICAgICAgICAgZGF0YSA9ICJwYWdlX251bT0iICsgbmV3UGFnZSArICImdHlwZT02IjsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSAn57K+5ZOB5ryr55S7JzoKICAgICAgICAgICAgZGF0YSA9ICJwYWdlX251bT0iICsgbmV3UGFnZSArICImdHlwZT0xMSI7CiAgICAgICAgICAgIGJyZWFrOwogICAgICAgIGNhc2UgJ+i/nui9vea8q+eUuyc6CiAgICAgICAgICAgIGRhdGEgPSAicGFnZV9udW09IiArIG5ld1BhZ2UgKyAiJnR5cGU9MTIiOwogICAgICAgICAgICBicmVhazsKICAgICAgICBjYXNlICflroznu5PmvKvnlLsnOgogICAgICAgICAgICBkYXRhID0gInBhZ2VfbnVtPSIgKyBuZXdQYWdlICsgIiZ0eXBlPTEzIjsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgZGVmYXVsdDoKICAgICAgICAgICAgYnJlYWs7CiAgICB9CiAgICByZXR1cm4gZGF0YTsKfQoKZnVuY3Rpb24gdGFnX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgdmFyIGxpc3QgPSBbXTsKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCmZ1bmN0aW9uIGJvb2tfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBib29rID0gewogICAgICAgIGNvdmVyOiAkKCcuY29taWNfY292ZXInKS5maXJzdCgpLmF0dHIoJ2RhdGEtb3JpZ2luYWwnKSArICdAQGhlYWRlcnM9eyJ1c2VyLWFnZW50IjoiVVNFUl9BR0VOVCIsInByb3RvY29sIjoiaDIifScsCiAgICAgICAgaW5mbzogJCgnLmRldGFpbHMnKS50ZXh0KCksCiAgICAgICAgc2VjdGlvbnM6IG5ldyBNYXAoKSwKICAgICAgICBpc1NlY3Rpb25Bc2M6IDAsCiAgICAgICAgdXBkYXRlVGltZTogJCgnLmxvb2tpbmdfY2hhcHRlcicpLnRleHQoKQogICAgfTsKICAgIHZhciBzZWN0aW9ucyA9IFtdOwogICAgJCgnLmNhdGFsb2dfbGlzdCcpLmNoaWxkcmVuKCdhJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIHNlY3Rpb25zLnB1c2goewogICAgICAgICAgICB0aXRsZTogJCh0aGlzKS50ZXh0KCksCiAgICAgICAgICAgIGxpbms6ICQodGhpcykuYXR0cignaHJlZicpCiAgICAgICAgfSk7CiAgICB9KTsKICAgIGlmICgkKCcubW9yZWNoYXB0ZXInKSAhPSBudWxsICYmICQoJy5tb3JlY2hhcHRlcicpICE9IHVuZGVmaW5lZCkgewogICAgICAgIGJvb2suZXh0cmEgPSBKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgICAgIGlkOiAkKCcubW9yZWNoYXB0ZXInKS5hdHRyKCdkYXRhLWlkJyksCiAgICAgICAgICAgIGlkMjogJCgnLm1vcmVjaGFwdGVyJykuYXR0cignZGF0YS12aWQnKSwKICAgICAgICB9KTsKICAgIH0KICAgIGJvb2suc2VjdGlvbnNbJ+ebruW9lSddID0gc2VjdGlvbnM7CgoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShib29rKTsKfQoKZnVuY3Rpb24gYm9va19zZWN0aW9uc19idWlsZF91cmwodXJsLCBsYXN0UmVzdWx0KSB7CiAgICBsZXQgYm9vayA9IEpTT04ucGFyc2UobGFzdFJlc3VsdCk7CiAgICBsZXQgZXh0cmEgPSBKU09OLnBhcnNlKGJvb2suZXh0cmEpOwoKICAgIGlmIChleHRyYS5pZCkgewogICAgICAgIHJldHVybiAnaHR0cDovL20ucWl4aW1oMS5jb20vYm9va2NoYXB0ZXIvJyArICc6OmlkPScgKyBleHRyYS5pZCArICcmaWQyPScgKyBleHRyYS5pZDI7CiAgICB9IGVsc2UgewogICAgICAgIHJldHVybiAiX19fTk9fX05FRURfX1JFUVVFU1RfXyI7CiAgICB9Cn0KCi8vIOWOu+mHjQpmdW5jdGlvbiB1bmlxdWUoYXJyKSB7CiAgICBmb3IgKHZhciBpID0gMDsgaSA8IGFyci5sZW5ndGg7IGkrKykgewogICAgICAgIGZvciAodmFyIGogPSBpICsgMTsgaiA8IGFyci5sZW5ndGg7IGorKykgewogICAgICAgICAgICBpZiAoYXJyW2ldLmxpbmsgPT0gYXJyW2pdLmxpbmspIHsKICAgICAgICAgICAgICAgIGFyci5zcGxpY2UoaiwgMSk7CiAgICAgICAgICAgICAgICBqLS07CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICByZXR1cm4gYXJyOwp9CgpmdW5jdGlvbiBib29rX3NlY3Rpb25zX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycywgbGFzdFJlc3VsdCkgewogICAgdmFyIGJvb2sgPSBKU09OLnBhcnNlKGxhc3RSZXN1bHQpOwogICAgbGV0IGV4dHJhID0gSlNPTi5wYXJzZShib29rLmV4dHJhKTsKICAgIGNvbnNvbGUubG9nKGh0bWwpOwogICAgaWYgKGh0bWwgPT0gIiIpIHsKICAgICAgICByZXR1cm4gbGFzdFJlc3VsdDsKICAgIH0KICAgIGxldCBkYXRhID0gSlNPTi5wYXJzZShodG1sKTsKICAgIHZhciBzZWN0aW9ucyA9IGJvb2suc2VjdGlvbnNbJ+ebruW9lSddOwogICAgaWYgKHNlY3Rpb25zID09IG51bGwpIHNlY3Rpb25zID0gW107CiAgICBkYXRhLmZvckVhY2goaXRlbSA9PiB7CiAgICAgICAgc2VjdGlvbnMucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiBpdGVtLmNoYXB0ZXJuYW1lLAogICAgICAgICAgICBsaW5rOiAnLycgKyBleHRyYS5pZCArICcvJyArIGl0ZW0uY2hhcHRlcmlkICsgJy5odG1sJwogICAgICAgIH0pOwogICAgfSk7CgogICAgYm9vay5zZWN0aW9uc1sn55uu5b2VJ10gPSB1bmlxdWUoc2VjdGlvbnMpOwoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShib29rKTsKfQoKZnVuY3Rpb24gYm9va19jb21tZW50X2J1aWxkX3VybCh1cmwsIGxhc3RSZXN1bHQpIHsKICAgIGxldCBib29rID0gSlNPTi5wYXJzZShsYXN0UmVzdWx0KTsKICAgIGxldCBleHRyYSA9IEpTT04ucGFyc2UoYm9vay5leHRyYSk7CiAgICBpZiAoZXh0cmEgIT0gbnVsbCkgewogICAgICAgIHJldHVybiAnaHR0cDovL20ucWl4aW1oMS5jb20vcGluZ2x1bi8/aWQ9JyArIGV4dHJhLmlkOwogICAgfSBlbHNlIHsKICAgICAgICByZXR1cm4gIl9fX05PX19ORUVEX19SRVFVRVNUX18iOwogICAgfQp9CgpmdW5jdGlvbiBib29rX2NvbW1lbnRfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzLCBsYXN0UmVzdWx0KSB7CiAgICB2YXIgYm9vayA9IEpTT04ucGFyc2UobGFzdFJlc3VsdCk7CiAgICBsZXQgZGF0YSA9IEpTT04ucGFyc2UoaHRtbCk7CiAgICBpZiAoaHRtbC5zdGFydHNXaXRoKCdfJykpIHsKICAgICAgICByZXR1cm4gbGFzdFJlc3VsdDsKICAgIH0KICAgIHZhciBjb21tZW50TGlzdCA9IFtdOwogICAgZGF0YS5mb3JFYWNoKGl0ZW0gPT4gewogICAgICAgIGNvbW1lbnRMaXN0LnB1c2goewogICAgICAgICAgICBuaWNrTmFtZTogaXRlbS5uYW1lLAogICAgICAgICAgICBhdmF0YXI6IGl0ZW0udG91eGlhbmcsCiAgICAgICAgICAgIGNvbnRlbnQ6IGl0ZW0uY29udCwKICAgICAgICAgICAgZGF0ZTogaXRlbS5hZGR0aW1lCiAgICAgICAgfSk7CiAgICB9KTsKICAgIGJvb2suY29tbWVudHMgPSBjb21tZW50TGlzdDsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShib29rKTsKfQoKZnVuY3Rpb24gZGV0YWlsc19wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIGxldCAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIHNjcmlwdCA9ICcnOwogICAgJCgnc2NyaXB0JykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIGlmICgkKHRoaXMpLnRleHQoKS5pbmRleE9mKCdldmFsKCcpICE9IC0xKSB7CiAgICAgICAgICAgIHNjcmlwdCA9ICQodGhpcykudGV4dCgpOwogICAgICAgIH0KICAgIH0pOwoKICAgIHNjcmlwdCA9IHNjcmlwdC5yZXBsYWNlKCdcdysnLCAnXFx3KycpOwogICAgY29uc29sZS5sb2coc2NyaXB0KTsKICAgIHNjcmlwdCA9IHNjcmlwdC5yZXBsYWNlQWxsKCInXFxiJyIsICInXFxcXGInIik7CiAgICBjb25zb2xlLmxvZyhzY3JpcHQpOwoKICAgIGV2YWwoc2NyaXB0KTsKCiAgICBpZiAoc2NyaXB0ID09ICcnIHx8ICFuZXdJbWdzKSB7CiAgICAgICAgdGhyb3cgJ+ino+aekOa8q+eUu+Wksei0pSc7CiAgICB9CiAgICB2YXIgZGV0YWlscyA9IHsKICAgICAgICBpbWFnZXM6IFtdCiAgICB9OwoKICAgIG5ld0ltZ3MuZm9yRWFjaChpID0+IGRldGFpbHMuaW1hZ2VzLnB1c2goaSkpOwoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShkZXRhaWxzKTsKCn0="
+    },
+    "home": {
+        "title": "最近更新",
+        "url": "/rankdata.php",
+        "method": "POST",
+        "params": "page_num=@page&type=5",
+        "parse": "home_parse",
+        "headers": "Connection:keep-alive\nAccept:*/*\nAccept-Encoding:gzip, deflate, br",
+        "startPage": 1,
+        "addPage": 1,
+        "imageMode": 1,
+        "requestType": 0
+    },
+    "tag": {
+        "title": "分类",
+        "method": "POST",
+        "url": "/sortdata.php",
+        "parse": "home_parse",
+        "buildParams": "tag_build_params",
+        "startPage": 1,
+        "addPage": 1,
+        "headers": "Connection:keep-alive\nAccept:*/*\nAccept-Encoding:gzip, deflate, br",
+        "items": [
+            {
+                "group": "分类",
+                "title": "冒险热血"
+            },
+            {
+                "group": "分类",
+                "title": "武侠格斗"
+            },
+            {
+                "group": "分类",
+                "title": "玄幻科幻"
+            },
+            {
+                "group": "分类",
+                "title": "侦探推理"
+            },
+            {
+                "group": "分类",
+                "title": "耽美爱情"
+            },
+            {
+                "group": "分类",
+                "title": "生活漫画"
+            },
+            {
+                "group": "分类",
+                "title": "精品漫画"
+            },
+            {
+                "group": "分类",
+                "title": "连载漫画"
+            },
+            {
+                "group": "分类",
+                "title": "完结漫画"
+            }
+        ]
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/search.php",
+        "params": "keyword=@key",
+        "method": "POST",
+        "headers": "Connection:keep-alive\nAccept:*/*\nAccept-Encoding:gzip, deflate, br",
+        "parse": "search_parse"
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "headers": "Connection:keep-alive\nAccept:*/*\nAccept-Encoding:gzip, deflate, br",
+        "cacheAge": "1h",
+        "adds": [
+            {
+                "title": "解析更多目录",
+                "method": "POST",
+                "headers": "Content-Type:application/x-www-form-urlencoded; charset=UTF-8\nConnection:keep-alive\nAccept:*/*\nAccept-Encoding:gzip, deflate, br",
+                "buildUrl": "book_sections_build_url",
+                "parse": "book_sections_parse"
+            },
+            {
+                "title": "解析评论",
+                "method": "GET",
+                "buildUrl": "book_comment_build_url",
+                "parse": "book_comment_parse"
+            }
+        ]
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "cacheAge": "1h",
+        "headers": "Connection:keep-alive\nAccept:*/*\nAccept-Encoding:gzip, deflate, br"
+    }
+}
