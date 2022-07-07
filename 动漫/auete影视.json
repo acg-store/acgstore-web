@@ -1,0 +1,66 @@
+{
+    "sid": "cf57094a-c9ff-4ad2-bb6f-f5e4eca63db4",
+    "name": "auete影视",
+    "logo": "",
+    "info": "网友推荐，高清资源，速度还可以",
+    "baseUrl": "https://auete.com/",
+    "expr": "auete\\.com",
+    "type": 2,
+    "grade": 1,
+    "needProxy": 0,
+    "encode": "utf-8",
+    "style": 1,
+    "version": "1.0.3",
+    "imgMode": 2,
+    "openSource": true,
+    "engine": 17,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            }
+        ],
+        "code": "ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciBsaXN0ID0gW107CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgICQoJy50aHJlYWRsaXN0JykuY2hpbGRyZW4oJ2xpJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICBsaXN0LnB1c2goewogICAgICAgICAgICB0aXRsZTogc2VsZi5maW5kKCdpbWcnKS5maXJzdCgpLmF0dHIoJ3RpdGxlJyksCiAgICAgICAgICAgIGxpbms6IHNlbGYuY2hpbGRyZW4oJ2EnKS5maXJzdCgpLmF0dHIoJ2hyZWYnKSwKICAgICAgICAgICAgY292ZXI6IHNlbGYuZmluZCgnaW1nJykuZmlyc3QoKS5hdHRyKCdzcmMnKSwKICAgICAgICAgICAgaW5mbzogc2VsZi5maW5kKCdidXR0b24uaGR0YWcnKS5maXJzdCgpLnRleHQoKSwKICAgICAgICB9KTsKICAgIH0pOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgpmdW5jdGlvbiBzZWFyY2hfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICB2YXIgbGlzdCA9IFtdOwogICAgbGV0ICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICAkKCcuY2FyZC1ib2R5JykuY2hpbGRyZW4oJ3VsJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICBsaXN0LnB1c2goewogICAgICAgICAgICB0aXRsZTogc2VsZi5maW5kKCdhJykuZmlyc3QoKS50ZXh0KCksCiAgICAgICAgICAgIGxpbms6IHNlbGYuZmluZCgnYScpLmZpcnN0KCkuYXR0cignaHJlZicpCiAgICAgICAgfSk7CiAgICB9KTsKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCgpmdW5jdGlvbiBib29rX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgdmFyICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICB2YXIgYm9vayA9IHsKICAgICAgICB1cGRhdGVUaW1lOiAkKCcjYm9keScpLmZpbmQoJy5oaWRkZW4tbGcnKS50ZXh0KCkudHJpbSgpLAogICAgICAgIGNvdmVyOiAkKCcuY292ZXInKS5maW5kKCdpbWcnKS5maXJzdCgpLmF0dHIoJ3NyYycpLAogICAgICAgIGluZm86ICQoJ2Rpdi5tZXNzYWdlLmJyZWFrLWFsbCcpLmNoaWxkcmVuKCdwJykubGFzdCgpLnRleHQoKS50cmltKCksCiAgICB9OwogICAgdmFyIG1hcCA9IG5ldyBNYXAoKTsKICAgICQoJyNwbGF5ZXJfbGlzdCcpLmNoaWxkcmVuKCdoMicpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VjdGlvbnMgPSBbXTsKICAgICAgICAkKCcjcGxheWVyX2xpc3QnKS5jaGlsZHJlbigndWwnKS5lcShpKS5jaGlsZHJlbignbGknKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgICAgIHNlY3Rpb25zLnB1c2goewogICAgICAgICAgICAgICAgdGl0bGU6ICQodGhpcykuY2hpbGRyZW4oJ2EnKS50ZXh0KCksCiAgICAgICAgICAgICAgICBsaW5rOiAkKHRoaXMpLmNoaWxkcmVuKCdhJykuYXR0cignaHJlZicpLAogICAgICAgICAgICB9KTsKICAgICAgICB9KTsKICAgICAgICBtYXBbYOaSreaUvuWcsOWdgCR7aX1gXSA9IHNlY3Rpb25zOwogICAgfSk7CiAgICBib29rLnNlY3Rpb25zID0gbWFwOwoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShib29rKTsKfQoKZnVuY3Rpb24gZGV0YWlsc19wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIGxldCBkYXRhID0gSlNPTi5wYXJzZShodG1sKTsKICAgIGlmIChkYXRhLnJlc291cmNlID09IG51bGwgfHwgZGF0YS5yZXNvdXJjZS5sZW5ndGggPD0gMCkgewogICAgICAgIHJldHVybiAiRVJST1I65rKh5pyJ5ZeF5o6i5Yiw6LWE5rqQIjsKICAgIH0KICAgIHZhciBsaW5rID0gZGF0YS5yZXNvdXJjZVswXS5saW5rOwogICAgaWYgKGxpbmsuc3RhcnRzV2l0aCgnaHR0cHM6Ly9hdWV0ZS5jb20vanMvcGxheWVyL2RwbGF5ZXIvZHBsYXllci5odG1sPycpKSB7CiAgICAgICAgbGluayA9IGxpbmsubWF0Y2goL2h0dHBbc10rOlwvXC9bXlxzLF0qXC5tM3U4fFwubXA0LylbMF07CiAgICB9IGVsc2UgaWYgKGxpbmsuc3RhcnRzV2l0aCgnaHR0cHM6Ly9hdWV0ZS5jb20vYXBpL2RwLnBocD91cmw9JykpIHsKICAgICAgICBsaW5rID0gbGluay5yZXBsYWNlKCJodHRwczovL2F1ZXRlLmNvbS9hcGkvZHAucGhwP3VybD0iLCAiIik7CiAgICB9CgogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHsgbWltZTogInZpZGVvLyoiLCBsaW5rOiBsaW5rIH0pOwp9"
+    },
+    "home": {
+        "title": "首页",
+        "url": "/Movie/index@page.html",
+        "firstPageUrl": "/Movie/index.html",
+        "method": "GET",
+        "parse": "home_parse",
+        "startPage": 2,
+        "addPage": 1
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/search.php?searchword=@key",
+        "method": "GET",
+        "parse": "search_parse",
+        "cacheAge": "1h"
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "sniffFilters": "http[s]+://[^\\s,]*\\.m3u8|\\.mp4",
+        "sniffUA": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+        "sniff": true,
+        "sniffDelay": 8000,
+        "fastMode": true
+    }
+}
