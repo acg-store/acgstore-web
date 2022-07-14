@@ -43,7 +43,9 @@ function details_parse(url, html, headers) {
         return "ERROR:没有嗅探到资源";
     }
     var link = data.resource[0].link;
-
+    if (link.startsWith('https://jx.wujinkk.com/dplayer/?url=')) {
+        link = link.replace("https://jx.wujinkk.com/dplayer/?url=", "");
+    }
 
     return JSON.stringify({ mime: "video/*", link: link });
 }

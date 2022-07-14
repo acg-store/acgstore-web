@@ -61,6 +61,8 @@ function details_parse(url, html, headers) {
         link = link.match(/http[s]+:\/\/[^\s,]*\.m3u8|\.mp4/)[0];
     } else if (link.startsWith('https://auete.com/api/dp.php?url=')) {
         link = link.replace("https://auete.com/api/dp.php?url=", "");
+    } else if (link.startsWith('https://auete.com/api/mp4.php?url=')) {
+        link = link.replace("https://auete.com/api/mp4.php?url=", "");
     }
 
     return JSON.stringify({ mime: "video/*", link: link });
