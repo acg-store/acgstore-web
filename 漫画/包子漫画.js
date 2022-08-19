@@ -55,7 +55,7 @@ function details_parse(url, html, headers) {
     });
 
     var nextPage = $('.next_chapter > a');
-    if (nextPage.text().indexOf('点击进入下一话') != -1) {
+    if (nextPage.text().indexOf('点击进入下一页') != -1) {
         details.nextPageLink = nextPage.attr('href');
     }
 
