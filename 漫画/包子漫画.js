@@ -54,8 +54,9 @@ function details_parse(url, html, headers) {
         details.images.push(self.attr('src'));
     });
 
-    var nextPage = $('.next_chapter > a');
-    if (nextPage.text().indexOf('点击进入下一页') != -1) {
+    var nextPage = $('.next_chapter > a').last();
+
+    if (nextPage.text().indexOf('下一页') != -1) {
         details.nextPageLink = nextPage.attr('href');
     }
 
