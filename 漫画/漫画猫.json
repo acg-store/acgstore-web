@@ -1,0 +1,68 @@
+{
+    "sid": "8ca10408-dc36-40b7-a13d-6bf9cb0a6c11",
+    "name": "漫画猫",
+    "logo": "https://i.loli.net/2021/03/18/TmatABYNygfOlC1.png",
+    "info": "群友推荐，速度还行，漫画猫 - 由新加坡漫画同好会发起，旨在为全世界喜欢漫画的朋友们提供舒适愉悦的阅读体验。",
+    "baseUrl": "https://www.maofly.com/",
+    "type": 1,
+    "grade": 1,
+    "encode": "utf-8",
+    "userAgent": "",
+    "style": 2,
+    "imgMode": 2,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "version": "1.0.2",
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            },
+            {
+                "lib": "lzstring"
+            },
+            {
+                "lib": "md5"
+            }
+        ],
+        "code": "ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGxpc3QgPSBbXTsKICAgICQoJy5jb21pYy1tYWluLXNlY3Rpb24gPiAucm93Lm0tMCcpLmNoaWxkcmVuKCdkaXYnKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiBzZWxmLmNoaWxkcmVuKCdhJykuZmlyc3QoKS5hdHRyKCd0aXRsZScpLAogICAgICAgICAgICBjb3Zlcjogc2VsZi5maW5kKCdpbWcnKS5maXJzdCgpLmF0dHIoJ3NyYycpLAogICAgICAgICAgICBsaW5rOiBzZWxmLmNoaWxkcmVuKCdhJykuZmlyc3QoKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgIGluZm86IHNlbGYuY2hpbGRyZW4oJy5jb21pYy1hdXRob3InKS50ZXh0KCkudHJpbSgpCiAgICAgICAgfSk7CgogICAgfSk7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCmZ1bmN0aW9uIHNlYXJjaF9wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGxpc3QgPSBbXTsKICAgICQoJy5jb21pYy1tYWluLXNlY3Rpb24gPiAucm93Lm0tMCcpLmNoaWxkcmVuKCdkaXYnKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiBzZWxmLmZpbmQoJ2EnKS5maXJzdCgpLmF0dHIoJ3RpdGxlJyksCiAgICAgICAgICAgIGNvdmVyOiBzZWxmLmZpbmQoJ2ltZycpLmZpcnN0KCkuYXR0cignc3JjJyksCiAgICAgICAgICAgIGxpbms6IHNlbGYuZmluZCgnYScpLmZpcnN0KCkuYXR0cignaHJlZicpLAogICAgICAgICAgICBpbmZvOiBzZWxmLmZpbmQoJy5jb21pYy1hdXRob3InKS50ZXh0KCkudHJpbSgpCiAgICAgICAgfSk7CgogICAgfSk7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCmZ1bmN0aW9uIGJvb2tfcGFyc2UodXJsLCBodG1sKSB7CiAgICB2YXIgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciB0b3AgPSAkKCcuSW50cm9kdWN0X1N1Yi5hdXRvSGVpZ2h0Jyk7CiAgICB2YXIgYm9vayA9IHsKICAgICAgICBjb3ZlcjogdG9wLmZpbmQoJy5pbWctcm91bmQnKS5maXJzdCgpLmF0dHIoJ3NyYycpLAogICAgICAgIGluZm86ICQoJy5jb21pY19zdG9yeScpLnRleHQoKS50cmltKCksCiAgICAgICAgdXBkYXRlVGltZTogdG9wLmZpbmQoJy5jb21pYy10aXRsZXMnKS5sYXN0KCkudGV4dCgpLnRyaW0oKQogICAgfTsKCiAgICB2YXIgbWFwID0gbmV3IE1hcCgpOwogICAgJCgnI2NvbWljLWJvb2stbGlzdCAudGFiLXBhbmUnKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlY3Rpb25zID0gW107CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIHNlbGYuZmluZCgnbGknKS5lYWNoKGZ1bmN0aW9uIChqLCBmKSB7CiAgICAgICAgICAgIHNlY3Rpb25zLnB1c2goewogICAgICAgICAgICAgICAgbGluazogJCh0aGlzKS5jaGlsZHJlbignYScpLmF0dHIoJ2hyZWYnKSwKICAgICAgICAgICAgICAgIHRpdGxlOiAkKHRoaXMpLmNoaWxkcmVuKCdhJykudGV4dCgpLnRyaW0oKSwKICAgICAgICAgICAgfSk7CiAgICAgICAgfSk7CiAgICAgICAgbWFwW3NlbGYuZmluZCgnaDInKS5maXJzdCgpLnRleHQoKS50cmltKCldID0gc2VjdGlvbnM7CiAgICB9KTsKICAgIGJvb2suc2VjdGlvbnMgPSBtYXA7CiAgICBib29rLmlzU2VjdGlvbkFzYyA9IDA7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoYm9vayk7Cn0KCmZ1bmN0aW9uIGRldGFpbHNfcGFyc2UodXJsLCBodG1sKSB7CiAgICB2YXIgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBkZXRhaWxzID0gewogICAgICAgIGltYWdlczogW10sCiAgICAgICAgaGVhZGVyczogewogICAgICAgICAgICByZWZlcmVyOiAiaHR0cHM6Ly93d3cubWFuaHVhY2F0LmNvbS8iCiAgICAgICAgfQogICAgfTsKICAgIHZhciBzY3JpcHQgPSAiIjsKICAgICQoJ3NjcmlwdCcpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICBpZiAoJCh0aGlzKS50ZXh0KCkuaW5kZXhPZignbGV0IGltZ19kYXRhJykgIT0gLTEpIHsKICAgICAgICAgICAgY29uc29sZS5sb2coc2NyaXB0KTsKICAgICAgICAgICAgc2NyaXB0ID0gJCh0aGlzKS50ZXh0KCk7CiAgICAgICAgfQogICAgfSk7CgogICAgdHJ5ewogICAgICAgIGxldCBpbWdfZGF0YSA9IHNjcmlwdC5tYXRjaCgvbGV0IGltZ19kYXRhID0gIiguKj8pIi9pKVsxXTsKICAgIAogICAgICAgIC8vIDxkaXYgY2xhc3M9ImQtbm9uZSB2Zy1yLWRhdGEiIGRhdGEtY2hhcHRlcl9udW09IjQ5MDk0MCIgZGF0YS1jaGFwdGVyLXR5cGU9IjEiIGRhdGEtY2hhcHRlci1kb21haW49Imh0dHBzOi8vbWFvLm1odHVwaWFuLmNvbSIgZGF0YS1jaGFwdGVyLWtleT0ibWFuaHVhY2F0MjAyMSI+PC9kaXY+CiAgICAKICAgICAgICBsZXQgdmdfcl9kYXRhID0gJCgnLnZnLXItZGF0YScpOwogICAgICAgIGxldCBjaGFwdGVyX2RvbWFpbiA9IHZnX3JfZGF0YS5hdHRyKCdkYXRhLWNoYXB0ZXItZG9tYWluJyk7CiAgICAgICAgbGV0IGNoYXB0ZXJfa2V5ID0gdmdfcl9kYXRhLmF0dHIoJ2RhdGEtY2hhcHRlci1rZXknKTsKICAgIAogICAgICAgIGxldCBpbWdfcHJlID0gJy91cGxvYWRzLyc7CiAgICAKICAgICAgICB2YXIgY2hhcHRlckltYWdlcyA9IExaU3RyaW5nLmRlY29tcHJlc3NGcm9tQmFzZTY0KGltZ19kYXRhKS5zcGxpdCgnLCcpOwogICAgCiAgICAgICAgY2hhcHRlckltYWdlcy5mb3JFYWNoKChpbWFnZSkgPT4gewogICAgICAgICAgICBsZXQgdGltZSA9IE1hdGgucm91bmQobmV3IERhdGUoKSAvIDB4M2U4KTsKICAgICAgICAgICAgbGV0IHBhdGggPSBpbWdfcHJlICsgaW1hZ2U7CiAgICAgICAgICAgIGxldCBwYXRoX21kNSA9IG1kNShwYXRoICsgY2hhcHRlcl9rZXkgKyB0aW1lKTsKICAgICAgICAgICAgbGV0IGxpbmsgPSBjaGFwdGVyX2RvbWFpbiArIHBhdGggKyAnP19NRD0nICsgcGF0aF9tZDUgKyAnJl9UTT0nICsgdGltZTsKICAgICAgICAgICAgZGV0YWlscy5pbWFnZXMucHVzaChsaW5rKTsKICAgICAgICB9KTsKICAgIH1jYXRjaChlKXsKICAgICAgICB0aHJvdyAi6Kej5p6Q5ryr55S75aSx6LSlIgogICAgfQogICAgCgogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGRldGFpbHMpOwp9"
+    },
+    "home": {
+        "title": "最近更新",
+        "url": "/update-page-@page.html",
+        "method": "GET",
+        "parse": "home_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "requestType": 0,
+        "cacheAge": "1h"
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/search.html?q=@key&page=@page",
+        "method": "GET",
+        "parse": "search_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "cacheAge": "1h"
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "cacheAge": "1h"
+    }
+}
