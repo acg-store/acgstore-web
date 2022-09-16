@@ -23,20 +23,37 @@ function book_parse(url, html, headers) {
     };
     var map = new Map();
     var sections = [];
-    $('#chapter-items').children('div').each(function (i, e) {
-        sections.push({
-            title: $(this).children('a').text(),
-            link: $(this).children('a').attr('href'),
-        });
-    });
-    if ($('#chapters_other_list') != null) {
-        $('#chapters_other_list').children('div').each(function (i, e) {
+
+    if ($('#chapter-items') != null){
+        $('#chapter-items').children('div').each(function (i, e) {
             sections.push({
                 title: $(this).children('a').text(),
                 link: $(this).children('a').attr('href'),
             });
         });
+        if (sections.length > 0){
+            if ($('#chapters_other_list') != null) {
+                $('#chapters_other_list').children('div').each(function (i, e) {
+                    sections.push({
+                        title: $(this).children('a').text(),
+                        link: $(this).children('a').attr('href'),
+                    });
+                });
+            }
+        }else{
+            if ($('.l-box > .pure-g').first() != null) {
+                book.isSectionAsc = 0;
+                $('.l-box > .pure-g').first().children('div').each(function (i, e) {
+                    sections.push({
+                        title: $(this).children('a').text(),
+                        link: $(this).children('a').attr('href'),
+                    });
+                });
+            }
+        }
     }
+
+    
     map["目录"] = sections;
     book.sections = map;
 
@@ -55,7 +72,7 @@ function details_parse(url, html, headers) {
     });
 
     var nextPage = $('.next_chapter > a').last();
-
+    
     if (nextPage.text().indexOf('下一页') != -1) {
         details.nextPageLink = nextPage.attr('href');
     }
