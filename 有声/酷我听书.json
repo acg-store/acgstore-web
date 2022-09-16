@@ -1,1 +1,68 @@
-{"sid":"aa84c8d8-848e-4ebe-a141-f4b386d2b3f4","name":"酷我听书","logo":"https://i.loli.net/2021/02/27/2cZOB1TeGp5XikD.png","info":"酷我听书","baseUrl":"http://baby.kuwo.cn","expr":"baby\\.kuwo\\.cn","type":4,"grade":3,"needProxy":0,"encode":"utf-8","headers":"Referer: http://baby.kuwo.cn","userAgent":"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36","style":1,"version":"1.0.0","isOpenSource":0,"engine":16,"author":{"name":"静静","info":"我是静静，App和轻应用有问题都可以联系我哦","contact":"1077674403","donateLink":["https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg","https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"]},"script":{"requires":[{"lib":"cheerio"}],"code":"ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIGxldCBkYXRhID0gSlNPTi5wYXJzZShodG1sKTsKICAgIHZhciBsaXN0ID0gW107CiAgICBpZiAoZGF0YS5jb2RlICE9IDIwMCkgdGhyb3cgIuiOt+WPluaVsOaNruWksei0pSI7CiAgICBkYXRhLmRhdGEudG9wRGF0YXMuZm9yRWFjaCgoZSkgPT4gewogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIGxpbms6IGBodHRwOi8vdGluZ3NodS5rdXdvLmNuL3RpbmdzaHUvYXBpL2RhdGEvYWxidW0vc29uZ3M/YWxidW1JZD0ke2UuYWxidW1JZH0mb25saW5lPTAma3dlZXhWZXJzaW9uPTEuMC4yYCwKICAgICAgICAgICAgdGl0bGU6IGUuYWxidW1zLm5hbWUsCiAgICAgICAgICAgIGNvdmVyOiBlLmFsYnVtcy5pbWcsCiAgICAgICAgICAgIGluZm86IGUuYWxidW1zLnRpdGxlCiAgICAgICAgfSk7CiAgICB9KTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShsaXN0KTsKfQoKZnVuY3Rpb24gc2VhcmNoX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgbGV0IGRhdGEgPSBKU09OLnBhcnNlKGh0bWwpOwogICAgdmFyIGxpc3QgPSBbXTsKICAgIGlmIChkYXRhLmNvZGUgIT0gMjAwKSB0aHJvdyAi6I635Y+W5pWw5o2u5aSx6LSlIjsKICAgIGRhdGEuZGF0YS5kYXRhLmZvckVhY2goKGUpID0+IHsKICAgICAgICBsaXN0LnB1c2goewogICAgICAgICAgICBsaW5rOiBgaHR0cDovL3RpbmdzaHUua3V3by5jbi90aW5nc2h1L2FwaS9kYXRhL2FsYnVtL3NvbmdzP2FsYnVtSWQ9JHtlLmFsYnVtSWR9Jm9ubGluZT0wJmt3ZWV4VmVyc2lvbj0xLjAuMmAsCiAgICAgICAgICAgIHRpdGxlOiBlLmFsYnVtTmFtZSwKICAgICAgICAgICAgY292ZXI6IGUuY292ZXJJbWcsCiAgICAgICAgICAgIGluZm86IGDmkq3pn7M6JHtlLmFydGlzdE5hbWV9XG4ke2UudGl0bGV9YAogICAgICAgIH0pOwogICAgfSk7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCgpmdW5jdGlvbiBib29rX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgbGV0IGRhdGEgPSBKU09OLnBhcnNlKGh0bWwpOwogICAgaWYgKGRhdGEuY29kZSAhPSAyMDApIHRocm93ICLojrflj5bmlbDmja7lpLHotKUiOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHtpbmZvOmDmnaXmupA6JHt1cmx9YCxzZWN0aW9uczogeyAi55uu5b2VIjogZGF0YS5kYXRhLm1hcChlID0+IHsgcmV0dXJuIHsgdGl0bGU6IGUubmFtZSwgbGluazogYGh0dHA6Ly9hbnRpc2VydmVyLmt1d28uY24vYW50aS5zP3VzZWxlc3M9L3Jlc291cmNlLyZmb3JtYXQ9bXAzJnJpZD1NVVNJQ18ke2UuaWR9JnJlc3BvbnNlPXJlcyZ0eXBlPWNvbnZlcnRfdXJsJmAgfSB9KSB9fSkKfQoKZnVuY3Rpb24gZGV0YWlsc19wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgbGluazogdXJsLAogICAgICAgIG1pbWU6ICJhdWRpby8qIgogICAgfSk7Cn0="},"home":{"title":"首页","url":"/tingshu/api//page/boutique/getBoutiqueData?pt=1&rn=100&version=8.5.6.1&pn=@page&kweexVersion=1.0.2","method":"GET","parse":"home_parse","startPage":1,"addPage":1,"imageMode":2,"requestType":0,"cacheAge":"1h"},"book":{"title":"book","method":"GET","parse":"book_parse","cacheAge":"1h"},"search":{"title":"搜索","url":"/tingshu/api//search/Search?rn=10&type=album&version=8.5.6.1&wd=@key&pn=@page&kweexVersion=1.0.2","method":"GET","parse":"search_parse","startPage":1,"addPage":1},"details":{"title":"内容","method":"GET","parse":"details_parse","cacheAge":"1h","requestType":3}}
+{
+    "sid": "aa84c8d8-848e-4ebe-a141-f4b386d2b3f4",
+    "name": "酷我听书",
+    "logo": "https://i.loli.net/2021/02/27/2cZOB1TeGp5XikD.png",
+    "info": "酷我听书",
+    "baseUrl": "http://baby.kuwo.cn",
+    "expr": "baby\\.kuwo\\.cn",
+    "type": 4,
+    "grade": 3,
+    "needProxy": 0,
+    "encode": "utf-8",
+    "headers": "Referer: http://baby.kuwo.cn",
+    "userAgent": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+    "style": 1,
+    "version": "1.0.1",
+    "isOpenSource": 0,
+    "imgMode": 2,
+    "engine": 20,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            }
+        ],
+        "code": "ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIGxldCBkYXRhID0gSlNPTi5wYXJzZShodG1sKTsKICAgIHZhciBsaXN0ID0gW107CiAgICBpZiAoZGF0YS5jb2RlICE9IDIwMCkgdGhyb3cgIuiOt+WPluaVsOaNruWksei0pSI7CiAgICBkYXRhLmRhdGEudG9wRGF0YXMuZm9yRWFjaCgoZSkgPT4gewogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIGxpbms6IGBodHRwOi8vdGluZ3NodS5rdXdvLmNuL3RpbmdzaHUvYXBpL2RhdGEvYWxidW0vc29uZ3M/YWxidW1JZD0ke2UuYWxidW1JZH0mb25saW5lPTAma3dlZXhWZXJzaW9uPTEuMC4yYCwKICAgICAgICAgICAgdGl0bGU6IGUuYWxidW1zLm5hbWUsCiAgICAgICAgICAgIGNvdmVyOiBlLmFsYnVtcy5pbWcsCiAgICAgICAgICAgIGluZm86IGUuYWxidW1zLnRpdGxlCiAgICAgICAgfSk7CiAgICB9KTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShsaXN0KTsKfQoKZnVuY3Rpb24gc2VhcmNoX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgbGV0IGRhdGEgPSBKU09OLnBhcnNlKGh0bWwpOwogICAgdmFyIGxpc3QgPSBbXTsKICAgIGlmIChkYXRhLmNvZGUgIT0gMjAwKSB0aHJvdyAi6I635Y+W5pWw5o2u5aSx6LSlIjsKICAgIGRhdGEuZGF0YS5kYXRhLmZvckVhY2goKGUpID0+IHsKICAgICAgICBsaXN0LnB1c2goewogICAgICAgICAgICBsaW5rOiBgaHR0cDovL3RpbmdzaHUua3V3by5jbi90aW5nc2h1L2FwaS9kYXRhL2FsYnVtL3NvbmdzP2FsYnVtSWQ9JHtlLmFsYnVtSWR9Jm9ubGluZT0wJmt3ZWV4VmVyc2lvbj0xLjAuMmAsCiAgICAgICAgICAgIHRpdGxlOiBlLmFsYnVtTmFtZSwKICAgICAgICAgICAgY292ZXI6IGUuY292ZXJJbWcsCiAgICAgICAgICAgIGluZm86IGDmkq3pn7M6JHtlLmFydGlzdE5hbWV9XG4ke2UudGl0bGV9YAogICAgICAgIH0pOwogICAgfSk7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCgpmdW5jdGlvbiBib29rX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgbGV0IGRhdGEgPSBKU09OLnBhcnNlKGh0bWwpOwogICAgaWYgKGRhdGEuY29kZSAhPSAyMDApIHRocm93ICLojrflj5bmlbDmja7lpLHotKUiOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHtpbmZvOmDmnaXmupA6JHt1cmx9YCxzZWN0aW9uczogeyAi55uu5b2VIjogZGF0YS5kYXRhLm1hcChlID0+IHsgcmV0dXJuIHsgdGl0bGU6IGUubmFtZSwgbGluazogYGh0dHA6Ly9hbnRpc2VydmVyLmt1d28uY24vYW50aS5zP3VzZWxlc3M9L3Jlc291cmNlLyZmb3JtYXQ9bXAzJnJpZD1NVVNJQ18ke2UuaWR9JnJlc3BvbnNlPXJlcyZ0eXBlPWNvbnZlcnRfdXJsJmAgfSB9KSB9fSkKfQoKZnVuY3Rpb24gZGV0YWlsc19wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgbGluazogdXJsLAogICAgICAgIG1pbWU6ICJhdWRpby8qIgogICAgfSk7Cn0="
+    },
+    "home": {
+        "title": "首页",
+        "url": "/tingshu/api//page/boutique/getBoutiqueData?pt=1&rn=100&version=8.5.6.1&pn=@page&kweexVersion=1.0.2",
+        "method": "GET",
+        "parse": "home_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "imageMode": 2,
+        "requestType": 0,
+        "cacheAge": "1h"
+    },
+    "book": {
+        "title": "book",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/tingshu/api//search/Search?rn=10&type=album&version=8.5.6.1&wd=@key&pn=@page&kweexVersion=1.0.2",
+        "method": "GET",
+        "parse": "search_parse",
+        "startPage": 1,
+        "addPage": 1
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "cacheAge": "1h",
+        "requestType": 3
+    }
+}

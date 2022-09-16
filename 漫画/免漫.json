@@ -7,6 +7,7 @@
     "type": 1,
     "grade": 6,
     "needProxy": 0,
+    "engine": 20,
     "encode": "utf-8",
     "userAgent": "https://comicfree.cn/",
     "imgMode": 2,
@@ -39,7 +40,7 @@
         "buildParams": "login_build_params",
         "buildHeaders": "login_build_headers"
     },
-    "version": "1.1.6",
+    "version": "1.1.7",
     "script": {
         "requires": [
             {
