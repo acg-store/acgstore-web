@@ -1,0 +1,113 @@
+{
+    "sid": "1c0e823c-6661-4e60-9fac-55a4a00efdfb",
+    "name": "酷漫屋",
+    "logo": "",
+    "info": "群友推荐，酷漫屋为您推荐全网最新最全漫画，第一时间更新漫画。",
+    "baseUrl": "http://www.kumw5.com/",
+    "type": 1,
+    "grade": 6,
+    "encode": "utf-8",
+    "userAgent": "Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Mobile Safari/537.36",
+    "style": 2,
+    "version": "1.0.4",
+    "openSource": false,
+    "engine": 20,
+    "imgMode": 2,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            },
+            {
+                "lib": "base64"
+            }
+        ],
+        "code": "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"
+    },
+    "home": {
+        "title": "首页",
+        "url": "/rank/5-@page.html",
+        "method": "GET",
+        "parse": "home_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "imageMode": 2,
+        "requestType": 0
+    },
+    "tag": {
+        "title": "分类",
+        "method": "GET",
+        "parse": "home_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "items": [
+            {
+                "group": "分类",
+                "title": "冒险热血",
+                "url": "/sort/1-@page.html"
+            },
+            {
+                "group": "分类",
+                "title": "武侠格斗",
+                "url": "/sort/2-@page.html"
+            },
+            {
+                "group": "分类",
+                "title": "科幻魔幻",
+                "url": "/sort/3-@page.html"
+            },
+            {
+                "group": "分类",
+                "title": "侦探推理",
+                "url": "/sort/4-@page.html"
+            },
+            {
+                "group": "分类",
+                "title": "耽美爱情",
+                "url": "/sort/5-@page.html"
+            },
+            {
+                "group": "分类",
+                "title": "生活漫画",
+                "url": "/sort/6-@page.html"
+            }
+        ]
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/search?keyword=@key",
+        "method": "GET",
+        "parse": "home_parse",
+        "startPage": 1,
+        "addPage": 1
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h",
+        "adds": [
+            {
+                "title": "解析更多目录",
+                "method": "GET",
+                "buildUrl": "book_sections_build_url",
+                "parse": "book_sections_parse"
+            }
+        ]
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "cacheAge": "1h"
+    }
+}
