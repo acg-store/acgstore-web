@@ -84,6 +84,7 @@ function connectDiv(site, link) {
                     <div class="site-info">
                         <h4 class="info">${site.name}</h4>
                         <p class="info">${site.author.name}</p>
+                        <p class="info">Lv.${site.grade}</p>
                         <p class="info">${site.version}</p>
                     </div>
                 </div>
