@@ -1,0 +1,63 @@
+{
+    "sid": "85e18299-1ee4-4948-af67-244b460d4ac4",
+    "name": "风之动漫",
+    "logo": "",
+    "info": "风之动漫，主要更新海贼妖尾龙珠这类漫画，没有搜索哦",
+    "baseUrl": "https://manhua.fffdm.com/",
+    "type": 1,
+    "grade": 1,
+    "needProxy": 0,
+    "encode": "utf-8",
+    "style": 2,
+    "version": "1.0.2",
+    "engine": 20,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            },
+            {
+                "lib": "base64"
+            }
+        ],
+        "code": "ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciBsaXN0ID0gW107CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgICQoJyNtaG5ldycpLmZpbmQoJ2xpJykuZWFjaChmdW5jdGlvbiAoZSwgaSkgewogICAgICAgIHZhciBsaW5rID0gJCh0aGlzKS5jaGlsZHJlbignYScpLmF0dHIoJ2hyZWYnKS5tYXRjaCgvKFxkKylcL1xkKy8pCiAgICAgICAgaWYgKGxpbmsgIT0gbnVsbCkgewogICAgICAgICAgICBsaXN0LnB1c2goewogICAgICAgICAgICAgICAgdGl0bGU6ICQodGhpcykuY2hpbGRyZW4oJ2EnKS50ZXh0KCksCiAgICAgICAgICAgICAgICBsaW5rOiAnaHR0cHM6Ly9tYW5odWEuZmZmZG0uY29tLycgKyBsaW5rWzFdICsgJy8nLAogICAgICAgICAgICAgICAgdXBkYXRlVGltZTogJCh0aGlzKS5jaGlsZHJlbignLnRpbWUnKS50ZXh0KCksCiAgICAgICAgICAgIH0pOwogICAgICAgIH0KICAgIH0pOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgpmdW5jdGlvbiB0YWdfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICB2YXIgbGlzdCA9IFtdOwogICAgbGV0ICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICAkKCcjbWhtYWluJykuZmluZCgnLnJvdW5kJykuZWFjaChmdW5jdGlvbiAoZSwgaSkgewogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiAkKHRoaXMpLmZpbmQoJ2EnKS5sYXN0KCkudGV4dCgpLAogICAgICAgICAgICBsaW5rOiAnaHR0cHM6Ly9tYW5odWEuZmZmZG0uY29tLycgKyAkKHRoaXMpLmZpbmQoJ2EnKS5sYXN0KCkuYXR0cignaHJlZicpLAogICAgICAgIH0pOwogICAgfSk7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCmZ1bmN0aW9uIGJvb2tfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBib29rID0ge307CiAgICB0cnkgewogICAgICAgIHZhciBtYXAgPSBuZXcgTWFwKCk7CiAgICAgICAgdmFyIHNlY3Rpb25zID0gW107CiAgICAgICAgJCgnLnB1cmUtdS0xLTIucHVyZS11LWxnLTEtNCcpLmVhY2goZnVuY3Rpb24gKGUsIGkpIHsKICAgICAgICAgICAgc2VjdGlvbnMucHVzaCh7CiAgICAgICAgICAgICAgICB0aXRsZTogJCh0aGlzKS5jaGlsZHJlbignYScpLmF0dHIoJ3RpdGxlJyksCiAgICAgICAgICAgICAgICBsaW5rOiB1cmwgKyAkKHRoaXMpLmNoaWxkcmVuKCdhJykuYXR0cignaHJlZicpCiAgICAgICAgICAgIH0pOwogICAgICAgIH0pOwogICAgICAgIG1hcFsn55uu5b2VJ10gPSBzZWN0aW9uczsKICAgICAgICBib29rLnNlY3Rpb25zID0gbWFwOwogICAgICAgIGJvb2suaXNTZWN0aW9uQXNjID0gMDsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICB0aHJvdyBlOwogICAgfQogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGJvb2spOwp9CgpmdW5jdGlvbiBkZXRhaWxzX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgbGV0ICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICB2YXIgZGV0YWlscyA9IHsKICAgICAgICBpbWFnZXM6IFtdLAogICAgICAgIGhlYWRlcnM6IHsKICAgICAgICAgICAgIlVzZXItQWdlbnQiOiAiTW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNikgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzg3LjAuNDI4MC44OCBTYWZhcmkvNTM3LjM2IgogICAgICAgIH0KICAgIH07CiAgICB2YXIgc2NyaXB0ID0gaHRtbC5tYXRjaCgvdmFyIHRlbXBzID0gLio/Oy8pWzBdOwoKICAgIGV2YWwoc2NyaXB0KTsKICAgIHZhciBtaHNzID0gIiI7CiAgICBpZiAobWhzcyA9PSAiIiB8fCBtaHNzID09ICJodHRwOi8vIiB8fCBtaHNzID09ICJodHRwczovLyIpIHsKICAgICAgICBtaHNzID0gImh0dHA6Ly9wMS5memFjZy5jb20iOwogICAgfQoKICAgIGxldCB0ZW1wID0gQmFzZTY0LmRlY29kZSh0ZW1wcyk7CiAgICBsZXQgbGlzdCA9IHRlbXAuc3BsaXQoJ1xyXG4nKTsKICAgIGxpc3QuZm9yRWFjaChtaHVybCA9PiB7CiAgICAgICAgaWYgKG1odXJsLmluZGV4T2YoIjIwMTYiKSA9PSAtMSAmJiBtaHVybC5pbmRleE9mKCIyMDE3IikgPT0gLTEgJiYgbWh1cmwuaW5kZXhPZigiMjAxOCIpID09IC0xICYmIG1odXJsLmluZGV4T2YoIjIwMTkiKSA9PSAtMSAmJiBtaHVybC5pbmRleE9mKCIyMDIwIikgPT0gLTEgJiYgbWh1cmwuaW5kZXhPZigiMjAyMSIpID09IC0xKSB7CiAgICAgICAgICAgIG1oc3MgPSAiaHR0cHM6Ly9wNS5memFjZy5jb20iOwogICAgICAgIH0KICAgICAgICB2YXIgbWhwaWN1cmwgPSBtaHNzICsgIi8iICsgbWh1cmw7CgogICAgICAgIGlmIChtaHVybC5pbmRleE9mKCJodHRwIikgIT0gLTEpIHsKICAgICAgICAgICAgbWhwaWN1cmwgPSBtaHVybAogICAgICAgIH0KICAgICAgICBjb25zb2xlLmxvZyhtaHBpY3VybCk7CiAgICAgICAgZGV0YWlscy5pbWFnZXMucHVzaChtaHBpY3VybCk7CiAgICB9KTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShkZXRhaWxzKTsKfQ=="
+    },
+    "home": {
+        "title": "最近更新",
+        "url": "https://manhua.fffdm.com/",
+        "method": "GET",
+        "parse": "home_parse"
+    },
+    "tag": {
+        "title": "分类",
+        "method": "GET",
+        "parse": "tag_parse",
+        "items": [
+            {
+                "group": "全部漫画",
+                "title": "全部",
+                "url": "https://manhua.fffdm.com/"
+            }
+        ]
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "cacheAge": "1h"
+    }
+}
