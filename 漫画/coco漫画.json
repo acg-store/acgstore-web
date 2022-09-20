@@ -9,6 +9,7 @@
     "imgMode": 2,
     "http2": true,
     "cloudflare": true,
+    "disable": true,
     "engine": 20,
     "author": {
         "name": "静静",

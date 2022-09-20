@@ -8,6 +8,7 @@
     "type": 1,
     "grade": 3,
     "needProxy": 0,
+    "disable": true,
     "encode": "utf-8",
     "userAgent": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Mobile Safari/537.36",
     "style": 1,
