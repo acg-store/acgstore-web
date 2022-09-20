@@ -92,7 +92,8 @@ function home_parse(url, html, headers) {
 function details_parse(url, html, headers) {
     var details = {
         'mime': 'video/*',
-        'link': url
+        'link': url,
+        'isLive': true,
     };
     return JSON.stringify(details);
 }
