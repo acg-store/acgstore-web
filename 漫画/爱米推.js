@@ -91,8 +91,11 @@ function details_parse(url, html) {
     details.images.push($('#image').attr('src'));
 
     $('.scroll-item').each(function (e, i) {
-        let img = $(this).children('img').attr('data-src');
-        if(img != null){
+        var img = $(this).children('img').attr('data-src');
+        if (img == null) {
+            img = $(this).children('img').attr('src');
+        }
+        if (img != null) {
             details.images.push(img);
         }
     });
