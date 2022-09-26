@@ -1,4 +1,5 @@
 
+
 function home_parse(url, html) {
     var $ = cheerio.load(html);
     var list = [];
@@ -45,7 +46,7 @@ function book_parse(url, html) {
         self.find('li').each(function (j, f) {
             let a = $(this).children('a');
             let title = a.text().replace(/\s+/g, '');
-            if (title != "下拉式阅读") {
+            if (title != "下拉式阅读" && title != "下载App") {
                 sections.push({
                     title: title,
                     link: a.attr('href').replace('.html', '-1.html')
@@ -85,20 +86,16 @@ function details_parse(url, html) {
         images: [],
         otherPageLink: []
     };
-    let count = $('.image-content').children('p').last().text().split('/');
 
-    if (url.endsWith('-1.html')) {
-        if (count.length < 1) {
-            throw "获取数据失败";
-        }
-    }
 
     details.images.push($('#image').attr('src'));
 
-    for (var i = 2; i < count[1]; i++) {
-        details.otherPageLink.push(url.replace('-1.html', '-' + i + '.html'));
-    }
-    if (details.images.length > 0 && !details.images[0]) details.images.shift();
+    $('.scroll-item').each(function (e, i) {
+        let img = $(this).children('img').attr('data-src');
+        if(img != null){
+            details.images.push(img);
+        }
+    });
 
     details.headers = {
         'referer': url,
