@@ -20,7 +20,7 @@
         ]
     },
     "isOpenSource": false,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "script": {
         "requires": [
             {
@@ -50,7 +50,7 @@
     },
     "search": {
         "title": "搜索",
-        "url": "/search?searchString=@key&page=@page&fromCountry=CN",
+        "url": "/search?searchString=@key&page=@page",
         "method": "GET",
         "parse": "search_parse",
         "startPage": 1,
