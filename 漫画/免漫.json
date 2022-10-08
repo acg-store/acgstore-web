@@ -10,7 +10,7 @@
     "encode": "utf-8",
     "userAgent": "https://comicfree.cn/",
     "imgMode": 2,
-    "engine": 20,
+    "engine": 21,
     "author": {
         "name": "静静",
         "info": "(捐赠二维码就是免漫原作者的哦)",
@@ -40,7 +40,7 @@
         "buildParams": "login_build_params",
         "buildHeaders": "login_build_headers"
     },
-    "version": "1.2.0",
+    "version": "1.2.1",
     "script": {
         "requires": [
             {
