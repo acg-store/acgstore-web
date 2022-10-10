@@ -45,6 +45,8 @@ function details_parse(url, html, headers) {
     var link = data.resource[0].link;
     if (link.startsWith('https://jx.wujinkk.com/dplayer/?url=')) {
         link = link.replace("https://jx.wujinkk.com/dplayer/?url=", "");
+    } else if (link.startsWith('https://play.shzpin.com/play/?url=')) {
+        link = link.replace("https://play.shzpin.com/play/?url=", "");
     }
 
     return JSON.stringify({ mime: "video/*", link: link });
