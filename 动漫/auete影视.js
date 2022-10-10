@@ -65,6 +65,8 @@ function details_parse(url, html, headers) {
         link = link.replace("https://auete.com/api/mp4.php?url=", "");
     } else if (link.startsWith('https://auete.com/api/?url=')) {
         link = link.replace("https://auete.com/api/?url=", "");
+    } else if (link.startsWith('https://auete.org/js/player/dplayer/dplayer.html?videourl=')) {
+        link = link.replace("https://auete.org/js/player/dplayer/dplayer.html?videourl=", "").split(',')[1];
     }
 
     return JSON.stringify({ mime: "video/*", link: link });
