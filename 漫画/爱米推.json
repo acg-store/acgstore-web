@@ -1,1 +1,323 @@
-{"sid":"cac6e0d5-6e8d-47ed-afe7-3668333501e7","name":"爱米推漫画","logo":"https://s1.ax1x.com/2020/06/15/NpTftH.png","info":"优质漫画源，感觉国漫居多","baseUrl":"https://m.imitui.com/","expr":"imitui\\.com","type":1,"grade":1,"encode":"utf-8","engine":20,"userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1","author":{"name":"静静","info":"我是静静，App和轻应用有问题都可以联系我哦","contact":"1077674403","donateLink":["https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg","https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"]},"openSource":true,"version":"1.2.2","imgMode":2,"style":2,"script":{"requires":[{"lib":"cheerio","url":""}],"code":"CgpmdW5jdGlvbiBob21lX3BhcnNlKHVybCwgaHRtbCkgewogICAgdmFyICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICB2YXIgbGlzdCA9IFtdOwogICAgJCgnLlVwZGF0ZUxpc3QgLmNsZWFyZml4Lml0ZW1Cb3gnKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIHZhciBhZ2dyZWdhdGUgPSB7fTsKICAgICAgICBhZ2dyZWdhdGUubGluayA9IHNlbGYuY2hpbGRyZW4oJy5pdGVtSW1nJykuY2hpbGRyZW4oJ2EnKS5hdHRyKCdocmVmJyk7CiAgICAgICAgYWdncmVnYXRlLnRpdGxlID0gc2VsZi5maW5kKCcudGl0bGUnKS5maXJzdCgpLnRleHQoKTsKICAgICAgICBhZ2dyZWdhdGUuY292ZXIgPSBzZWxmLmZpbmQoJ2ltZycpLmZpcnN0KCkuYXR0cignc3JjJyk7CiAgICAgICAgYWdncmVnYXRlLmluZm8gPSBzZWxmLmZpbmQoJy50eHRJdG1lJykuZXEoMCkudGV4dCgpLnJlcGxhY2UoL1xzKy9nLCAnJykgKyAnXG4nOwogICAgICAgIGFnZ3JlZ2F0ZS5pbmZvICs9IHNlbGYuZmluZCgnLnR4dEl0bWUnKS5lcSgxKS50ZXh0KCkucmVwbGFjZSgvXHMrL2csICcnKSArICdcbic7CiAgICAgICAgYWdncmVnYXRlLmluZm8gKz0gc2VsZi5jaGlsZHJlbignLmNvbGwnKS50ZXh0KCk7CiAgICAgICAgYWdncmVnYXRlLnVwZGF0ZVRpbWUgPSBzZWxmLmZpbmQoJy50eHRJdG1lJykuZXEoMikudGV4dCgpLnRyaW0oKTsKICAgICAgICBsaXN0LnB1c2goYWdncmVnYXRlKTsKICAgIH0pOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CmZ1bmN0aW9uIHRhZ19wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGxpc3QgPSBbXTsKICAgICQoJyNjb21pYy1pdGVtcyAubGlzdC1jb21pYycpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgdmFyIGFnZ3JlZ2F0ZSA9IHt9OwogICAgICAgIGFnZ3JlZ2F0ZS50aXRsZSA9IHNlbGYuY2hpbGRyZW4oJy50eHRBJykudGV4dCgpOwogICAgICAgIGFnZ3JlZ2F0ZS5saW5rID0gc2VsZi5jaGlsZHJlbignYScpLmZpcnN0KCkuYXR0cignaHJlZicpOwogICAgICAgIGFnZ3JlZ2F0ZS5jb3ZlciA9IHNlbGYuY2hpbGRyZW4oJ2EnKS5maXJzdCgpLmNoaWxkcmVuKCdpbWcnKS5hdHRyKCdzcmMnKTsKICAgICAgICBhZ2dyZWdhdGUuaW5mbyA9IHNlbGYuY2hpbGRyZW4oJy5pbmZvJykudGV4dCgpOwogICAgICAgIGxpc3QucHVzaChhZ2dyZWdhdGUpOwogICAgfSk7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KZnVuY3Rpb24gYm9va19wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGJvb2sgPSB7fTsKICAgIHZhciB0b3AgPSAkKCcuSW50cm9kdWN0X1N1Yi5hdXRvSGVpZ2h0Jyk7CiAgICBib29rLnRpdGxlID0gdG9wLmZpbmQoJ2ltZycpLmZpcnN0KCkuYXR0cignYWx0Jyk7CiAgICBib29rLmNvdmVyID0gdG9wLmZpbmQoJ2ltZycpLmZpcnN0KCkuYXR0cignc3JjJyk7CiAgICBib29rLmluZm8gPSAkKCcjc2ltcGxlLWRlcycpLnRleHQoKTsKICAgIGJvb2sudXBkYXRlVGltZSA9IHRvcC5maW5kKCcudHh0SXRtZScpLmVxKDMpLnRleHQoKS50cmltKCk7CiAgICB2YXIgbWFwID0gbmV3IE1hcCgpOwogICAgJCgnLmNvbWljLWNoYXB0ZXJzJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIHZhciBzZWN0aW9ucyA9IFtdOwogICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICBzZWxmLmZpbmQoJ2xpJykuZWFjaChmdW5jdGlvbiAoaiwgZikgewogICAgICAgICAgICBsZXQgYSA9ICQodGhpcykuY2hpbGRyZW4oJ2EnKTsKICAgICAgICAgICAgbGV0IHRpdGxlID0gYS50ZXh0KCkucmVwbGFjZSgvXHMrL2csICcnKTsKICAgICAgICAgICAgaWYgKHRpdGxlICE9ICLkuIvmi4nlvI/pmIXor7siICYmIHRpdGxlICE9ICLkuIvovb1BcHAiKSB7CiAgICAgICAgICAgICAgICBzZWN0aW9ucy5wdXNoKHsKICAgICAgICAgICAgICAgICAgICB0aXRsZTogdGl0bGUsCiAgICAgICAgICAgICAgICAgICAgbGluazogYS5hdHRyKCdocmVmJykucmVwbGFjZSgnLmh0bWwnLCAnLTEuaHRtbCcpCiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgfQogICAgICAgIH0pOwogICAgICAgIG1hcFtzZWxmLmZpbmQoJy5UaXRsZScpLnRleHQoKV0gPSBzZWN0aW9uczsKICAgIH0pOwogICAgYm9vay5zZWN0aW9ucyA9IG1hcDsKICAgIGJvb2suaXNTZWN0aW9uQXNjID0gMTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShib29rKTsKfQoKLy8iYnVpbGRIZWFkZXJzIjogImRldGFpbHNfYnVpbGRfaGVhZGVycyIsCi8vInBhcnNlVXJsIjogImRldGFpbHNfcGFyc2VfdXJsIiwKCmZ1bmN0aW9uIGRldGFpbHNfYnVpbGRfaGVhZGVycyh1cmwpIHsKICAgIGlmICh1cmwuc3RhcnRzV2l0aCgnaHR0cHM6Ly9tLmltaXR1aS5jb20vamF2YXNjcmlwdC9hdXRoLycpKSB7CiAgICAgICAgcmV0dXJuICd1c2VyLWFnZW50Ok1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDYuMSkgQXBwbGVXZWJLaXQvNTM1LjEgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTMuMC43ODIuNDEgU2FmYXJpLzUzNS4xIFFRQnJvd3Nlci82LjkuMTEwNzkuMjAxJwogICAgfQogICAgcmV0dXJuICcnOwp9CgpmdW5jdGlvbiBkZXRhaWxzX3BhcnNlX3VybCh1cmwsIGh0bWwpIHsKICAgIGNvbnNvbGUubG9nKCflvZPliY11cmwgJyArIHVybCk7CiAgICBpZiAodXJsLnN0YXJ0c1dpdGgoJ2h0dHBzOi8vbS5pbWl0dWkuY29tL21hbmh1YS8nKSkgewogICAgICAgIHJldHVybiAnQ0FMTDo6aHR0cHM6Ly9tLmltaXR1aS5jb20vamF2YXNjcmlwdC9hdXRoL0BAJyArIHVybAogICAgfSBlbHNlIHsKICAgICAgICBjb25zb2xlLmxvZygn5YiG5YmydXJsICcgKyB1cmwuc3BsaXQoJ0BAJykpOwogICAgICAgIHJldHVybiB1cmwuc3BsaXQoJ0BAJylbMV07CiAgICB9Cn0KCmZ1bmN0aW9uIGRldGFpbHNfcGFyc2UodXJsLCBodG1sKSB7CiAgICB2YXIgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBkZXRhaWxzID0gewogICAgICAgIGltYWdlczogW10sCiAgICAgICAgb3RoZXJQYWdlTGluazogW10KICAgIH07CgoKICAgIGRldGFpbHMuaW1hZ2VzLnB1c2goJCgnI2ltYWdlJykuYXR0cignc3JjJykpOwoKICAgICQoJy5zY3JvbGwtaXRlbScpLmVhY2goZnVuY3Rpb24gKGUsIGkpIHsKICAgICAgICB2YXIgaW1nID0gJCh0aGlzKS5jaGlsZHJlbignaW1nJykuYXR0cignZGF0YS1zcmMnKTsKICAgICAgICBpZiAoaW1nID09IG51bGwpIHsKICAgICAgICAgICAgaW1nID0gJCh0aGlzKS5jaGlsZHJlbignaW1nJykuYXR0cignc3JjJyk7CiAgICAgICAgfQogICAgICAgIGlmIChpbWcgIT0gbnVsbCkgewogICAgICAgICAgICBkZXRhaWxzLmltYWdlcy5wdXNoKGltZyk7CiAgICAgICAgfQogICAgfSk7CgogICAgZGV0YWlscy5oZWFkZXJzID0gewogICAgICAgICdyZWZlcmVyJzogdXJsLAogICAgICAgICd1c2VyLWFnZW50JzogJ01vemlsbGEvNS4wIChXaW5kb3dzIE5UIDYuMSkgQXBwbGVXZWJLaXQvNTM1LjEgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTMuMC43ODIuNDEgU2FmYXJpLzUzNS4xIFFRQnJvd3Nlci82LjkuMTEwNzkuMjAxJwogICAgfTsKICAgIGNvbnNvbGUubG9nKEpTT04uc3RyaW5naWZ5KGRldGFpbHMpKTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShkZXRhaWxzKTsKfQoKZnVuY3Rpb24gZ2V0Tm9kZUhvc3Qobm9kZUhvc3RzLCBwYXRoLCBzdW0gPSAyNTYpIHsKICAgIHZhciBhID0gcGF0aC5tYXRjaCgvaW1hZ2VzXC9cd1wvKC57Mn0pL2kpOwogICAgdmFyIHdlaWdodCA9IDE7CiAgICBpZiAoYSAhPT0gbnVsbCAmJiBhWzFdKSB7CiAgICAgICAgd2VpZ2h0ID0gcGFyc2VJbnQoJzB4JyArIGFbMV0sIDE2KQogICAgfQogICAgdmFyIGhvc3RzID0gbm9kZUhvc3RzOwogICAgdmFyIHRvdGFsID0gMDsKICAgIGhvc3RzLmZvckVhY2goZnVuY3Rpb24gKGl0ZW0pIHsKICAgICAgICBpZiAodHlwZW9mIGl0ZW0gPT09ICJzdHJpbmciKSBpdGVtID0gewogICAgICAgICAgICB3ZWlnaHQ6IDEsCiAgICAgICAgICAgIHZhbHVlOiBpdGVtCiAgICAgICAgfTsKICAgICAgICBpZiAoIWl0ZW0udmFsdWUpIHJldHVybjsKICAgICAgICB0b3RhbCArPSBpdGVtLndlaWdodCA/IGl0ZW0ud2VpZ2h0IDogMQogICAgfSk7CiAgICB0b3RhbCA9IHRvdGFsID4gMCA/IHRvdGFsIDogMTsKICAgIHZhciBob3N0ID0gbnVsbDsKICAgIHZhciB3ID0gMDsKICAgIGhvc3RzLmZvckVhY2goZnVuY3Rpb24gKGl0ZW0pIHsKICAgICAgICBpZiAoaG9zdCAhPT0gbnVsbCkgcmV0dXJuOwogICAgICAgIGlmICh0eXBlb2YgaXRlbSA9PT0gInN0cmluZyIpIGl0ZW0gPSB7CiAgICAgICAgICAgIHdlaWdodDogMSwKICAgICAgICAgICAgdmFsdWU6IGl0ZW0KICAgICAgICB9OwogICAgICAgIGlmICghaXRlbS52YWx1ZSkgcmV0dXJuOwogICAgICAgIHcgKz0gKGl0ZW0ud2VpZ2h0ID8gaXRlbS53ZWlnaHQgOiAxKSAvIHRvdGFsICogc3VtOwogICAgICAgIGNvbnNvbGUubG9nKHcpOwogICAgICAgIGlmICh3ID4gd2VpZ2h0KSB7CiAgICAgICAgICAgIGhvc3QgPSBpdGVtLnZhbHVlCiAgICAgICAgfQogICAgfSk7CiAgICByZXR1cm4gaG9zdAp9CgpmdW5jdGlvbiBnZXRJNihub2RlSG9zdHMsIGNpcmgsIGNpaCwgaW1hZ2UpIHsKICAgIGlmIChpbWFnZS5tYXRjaCgvXihcL3JcLz8pL2kpKSB7CiAgICAgICAgcmV0dXJuIGNpcmggKyBpbWFnZQogICAgfSBlbHNlIGlmIChpbWFnZS5tYXRjaCgvXihcL3BcLz8pL2kpKSB7CiAgICAgICAgcmV0dXJuIG5vZGVIb3N0ICsgaW1hZ2UKICAgIH0gZWxzZSBpZiAoaW1hZ2UubWF0Y2goL15cL2ltYWdlc1wvcFwvL2kpKSB7CiAgICAgICAgdmFyIG5oID0gZ2V0Tm9kZUhvc3Qobm9kZUhvc3RzLCBpbWFnZSk7CiAgICAgICAgcmV0dXJuIG5oICsgaW1hZ2UKICAgIH0gZWxzZSBpZiAoaW1hZ2UubWF0Y2goL14oXC98aW1hZ2VzPykvaSkpIHsKICAgICAgICByZXR1cm4gY2loICsgaW1hZ2UKICAgIH0KICAgIHJldHVybiBpbWFnZQp9Cgo="},"home":{"title":"首页","url":"https://m.imitui.com/update/?page=@page","method":"GET","parse":"home_parse","startPage":1,"addPage":1,"imageMode":1,"requestType":0},"tag":{"title":"分类","method":"GET","parse":"tag_parse","startPage":1,"addPage":1,"items":[{"group":"进度","title":"已完结","url":"https://m.imitui.com/list/wanjie/?page=@page"},{"group":"进度","title":"连载中","url":"https://m.imitui.com/list/lianzai/?page=@page"},{"group":"读者","title":"儿童漫画","url":"https://m.imitui.com/list/ertong/?page=@page"},{"group":"读者","title":"少年漫画","url":"https://m.imitui.com/list/shaonian/?page=@page"},{"group":"读者","title":"少女漫画","url":"https://m.imitui.com/list/shaonv/?page=@page"},{"group":"读者","title":"青年漫画","url":"https://m.imitui.com/list/qingnian/?page=@page"},{"group":"地区","title":"日本","url":"https://m.imitui.com/list/riben/?page=@page"},{"group":"地区","title":"大陆","url":"https://m.imitui.com/list/dalu/?page=@page"},{"group":"地区","title":"香港","url":"https://m.imitui.com/list/hongkong/?page=@page"},{"group":"地区","title":"台湾","url":"https://m.imitui.com/list/taiwan/?page=@page"},{"group":"地区","title":"欧美","url":"https://m.imitui.com/list/oumei/?page=@page"},{"group":"地区","title":"韩国","url":"https://m.imitui.com/list/hanguo/?page=@page"},{"group":"地区","title":"其他","url":"https://m.imitui.com/list/qita/?page=@page"},{"group":"题材","title":"热血","url":"https://m.imitui.com/list/rexue/?page=@page"},{"group":"题材","title":"玄幻","url":"https://m.imitui.com/list/xuanhuan/?page=@page"},{"group":"题材","title":"修真","url":"https://m.imitui.com/list/xiuzhen/?page=@page"},{"group":"题材","title":"古风","url":"https://m.imitui.com/list/gufeng/?page=@page"},{"group":"题材","title":"恋爱","url":"https://m.imitui.com/list/lianai/?page=@page"},{"group":"题材","title":"穿越","url":"https://m.imitui.com/list/chuanyue/?page=@page"},{"group":"题材","title":"都市","url":"https://m.imitui.com/list/dushi/?page=@page"},{"group":"题材","title":"霸总","url":"https://m.imitui.com/list/bazong/?page=@page"},{"group":"题材","title":"悬疑","url":"https://m.imitui.com/list/xuanyi/?page=@page"},{"group":"题材","title":"搞笑","url":"https://m.imitui.com/list/gaoxiao/?page=@page"},{"group":"题材","title":"奇幻","url":"https://m.imitui.com/list/qihuan/?page=@page"},{"group":"题材","title":"总裁","url":"https://m.imitui.com/list/zongcai/?page=@page"},{"group":"题材","title":"日常","url":"https://m.imitui.com/list/richang/?page=@page"},{"group":"题材","title":"冒险","url":"https://m.imitui.com/list/maoxian/?page=@page"},{"group":"题材","title":"科幻","url":"https://m.imitui.com/list/kehuan/?page=@page"},{"group":"题材","title":"纯爱","url":"https://m.imitui.com/list/chunai/?page=@page"},{"group":"题材","title":"魔幻","url":"https://m.imitui.com/list/mohuan/?page=@page"},{"group":"题材","title":"战争","url":"https://m.imitui.com/list/zhanzheng/?page=@page"},{"group":"题材","title":"蔷薇","url":"https://m.imitui.com/list/qiangwei/?page=@page"},{"group":"题材","title":"武侠","url":"https://m.imitui.com/list/wuxia/?page=@page"},{"group":"题材","title":"生活","url":"https://m.imitui.com/list/shenghuo/?page=@page"},{"group":"题材","title":"动作","url":"https://m.imitui.com/list/dongzuo/?page=@page"},{"group":"题材","title":"后宫","url":"https://m.imitui.com/list/hougong/?page=@page"},{"group":"题材","title":"游戏","url":"https://m.imitui.com/list/youxi/?page=@page"},{"group":"题材","title":"恐怖","url":"https://m.imitui.com/list/kongbu/?page=@page"},{"group":"题材","title":"漫改","url":"https://m.imitui.com/list/mangai/?page=@page"},{"group":"题材","title":"真人","url":"https://m.imitui.com/list/zhenren/?page=@page"},{"group":"题材","title":"校园","url":"https://m.imitui.com/list/xiaoyuan/?page=@page"},{"group":"题材","title":"剧情","url":"https://m.imitui.com/list/juqing/?page=@page"},{"group":"题材","title":"灵异","url":"https://m.imitui.com/list/lingyi/?page=@page"},{"group":"题材","title":"少年","url":"https://m.imitui.com/list/shaonian/?page=@page"},{"group":"题材","title":"推理","url":"https://m.imitui.com/list/tuili/?page=@page"},{"group":"题材","title":"怀旧","url":"https://m.imitui.com/list/huaijiu/?page=@page"},{"group":"题材","title":"情感","url":"https://m.imitui.com/list/qinggan/?page=@page"},{"group":"题材","title":"偶像","url":"https://m.imitui.com/list/ouxiang/?page=@page"},{"group":"题材","title":"少女","url":"https://m.imitui.com/list/shaonv/?page=@page"}]},"search":{"title":"搜索","url":"https://m.imitui.com/search/?keywords=@key&page=@page","method":"GET","parse":"home_parse","startPage":1,"addPage":1,"cacheAge":"1h"},"book":{"title":"详情","method":"GET","parse":"book_parse","cacheAge":"1h"},"details":{"title":"内容","method":"GET","parse":"details_parse","userAgent":"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36","cacheAge":"1h","preLoading":1,"preLoadingNum":5}}
+{
+    "sid": "cac6e0d5-6e8d-47ed-afe7-3668333501e7",
+    "name": "爱米推漫画",
+    "logo": "https://s1.ax1x.com/2020/06/15/NpTftH.png",
+    "info": "优质漫画源，感觉国漫居多",
+    "baseUrl": "https://m.imitui.com/",
+    "expr": "imitui\\.com",
+    "type": 1,
+    "grade": 1,
+    "encode": "utf-8",
+    "engine": 20,
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "openSource": true,
+    "version": "1.2.2",
+    "imgMode": 2,
+    "style": 2,
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio",
+                "url": ""
+            }
+        ],
+        "code": "CgpmdW5jdGlvbiBob21lX3BhcnNlKHVybCwgaHRtbCkgewogICAgdmFyICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICB2YXIgbGlzdCA9IFtdOwogICAgJCgnLlVwZGF0ZUxpc3QgLmNsZWFyZml4Lml0ZW1Cb3gnKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIHZhciBhZ2dyZWdhdGUgPSB7fTsKICAgICAgICBhZ2dyZWdhdGUubGluayA9IHNlbGYuY2hpbGRyZW4oJy5pdGVtSW1nJykuY2hpbGRyZW4oJ2EnKS5hdHRyKCdocmVmJyk7CiAgICAgICAgYWdncmVnYXRlLnRpdGxlID0gc2VsZi5maW5kKCcudGl0bGUnKS5maXJzdCgpLnRleHQoKTsKICAgICAgICBhZ2dyZWdhdGUuY292ZXIgPSBzZWxmLmZpbmQoJ2ltZycpLmZpcnN0KCkuYXR0cignc3JjJyk7CiAgICAgICAgYWdncmVnYXRlLmluZm8gPSBzZWxmLmZpbmQoJy50eHRJdG1lJykuZXEoMCkudGV4dCgpLnJlcGxhY2UoL1xzKy9nLCAnJykgKyAnXG4nOwogICAgICAgIGFnZ3JlZ2F0ZS5pbmZvICs9IHNlbGYuZmluZCgnLnR4dEl0bWUnKS5lcSgxKS50ZXh0KCkucmVwbGFjZSgvXHMrL2csICcnKSArICdcbic7CiAgICAgICAgYWdncmVnYXRlLmluZm8gKz0gc2VsZi5jaGlsZHJlbignLmNvbGwnKS50ZXh0KCk7CiAgICAgICAgYWdncmVnYXRlLnVwZGF0ZVRpbWUgPSBzZWxmLmZpbmQoJy50eHRJdG1lJykuZXEoMikudGV4dCgpLnRyaW0oKTsKICAgICAgICBsaXN0LnB1c2goYWdncmVnYXRlKTsKICAgIH0pOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CmZ1bmN0aW9uIHRhZ19wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGxpc3QgPSBbXTsKICAgICQoJyNjb21pYy1pdGVtcyAubGlzdC1jb21pYycpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgdmFyIGFnZ3JlZ2F0ZSA9IHt9OwogICAgICAgIGFnZ3JlZ2F0ZS50aXRsZSA9IHNlbGYuY2hpbGRyZW4oJy50eHRBJykudGV4dCgpOwogICAgICAgIGFnZ3JlZ2F0ZS5saW5rID0gc2VsZi5jaGlsZHJlbignYScpLmZpcnN0KCkuYXR0cignaHJlZicpOwogICAgICAgIGFnZ3JlZ2F0ZS5jb3ZlciA9IHNlbGYuY2hpbGRyZW4oJ2EnKS5maXJzdCgpLmNoaWxkcmVuKCdpbWcnKS5hdHRyKCdzcmMnKTsKICAgICAgICBhZ2dyZWdhdGUuaW5mbyA9IHNlbGYuY2hpbGRyZW4oJy5pbmZvJykudGV4dCgpOwogICAgICAgIGxpc3QucHVzaChhZ2dyZWdhdGUpOwogICAgfSk7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KZnVuY3Rpb24gYm9va19wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGJvb2sgPSB7fTsKICAgIHZhciB0b3AgPSAkKCcuSW50cm9kdWN0X1N1Yi5hdXRvSGVpZ2h0Jyk7CiAgICBib29rLnRpdGxlID0gdG9wLmZpbmQoJ2ltZycpLmZpcnN0KCkuYXR0cignYWx0Jyk7CiAgICBib29rLmNvdmVyID0gdG9wLmZpbmQoJ2ltZycpLmZpcnN0KCkuYXR0cignc3JjJyk7CiAgICBib29rLmluZm8gPSAkKCcjc2ltcGxlLWRlcycpLnRleHQoKTsKICAgIGJvb2sudXBkYXRlVGltZSA9IHRvcC5maW5kKCcudHh0SXRtZScpLmVxKDMpLnRleHQoKS50cmltKCk7CiAgICB2YXIgbWFwID0gbmV3IE1hcCgpOwogICAgJCgnLmNvbWljLWNoYXB0ZXJzJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIHZhciBzZWN0aW9ucyA9IFtdOwogICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICBzZWxmLmZpbmQoJ2xpJykuZWFjaChmdW5jdGlvbiAoaiwgZikgewogICAgICAgICAgICBsZXQgYSA9ICQodGhpcykuY2hpbGRyZW4oJ2EnKTsKICAgICAgICAgICAgbGV0IHRpdGxlID0gYS50ZXh0KCkucmVwbGFjZSgvXHMrL2csICcnKTsKICAgICAgICAgICAgaWYgKHRpdGxlICE9ICLkuIvmi4nlvI/pmIXor7siICYmIHRpdGxlICE9ICLkuIvovb1BcHAiKSB7CiAgICAgICAgICAgICAgICBzZWN0aW9ucy5wdXNoKHsKICAgICAgICAgICAgICAgICAgICB0aXRsZTogdGl0bGUsCiAgICAgICAgICAgICAgICAgICAgbGluazogYS5hdHRyKCdocmVmJykucmVwbGFjZSgnLmh0bWwnLCAnLTEuaHRtbCcpCiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgfQogICAgICAgIH0pOwogICAgICAgIG1hcFtzZWxmLmZpbmQoJy5UaXRsZScpLnRleHQoKV0gPSBzZWN0aW9uczsKICAgIH0pOwogICAgYm9vay5zZWN0aW9ucyA9IG1hcDsKICAgIGJvb2suaXNTZWN0aW9uQXNjID0gMTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShib29rKTsKfQoKLy8iYnVpbGRIZWFkZXJzIjogImRldGFpbHNfYnVpbGRfaGVhZGVycyIsCi8vInBhcnNlVXJsIjogImRldGFpbHNfcGFyc2VfdXJsIiwKCmZ1bmN0aW9uIGRldGFpbHNfYnVpbGRfaGVhZGVycyh1cmwpIHsKICAgIGlmICh1cmwuc3RhcnRzV2l0aCgnaHR0cHM6Ly9tLmltaXR1aS5jb20vamF2YXNjcmlwdC9hdXRoLycpKSB7CiAgICAgICAgcmV0dXJuICd1c2VyLWFnZW50Ok1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDYuMSkgQXBwbGVXZWJLaXQvNTM1LjEgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTMuMC43ODIuNDEgU2FmYXJpLzUzNS4xIFFRQnJvd3Nlci82LjkuMTEwNzkuMjAxJwogICAgfQogICAgcmV0dXJuICcnOwp9CgpmdW5jdGlvbiBkZXRhaWxzX3BhcnNlX3VybCh1cmwsIGh0bWwpIHsKICAgIGNvbnNvbGUubG9nKCflvZPliY11cmwgJyArIHVybCk7CiAgICBpZiAodXJsLnN0YXJ0c1dpdGgoJ2h0dHBzOi8vbS5pbWl0dWkuY29tL21hbmh1YS8nKSkgewogICAgICAgIHJldHVybiAnQ0FMTDo6aHR0cHM6Ly9tLmltaXR1aS5jb20vamF2YXNjcmlwdC9hdXRoL0BAJyArIHVybAogICAgfSBlbHNlIHsKICAgICAgICBjb25zb2xlLmxvZygn5YiG5YmydXJsICcgKyB1cmwuc3BsaXQoJ0BAJykpOwogICAgICAgIHJldHVybiB1cmwuc3BsaXQoJ0BAJylbMV07CiAgICB9Cn0KCmZ1bmN0aW9uIGRldGFpbHNfcGFyc2UodXJsLCBodG1sKSB7CiAgICB2YXIgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBkZXRhaWxzID0gewogICAgICAgIGltYWdlczogW10sCiAgICAgICAgb3RoZXJQYWdlTGluazogW10KICAgIH07CgoKICAgIGRldGFpbHMuaW1hZ2VzLnB1c2goJCgnI2ltYWdlJykuYXR0cignc3JjJykpOwoKICAgICQoJy5zY3JvbGwtaXRlbScpLmVhY2goZnVuY3Rpb24gKGUsIGkpIHsKICAgICAgICB2YXIgaW1nID0gJCh0aGlzKS5jaGlsZHJlbignaW1nJykuYXR0cignZGF0YS1zcmMnKTsKICAgICAgICBpZiAoaW1nID09IG51bGwpIHsKICAgICAgICAgICAgaW1nID0gJCh0aGlzKS5jaGlsZHJlbignaW1nJykuYXR0cignc3JjJyk7CiAgICAgICAgfQogICAgICAgIGlmIChpbWcgIT0gbnVsbCkgewogICAgICAgICAgICBkZXRhaWxzLmltYWdlcy5wdXNoKGltZyk7CiAgICAgICAgfQogICAgfSk7CgogICAgZGV0YWlscy5oZWFkZXJzID0gewogICAgICAgICdyZWZlcmVyJzogdXJsLAogICAgICAgICd1c2VyLWFnZW50JzogJ01vemlsbGEvNS4wIChXaW5kb3dzIE5UIDYuMSkgQXBwbGVXZWJLaXQvNTM1LjEgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTMuMC43ODIuNDEgU2FmYXJpLzUzNS4xIFFRQnJvd3Nlci82LjkuMTEwNzkuMjAxJwogICAgfTsKICAgIGNvbnNvbGUubG9nKEpTT04uc3RyaW5naWZ5KGRldGFpbHMpKTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShkZXRhaWxzKTsKfQoKZnVuY3Rpb24gZ2V0Tm9kZUhvc3Qobm9kZUhvc3RzLCBwYXRoLCBzdW0gPSAyNTYpIHsKICAgIHZhciBhID0gcGF0aC5tYXRjaCgvaW1hZ2VzXC9cd1wvKC57Mn0pL2kpOwogICAgdmFyIHdlaWdodCA9IDE7CiAgICBpZiAoYSAhPT0gbnVsbCAmJiBhWzFdKSB7CiAgICAgICAgd2VpZ2h0ID0gcGFyc2VJbnQoJzB4JyArIGFbMV0sIDE2KQogICAgfQogICAgdmFyIGhvc3RzID0gbm9kZUhvc3RzOwogICAgdmFyIHRvdGFsID0gMDsKICAgIGhvc3RzLmZvckVhY2goZnVuY3Rpb24gKGl0ZW0pIHsKICAgICAgICBpZiAodHlwZW9mIGl0ZW0gPT09ICJzdHJpbmciKSBpdGVtID0gewogICAgICAgICAgICB3ZWlnaHQ6IDEsCiAgICAgICAgICAgIHZhbHVlOiBpdGVtCiAgICAgICAgfTsKICAgICAgICBpZiAoIWl0ZW0udmFsdWUpIHJldHVybjsKICAgICAgICB0b3RhbCArPSBpdGVtLndlaWdodCA/IGl0ZW0ud2VpZ2h0IDogMQogICAgfSk7CiAgICB0b3RhbCA9IHRvdGFsID4gMCA/IHRvdGFsIDogMTsKICAgIHZhciBob3N0ID0gbnVsbDsKICAgIHZhciB3ID0gMDsKICAgIGhvc3RzLmZvckVhY2goZnVuY3Rpb24gKGl0ZW0pIHsKICAgICAgICBpZiAoaG9zdCAhPT0gbnVsbCkgcmV0dXJuOwogICAgICAgIGlmICh0eXBlb2YgaXRlbSA9PT0gInN0cmluZyIpIGl0ZW0gPSB7CiAgICAgICAgICAgIHdlaWdodDogMSwKICAgICAgICAgICAgdmFsdWU6IGl0ZW0KICAgICAgICB9OwogICAgICAgIGlmICghaXRlbS52YWx1ZSkgcmV0dXJuOwogICAgICAgIHcgKz0gKGl0ZW0ud2VpZ2h0ID8gaXRlbS53ZWlnaHQgOiAxKSAvIHRvdGFsICogc3VtOwogICAgICAgIGNvbnNvbGUubG9nKHcpOwogICAgICAgIGlmICh3ID4gd2VpZ2h0KSB7CiAgICAgICAgICAgIGhvc3QgPSBpdGVtLnZhbHVlCiAgICAgICAgfQogICAgfSk7CiAgICByZXR1cm4gaG9zdAp9CgpmdW5jdGlvbiBnZXRJNihub2RlSG9zdHMsIGNpcmgsIGNpaCwgaW1hZ2UpIHsKICAgIGlmIChpbWFnZS5tYXRjaCgvXihcL3JcLz8pL2kpKSB7CiAgICAgICAgcmV0dXJuIGNpcmggKyBpbWFnZQogICAgfSBlbHNlIGlmIChpbWFnZS5tYXRjaCgvXihcL3BcLz8pL2kpKSB7CiAgICAgICAgcmV0dXJuIG5vZGVIb3N0ICsgaW1hZ2UKICAgIH0gZWxzZSBpZiAoaW1hZ2UubWF0Y2goL15cL2ltYWdlc1wvcFwvL2kpKSB7CiAgICAgICAgdmFyIG5oID0gZ2V0Tm9kZUhvc3Qobm9kZUhvc3RzLCBpbWFnZSk7CiAgICAgICAgcmV0dXJuIG5oICsgaW1hZ2UKICAgIH0gZWxzZSBpZiAoaW1hZ2UubWF0Y2goL14oXC98aW1hZ2VzPykvaSkpIHsKICAgICAgICByZXR1cm4gY2loICsgaW1hZ2UKICAgIH0KICAgIHJldHVybiBpbWFnZQp9Cgo="
+    },
+    "home": {
+        "title": "首页",
+        "url": "https://m.imitui.com/update/?page=@page",
+        "method": "GET",
+        "parse": "home_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "imageMode": 1,
+        "requestType": 0
+    },
+    "tag": {
+        "title": "分类",
+        "method": "GET",
+        "parse": "tag_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "items": [
+            {
+                "group": "进度",
+                "title": "已完结",
+                "url": "https://m.imitui.com/list/wanjie/?page=@page"
+            },
+            {
+                "group": "进度",
+                "title": "连载中",
+                "url": "https://m.imitui.com/list/lianzai/?page=@page"
+            },
+            {
+                "group": "读者",
+                "title": "儿童漫画",
+                "url": "https://m.imitui.com/list/ertong/?page=@page"
+            },
+            {
+                "group": "读者",
+                "title": "少年漫画",
+                "url": "https://m.imitui.com/list/shaonian/?page=@page"
+            },
+            {
+                "group": "读者",
+                "title": "少女漫画",
+                "url": "https://m.imitui.com/list/shaonv/?page=@page"
+            },
+            {
+                "group": "读者",
+                "title": "青年漫画",
+                "url": "https://m.imitui.com/list/qingnian/?page=@page"
+            },
+            {
+                "group": "地区",
+                "title": "日本",
+                "url": "https://m.imitui.com/list/riben/?page=@page"
+            },
+            {
+                "group": "地区",
+                "title": "大陆",
+                "url": "https://m.imitui.com/list/dalu/?page=@page"
+            },
+            {
+                "group": "地区",
+                "title": "香港",
+                "url": "https://m.imitui.com/list/hongkong/?page=@page"
+            },
+            {
+                "group": "地区",
+                "title": "台湾",
+                "url": "https://m.imitui.com/list/taiwan/?page=@page"
+            },
+            {
+                "group": "地区",
+                "title": "欧美",
+                "url": "https://m.imitui.com/list/oumei/?page=@page"
+            },
+            {
+                "group": "地区",
+                "title": "韩国",
+                "url": "https://m.imitui.com/list/hanguo/?page=@page"
+            },
+            {
+                "group": "地区",
+                "title": "其他",
+                "url": "https://m.imitui.com/list/qita/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "热血",
+                "url": "https://m.imitui.com/list/rexue/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "玄幻",
+                "url": "https://m.imitui.com/list/xuanhuan/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "修真",
+                "url": "https://m.imitui.com/list/xiuzhen/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "古风",
+                "url": "https://m.imitui.com/list/gufeng/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "恋爱",
+                "url": "https://m.imitui.com/list/lianai/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "穿越",
+                "url": "https://m.imitui.com/list/chuanyue/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "都市",
+                "url": "https://m.imitui.com/list/dushi/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "霸总",
+                "url": "https://m.imitui.com/list/bazong/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "悬疑",
+                "url": "https://m.imitui.com/list/xuanyi/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "搞笑",
+                "url": "https://m.imitui.com/list/gaoxiao/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "奇幻",
+                "url": "https://m.imitui.com/list/qihuan/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "总裁",
+                "url": "https://m.imitui.com/list/zongcai/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "日常",
+                "url": "https://m.imitui.com/list/richang/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "冒险",
+                "url": "https://m.imitui.com/list/maoxian/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "科幻",
+                "url": "https://m.imitui.com/list/kehuan/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "纯爱",
+                "url": "https://m.imitui.com/list/chunai/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "魔幻",
+                "url": "https://m.imitui.com/list/mohuan/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "战争",
+                "url": "https://m.imitui.com/list/zhanzheng/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "蔷薇",
+                "url": "https://m.imitui.com/list/qiangwei/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "武侠",
+                "url": "https://m.imitui.com/list/wuxia/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "生活",
+                "url": "https://m.imitui.com/list/shenghuo/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "动作",
+                "url": "https://m.imitui.com/list/dongzuo/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "后宫",
+                "url": "https://m.imitui.com/list/hougong/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "游戏",
+                "url": "https://m.imitui.com/list/youxi/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "恐怖",
+                "url": "https://m.imitui.com/list/kongbu/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "漫改",
+                "url": "https://m.imitui.com/list/mangai/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "真人",
+                "url": "https://m.imitui.com/list/zhenren/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "校园",
+                "url": "https://m.imitui.com/list/xiaoyuan/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "剧情",
+                "url": "https://m.imitui.com/list/juqing/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "灵异",
+                "url": "https://m.imitui.com/list/lingyi/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "少年",
+                "url": "https://m.imitui.com/list/shaonian/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "推理",
+                "url": "https://m.imitui.com/list/tuili/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "怀旧",
+                "url": "https://m.imitui.com/list/huaijiu/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "情感",
+                "url": "https://m.imitui.com/list/qinggan/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "偶像",
+                "url": "https://m.imitui.com/list/ouxiang/?page=@page"
+            },
+            {
+                "group": "题材",
+                "title": "少女",
+                "url": "https://m.imitui.com/list/shaonv/?page=@page"
+            }
+        ]
+    },
+    "search": {
+        "title": "搜索",
+        "url": "https://m.imitui.com/search/?keywords=@key&page=@page",
+        "method": "GET",
+        "parse": "home_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "cacheAge": "1h"
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "userAgent": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
+        "cacheAge": "1h",
+        "preLoading": 1,
+        "preLoadingNum": 5
+    }
+}
