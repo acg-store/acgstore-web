@@ -1,1 +1,69 @@
-{"sid":"b4f916e1-dd53-4ae0-bb63-60f2db02089d","name":"23听书","logo":"","info":"群友推荐听书网站","baseUrl":"https://www.230ts.net/","type":4,"grade":4,"encode":"utf-8","style":1,"version":"1.0.4","openSource":true,"engine":20,"author":{"name":"静静","info":"我是静静，App和轻应用有问题都可以联系我哦","contact":"1077674403","donateLink":["https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg","https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"]},"script":{"requires":[{"lib":"cheerio"}],"code":"ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciBsaXN0ID0gW107CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKCiAgICAkKCcuZ2VuZ3hpbicpLmNoaWxkcmVuKCdsaScpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgbGlzdC5wdXNoKHsKICAgICAgICAgICAgdGl0bGU6IHNlbGYuZmluZCgnYScpLmZpcnN0KCkudGV4dCgpLAogICAgICAgICAgICBsaW5rOiBzZWxmLmZpbmQoJ2EnKS5maXJzdCgpLmF0dHIoJ2hyZWYnKSwKICAgICAgICAgICAgaW5mbzogYCR7c2VsZi5jaGlsZHJlbignLnoxJykudGV4dCgpfVxuJHtzZWxmLmNoaWxkcmVuKCcuejMnKS50ZXh0KCl9XG4ke3NlbGYuY2hpbGRyZW4oJy56NCcpLnRleHQoKX1gLAogICAgICAgICAgICB1cGRhdGVUaW1lOiBzZWxmLmNoaWxkcmVuKCcuejUnKS50ZXh0KCkKICAgICAgICB9KTsKICAgIH0pOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgpmdW5jdGlvbiBzZWFyY2hfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBsaXN0ID0gW107CiAgICAkKCcubGlzdC13b3JrcycpLmNoaWxkcmVuKCdsaScpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgbGlzdC5wdXNoKHsKICAgICAgICAgICAgdGl0bGU6IHNlbGYuZmluZCgnLmxpc3QtYm9vay1kdCcpLmZpcnN0KCkudGV4dCgpLAogICAgICAgICAgICBsaW5rOiBzZWxmLmZpbmQoJ2EnKS5maXJzdCgpLmF0dHIoJ2hyZWYnKSwKICAgICAgICAgICAgY292ZXI6ICdodHRwczovL3d3dy4yMzB0cy5uZXQvJyArIHNlbGYuZmluZCgnaW1nJykuYXR0cignZGF0YS1vcmlnaW5hbCcpLAogICAgICAgICAgICBpbmZvOiBzZWxmLmZpbmQoJy5saXN0LWJvb2stZGVzJykudGV4dCgpLAogICAgICAgICAgICB1cGRhdGVUaW1lOiBzZWxmLmZpbmQoJy5ib29rLXp0JykudGV4dCgpLAogICAgICAgIH0pOwogICAgfSk7CgogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgoKZnVuY3Rpb24gYm9va19wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGJvb2sgPSB7CiAgICAgICAgdGl0bGU6ICQoJy5ib29rLWltZycpLmNoaWxkcmVuKCdpbWcnKS5hdHRyKCdhbHQnKSwKICAgICAgICBjb3ZlcjogJ2h0dHBzOi8vd3d3LjIzMHRzLm5ldCcgKyAkKCcuYm9vay1pbWcnKS5jaGlsZHJlbignaW1nJykuYXR0cignc3JjJyksCiAgICAgICAgaW5mbzogJCgnLmJvb2stZGVzJykudGV4dCgpLnRyaW0oKSwKICAgICAgICB1cGRhdGVUaW1lOiAkKCcuYm9vay1pbmZvJykuY2hpbGRyZW4oJ2RkJykubGFzdCgpLnRleHQoKSwKICAgIH07CgogICAgdmFyIG1hcCA9IG5ldyBNYXAoKTsKICAgIHZhciBzZWN0aW9ucyA9IFtdOwogICAgJCgnI3BsYXlsaXN0JykuZmluZCgnbGknKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgc2VjdGlvbnMucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiAkKHRoaXMpLmNoaWxkcmVuKCdhJykudGV4dCgpLnRyaW0oKSwKICAgICAgICAgICAgbGluazogJCh0aGlzKS5jaGlsZHJlbignYScpLmF0dHIoJ2hyZWYnKSwKICAgICAgICB9KTsKICAgIH0pOwogICAgbWFwWyLnm67lvZUiXSA9IHNlY3Rpb25zOwogICAgYm9vay5zZWN0aW9ucyA9IG1hcDsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShib29rKTsKfQoKCmZ1bmN0aW9uIGRldGFpbHNfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBkZXRhaWxzID0gewogICAgICAgIGV4dHJhOiAkKCcuY29udGVudCAjcGxheScpLmF0dHIoJ3NyYycpCiAgICB9OwoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShkZXRhaWxzKTsKfQoKZnVuY3Rpb24gYXVkaW9faW5mb19idWlsZF91cmwodXJsLCBsYXN0UmVzdWx0KSB7CiAgICByZXR1cm4gSlNPTi5wYXJzZShsYXN0UmVzdWx0KS5leHRyYTsKfQoKZnVuY3Rpb24gYXVkaW9faW5mb19wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMsIGxhc3RSZXN1bHQpIHsKICAgIGxldCAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwoKICAgIHZhciBzY3JpcHQgPSAkKCdzY3JpcHQnKS5maWx0ZXIoZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICByZXR1cm4gJChlKS50ZXh0KCkudHJpbSgpLnN0YXJ0c1dpdGgoJ3ZhcicpOwogICAgfSk7CiAgICB2YXIgY29kZSA9IHNjcmlwdC50ZXh0KCkudHJpbSgpOwogICAgY29kZSA9IGNvZGUuc3Vic3RyKDAsIGNvZGUuaW5kZXhPZignZnVuY3Rpb24nKS0xKTsKICAgIGNvbnNvbGUubG9nKGNvZGUpOwogICAgZXZhbChjb2RlKTsKICAgIAogICAgbGV0IHRlbXAgPSBodG1sLm1hdGNoKC9tcDM6KC4qPylcbi8pWzFdOwogICAgY29uc29sZS5sb2codGVtcCkKICAgIGV2YWwoYHZhciBuZXdsaW5rID0gJHt0ZW1wfWApOwogICAgY29uc29sZS5sb2cobmV3bGluayk7CgogICAgdmFyIHJlc3VsdCA9IHsKICAgICAgICBtaW1lOiAnYXVkaW8vKicsCiAgICAgICAgbGluazogbmV3bGluaywKICAgIH07CgogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHJlc3VsdCk7Cn0="},"home":{"title":"最近更新","url":"/top/lastupdate/@page.html","method":"GET","parse":"home_parse","startPage":1,"addPage":1},"search":{"title":"搜索","url":"/search.html","method":"POST","params":"searchtype=novelname&searchword=@key","parse":"search_parse","imageMode":1,"startPage":1},"book":{"title":"详情","method":"GET","parse":"book_parse","cacheAge":"1h"},"details":{"title":"内容","method":"GET","parse":"details_parse","cacheAge":"1h","adds":[{"title":"audio_info","method":"GET","buildUrl":"audio_info_build_url","parse":"audio_info_parse","cacheAge":"1h"}]}}
+{
+    "sid": "b4f916e1-dd53-4ae0-bb63-60f2db02089d",
+    "name": "23听书",
+    "logo": "",
+    "info": "群友推荐听书网站",
+    "baseUrl": "https://www.230ts.net/",
+    "type": 4,
+    "grade": 4,
+    "encode": "utf-8",
+    "style": 1,
+    "version": "1.0.4",
+    "openSource": true,
+    "engine": 20,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            }
+        ],
+        "code": "ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciBsaXN0ID0gW107CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKCiAgICAkKCcuZ2VuZ3hpbicpLmNoaWxkcmVuKCdsaScpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgbGlzdC5wdXNoKHsKICAgICAgICAgICAgdGl0bGU6IHNlbGYuZmluZCgnYScpLmZpcnN0KCkudGV4dCgpLAogICAgICAgICAgICBsaW5rOiBzZWxmLmZpbmQoJ2EnKS5maXJzdCgpLmF0dHIoJ2hyZWYnKSwKICAgICAgICAgICAgaW5mbzogYCR7c2VsZi5jaGlsZHJlbignLnoxJykudGV4dCgpfVxuJHtzZWxmLmNoaWxkcmVuKCcuejMnKS50ZXh0KCl9XG4ke3NlbGYuY2hpbGRyZW4oJy56NCcpLnRleHQoKX1gLAogICAgICAgICAgICB1cGRhdGVUaW1lOiBzZWxmLmNoaWxkcmVuKCcuejUnKS50ZXh0KCkKICAgICAgICB9KTsKICAgIH0pOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgpmdW5jdGlvbiBzZWFyY2hfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBsaXN0ID0gW107CiAgICAkKCcubGlzdC13b3JrcycpLmNoaWxkcmVuKCdsaScpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgbGlzdC5wdXNoKHsKICAgICAgICAgICAgdGl0bGU6IHNlbGYuZmluZCgnLmxpc3QtYm9vay1kdCcpLmZpcnN0KCkudGV4dCgpLAogICAgICAgICAgICBsaW5rOiBzZWxmLmZpbmQoJ2EnKS5maXJzdCgpLmF0dHIoJ2hyZWYnKSwKICAgICAgICAgICAgY292ZXI6ICdodHRwczovL3d3dy4yMzB0cy5uZXQvJyArIHNlbGYuZmluZCgnaW1nJykuYXR0cignZGF0YS1vcmlnaW5hbCcpLAogICAgICAgICAgICBpbmZvOiBzZWxmLmZpbmQoJy5saXN0LWJvb2stZGVzJykudGV4dCgpLAogICAgICAgICAgICB1cGRhdGVUaW1lOiBzZWxmLmZpbmQoJy5ib29rLXp0JykudGV4dCgpLAogICAgICAgIH0pOwogICAgfSk7CgogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgoKZnVuY3Rpb24gYm9va19wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGJvb2sgPSB7CiAgICAgICAgdGl0bGU6ICQoJy5ib29rLWltZycpLmNoaWxkcmVuKCdpbWcnKS5hdHRyKCdhbHQnKSwKICAgICAgICBjb3ZlcjogJ2h0dHBzOi8vd3d3LjIzMHRzLm5ldCcgKyAkKCcuYm9vay1pbWcnKS5jaGlsZHJlbignaW1nJykuYXR0cignc3JjJyksCiAgICAgICAgaW5mbzogJCgnLmJvb2stZGVzJykudGV4dCgpLnRyaW0oKSwKICAgICAgICB1cGRhdGVUaW1lOiAkKCcuYm9vay1pbmZvJykuY2hpbGRyZW4oJ2RkJykubGFzdCgpLnRleHQoKSwKICAgIH07CgogICAgdmFyIG1hcCA9IG5ldyBNYXAoKTsKICAgIHZhciBzZWN0aW9ucyA9IFtdOwogICAgJCgnI3BsYXlsaXN0JykuZmluZCgnbGknKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgc2VjdGlvbnMucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiAkKHRoaXMpLmNoaWxkcmVuKCdhJykudGV4dCgpLnRyaW0oKSwKICAgICAgICAgICAgbGluazogJCh0aGlzKS5jaGlsZHJlbignYScpLmF0dHIoJ2hyZWYnKSwKICAgICAgICB9KTsKICAgIH0pOwogICAgbWFwWyLnm67lvZUiXSA9IHNlY3Rpb25zOwogICAgYm9vay5zZWN0aW9ucyA9IG1hcDsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShib29rKTsKfQoKCmZ1bmN0aW9uIGRldGFpbHNfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBkZXRhaWxzID0gewogICAgICAgIGV4dHJhOiAkKCcuY29udGVudCAjcGxheScpLmF0dHIoJ3NyYycpCiAgICB9OwoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShkZXRhaWxzKTsKfQoKZnVuY3Rpb24gYXVkaW9faW5mb19idWlsZF91cmwodXJsLCBsYXN0UmVzdWx0KSB7CiAgICByZXR1cm4gSlNPTi5wYXJzZShsYXN0UmVzdWx0KS5leHRyYTsKfQoKZnVuY3Rpb24gYXVkaW9faW5mb19wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMsIGxhc3RSZXN1bHQpIHsKICAgIGxldCAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwoKICAgIHZhciBzY3JpcHQgPSAkKCdzY3JpcHQnKS5maWx0ZXIoZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICByZXR1cm4gJChlKS50ZXh0KCkudHJpbSgpLnN0YXJ0c1dpdGgoJ3ZhcicpOwogICAgfSk7CiAgICB2YXIgY29kZSA9IHNjcmlwdC50ZXh0KCkudHJpbSgpOwogICAgY29kZSA9IGNvZGUuc3Vic3RyKDAsIGNvZGUuaW5kZXhPZignZnVuY3Rpb24nKS0xKTsKICAgIGNvbnNvbGUubG9nKGNvZGUpOwogICAgZXZhbChjb2RlKTsKICAgIAogICAgbGV0IHRlbXAgPSBodG1sLm1hdGNoKC9tcDM6KC4qPylcbi8pWzFdOwogICAgY29uc29sZS5sb2codGVtcCkKICAgIGV2YWwoYHZhciBuZXdsaW5rID0gJHt0ZW1wfWApOwogICAgY29uc29sZS5sb2cobmV3bGluayk7CgogICAgdmFyIHJlc3VsdCA9IHsKICAgICAgICBtaW1lOiAnYXVkaW8vKicsCiAgICAgICAgbGluazogbmV3bGluaywKICAgIH07CgogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHJlc3VsdCk7Cn0="
+    },
+    "home": {
+        "title": "最近更新",
+        "url": "/top/lastupdate/@page.html",
+        "method": "GET",
+        "parse": "home_parse",
+        "startPage": 1,
+        "addPage": 1
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/search.html",
+        "method": "POST",
+        "params": "searchtype=novelname&searchword=@key",
+        "parse": "search_parse",
+        "imageMode": 1,
+        "startPage": 1
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "cacheAge": "1h",
+        "adds": [
+            {
+                "title": "audio_info",
+                "method": "GET",
+                "buildUrl": "audio_info_build_url",
+                "parse": "audio_info_parse",
+                "cacheAge": "1h"
+            }
+        ]
+    }
+}
