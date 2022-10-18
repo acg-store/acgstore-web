@@ -20,7 +20,8 @@ function search_parse(url, html, headers) {
     if (data.code != 200) throw "获取数据失败";
     data.data.data.forEach((e) => {
         list.push({
-            link: `http://tingshu.kuwo.cn/tingshu/api/data/album/songs?albumId=${e.albumId}&online=0&kweexVersion=1.0.2`,
+            // link: `http://tingshu.kuwo.cn/tingshu/api/data/album/songs?albumId=${e.albumId}&online=0&kweexVersion=1.0.2`,
+            link: `https://tsm.kuwo.cn/api/r.s?stype=albuminfo&albumId=${e.albumId}&mobi=1&pn=0&vipver=MUSIC_8.2.0.0_BCS17&sortby=3&rn=5000`,
             title: e.albumName,
             cover: e.coverImg,
             info: `播音:${e.artistName}\n${e.title}`

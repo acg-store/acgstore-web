@@ -11,7 +11,7 @@
     "headers": "Referer: http://baby.kuwo.cn",
     "userAgent": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36",
     "imgMode": 1,
-    "version": "1.0.2",
+    "version": "1.0.3",
     "engine": 21,
     "author": {
         "name": "静静",
