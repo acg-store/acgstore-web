@@ -1,1 +1,82 @@
-{"sid":"3d09283f-461a-4eaa-8930-2f0f01611175","name":"打驴动漫","logo":"https://www.hualigs.cn/image/6351f44e361a9.jpg","info":"速度快,资源全,打驴动漫,是二次元爱好者专属的温馨小站,本站提供无修樱花动漫新番且拥有最新最全的日本动漫,国产动漫,最新番剧,全站无广告播放,完美支持电脑手机端观看，欢迎各位动漫爱好者前来观看。","baseUrl":"https://www.dqsj.cc","expr":"dqsj\\.cc","type":2,"grade":8,"needProxy":0,"encode":"utf-8","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36","style":1,"version":"1.0.0","openSource":true,"imgMode":3,"engine":20,"author":{"name":"静静","info":"请打开源网页，支持打驴动漫"},"script":{"requires":[{"lib":"cheerio"}],"code":"ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciBsaXN0ID0gW107CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgICQoJy5obC1yYW5rLWxpc3QnKS5jaGlsZHJlbignbGknKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiBzZWxmLmNoaWxkcmVuKCdhJykuZmlyc3QoKS5hdHRyKCd0aXRsZScpLAogICAgICAgICAgICBsaW5rOiBzZWxmLmNoaWxkcmVuKCdhJykuZmlyc3QoKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgIGNvdmVyOiBzZWxmLmZpbmQoJy5obC1pdGVtLXRodW1iJykuZmlyc3QoKS5hdHRyKCdkYXRhLW9yaWdpbmFsJyksCiAgICAgICAgICAgIGluZm86IHNlbGYuZmluZCgnLmhsLXRleHQtc3VicycpLmZpcnN0KCkudGV4dCgpLnJlcGxhY2UoJy8nLCcnKSwKICAgICAgICAgICAgdXBkYXRlVGltZTogc2VsZi5maW5kKCcuaGwtaXRlbS10aW1lIHNwYW4nKS5maXJzdCgpLnRleHQoKSwKICAgICAgICB9KTsKICAgIH0pOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgpmdW5jdGlvbiB0YWdfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICB2YXIgbGlzdCA9IFtdOwogICAgbGV0ICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICAkKCd1bC5obC12b2QtbGlzdCcpLmNoaWxkcmVuKCdsaScpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgbGlzdC5wdXNoKHsKICAgICAgICAgICAgdGl0bGU6IHNlbGYuY2hpbGRyZW4oJy5obC1pdGVtLXRodW1iJykuZmlyc3QoKS5hdHRyKCd0aXRsZScpLAogICAgICAgICAgICBsaW5rOiBzZWxmLmNoaWxkcmVuKCcuaGwtaXRlbS10aHVtYicpLmZpcnN0KCkuYXR0cignaHJlZicpLAogICAgICAgICAgICBjb3Zlcjogc2VsZi5jaGlsZHJlbignLmhsLWl0ZW0tdGh1bWInKS5maXJzdCgpLmF0dHIoJ2RhdGEtb3JpZ2luYWwnKSwKICAgICAgICAgICAgaW5mbzogc2VsZi5maW5kKCcuaGwtaXRlbS10ZXh0ID4gLmhsLWl0ZW0tc3ViJykudGV4dCgpCiAgICAgICAgfSk7CiAgICB9KTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShsaXN0KTsKfQoKZnVuY3Rpb24gc2VhcmNoX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgdmFyIGxpc3QgPSBbXTsKICAgIGxldCAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgJCgndWwuaGwtb25lLWxpc3QnKS5jaGlsZHJlbignbGknKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiBzZWxmLmZpbmQoJy5obC1pdGVtLXRodW1iJykuZmlyc3QoKS5hdHRyKCd0aXRsZScpLAogICAgICAgICAgICBsaW5rOiBzZWxmLmZpbmQoJy5obC1pdGVtLXRodW1iJykuZmlyc3QoKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgIGNvdmVyOiBzZWxmLmZpbmQoJy5obC1pdGVtLXRodW1iJykuZmlyc3QoKS5hdHRyKCdkYXRhLW9yaWdpbmFsJyksCiAgICAgICAgICAgIGluZm86IHNlbGYuZmluZCgnLmhsLWl0ZW0tY29udGVudCA+IHAnKS5lcSgyKS50ZXh0KCkKICAgICAgICB9KTsKICAgIH0pOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgoKZnVuY3Rpb24gYm9va19wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGJvb2sgPSB7CiAgICAgICAgdGl0bGU6ICQoJy5obC1kYy10aXRsZScpLnRleHQoKSwKICAgICAgICBjb3ZlcjogJCgnLmhsLWl0ZW0tdGh1bWInKS5hdHRyKCdkYXRhLW9yaWdpbmFsJyksCiAgICAgICAgaW5mbzogeHBhdGgucXVlcnkxKCcvLypbQGlkPSJjb25jaC1jb250ZW50Il0vZGl2WzFdL2Rpdi9kaXYvZGl2L2RpdlsxXS9kaXYvZGl2WzJdL2RpdlsyXS9kaXZbMV0vZGl2WzJdL3VsL2xpWzEyXS90ZXh0KCknLGh0bWwpLAogICAgICAgIHVwZGF0ZVRpbWU6IHhwYXRoLnF1ZXJ5MSgnLy8qW0BpZD0iY29uY2gtY29udGVudCJdL2RpdlsxXS9kaXYvZGl2L2Rpdi9kaXZbMV0vZGl2L2RpdlsyXS9kaXZbMl0vZGl2WzFdL2RpdlsyXS91bC9saVsxMV0vdGV4dCgpJyxodG1sKSwKICAgIH07CiAgICB2YXIgbWFwID0gbmV3IE1hcCgpOwogICAgJCgnLmhsLXBsYXlzLWZyb20nKS5jaGlsZHJlbignYScpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VjdGlvbnMgPSBbXTsKICAgICAgICAkKGAuaGwtdGFicy1ib3hgKS5lcShpKS5maW5kKCdsaScpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICAgICAgc2VjdGlvbnMucHVzaCh7CiAgICAgICAgICAgICAgICB0aXRsZTogJCh0aGlzKS5jaGlsZHJlbignYScpLnRleHQoKSwKICAgICAgICAgICAgICAgIGxpbms6ICQodGhpcykuY2hpbGRyZW4oJ2EnKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgIH0pOwogICAgICAgIH0pOwogICAgICAgIG1hcFskKHRoaXMpLmF0dHIoJ2FsdCcpXSA9IHNlY3Rpb25zOwogICAgfSk7CiAgICBib29rLnNlY3Rpb25zID0gbWFwOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGJvb2spOwp9CgpmdW5jdGlvbiBkZXRhaWxzX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgbGV0IGRhdGEgPSBKU09OLnBhcnNlKGh0bWwpOwogICAgaWYgKGRhdGEucmVzb3VyY2UgPT0gbnVsbCB8fCBkYXRhLnJlc291cmNlLmxlbmd0aCA9PSAwKSB7CiAgICAgICAgcmV0dXJuICJFUlJPUjrmsqHmnInll4XmjqLliLDotYTmupAiOwogICAgfQogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHsgbWltZTogInZpZGVvLyoiLCBsaW5rOiBkYXRhLnJlc291cmNlWzBdLmxpbmt9KTsKfQ=="},"home":{"title":"首页","url":"/index.php/map/index.html","method":"GET","parse":"home_parse","cacheAge":"1h"},"tag":{"title":"分类","method":"GET","parse":"tag_parse","cacheAge":"1h","addPage":1,"startPage":1,"items":[{"group":"热门新番","title":"全部","url":"/index.php/vod/show/id/23/page/1.html"},{"group":"动漫电影","title":"全部","url":"/index.php/vod/show/id/24/page/1.html"}]},"search":{"title":"搜索","url":"/index.php/vod/search/page/@page/wd/@key.html","method":"GET","parse":"search_parse","cacheAge":"1h","addPage":1,"startPage":1},"book":{"title":"详情","method":"GET","parse":"book_parse","cacheAge":"1h"},"details":{"title":"内容","method":"GET","parse":"details_parse","sniffFilters":"\\.mp4|\\.m3u8|\\/video\\/","sniff":true,"superSniff":true,"sniffDelay":8000,"cacheAge":"1h"}}
+{
+    "sid": "3d09283f-461a-4eaa-8930-2f0f01611175",
+    "name": "打驴动漫",
+    "logo": "https://www.hualigs.cn/image/6351f44e361a9.jpg",
+    "info": "速度快,资源全,打驴动漫,是二次元爱好者专属的温馨小站,本站提供无修樱花动漫新番且拥有最新最全的日本动漫,国产动漫,最新番剧,全站无广告播放,完美支持电脑手机端观看，欢迎各位动漫爱好者前来观看。",
+    "baseUrl": "https://www.dqsj.cc",
+    "expr": "dqsj\\.cc",
+    "type": 2,
+    "grade": 8,
+    "needProxy": 0,
+    "encode": "utf-8",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+    "style": 1,
+    "version": "1.0.1",
+    "openSource": true,
+    "imgMode": 3,
+    "engine": 22,
+    "author": {
+        "name": "静静",
+        "info": "请打开源网页，支持打驴动漫"
+    },
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            }
+        ],
+        "code": "ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciBsaXN0ID0gW107CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgICQoJy5obC1yYW5rLWxpc3QnKS5jaGlsZHJlbignbGknKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiBzZWxmLmNoaWxkcmVuKCdhJykuZmlyc3QoKS5hdHRyKCd0aXRsZScpLAogICAgICAgICAgICBsaW5rOiBzZWxmLmNoaWxkcmVuKCdhJykuZmlyc3QoKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgIGNvdmVyOiBzZWxmLmZpbmQoJy5obC1pdGVtLXRodW1iJykuZmlyc3QoKS5hdHRyKCdkYXRhLW9yaWdpbmFsJyksCiAgICAgICAgICAgIGluZm86IHNlbGYuZmluZCgnLmhsLXRleHQtc3VicycpLmZpcnN0KCkudGV4dCgpLnJlcGxhY2UoJy8nLCcnKSwKICAgICAgICAgICAgdXBkYXRlVGltZTogc2VsZi5maW5kKCcuaGwtaXRlbS10aW1lIHNwYW4nKS5maXJzdCgpLnRleHQoKSwKICAgICAgICB9KTsKICAgIH0pOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgpmdW5jdGlvbiB0YWdfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICB2YXIgbGlzdCA9IFtdOwogICAgbGV0ICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICAkKCd1bC5obC12b2QtbGlzdCcpLmNoaWxkcmVuKCdsaScpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgbGlzdC5wdXNoKHsKICAgICAgICAgICAgdGl0bGU6IHNlbGYuY2hpbGRyZW4oJy5obC1pdGVtLXRodW1iJykuZmlyc3QoKS5hdHRyKCd0aXRsZScpLAogICAgICAgICAgICBsaW5rOiBzZWxmLmNoaWxkcmVuKCcuaGwtaXRlbS10aHVtYicpLmZpcnN0KCkuYXR0cignaHJlZicpLAogICAgICAgICAgICBjb3Zlcjogc2VsZi5jaGlsZHJlbignLmhsLWl0ZW0tdGh1bWInKS5maXJzdCgpLmF0dHIoJ2RhdGEtb3JpZ2luYWwnKSwKICAgICAgICAgICAgaW5mbzogc2VsZi5maW5kKCcuaGwtaXRlbS10ZXh0ID4gLmhsLWl0ZW0tc3ViJykudGV4dCgpCiAgICAgICAgfSk7CiAgICB9KTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShsaXN0KTsKfQoKZnVuY3Rpb24gc2VhcmNoX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgdmFyIGxpc3QgPSBbXTsKICAgIGxldCAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgJCgndWwuaGwtb25lLWxpc3QnKS5jaGlsZHJlbignbGknKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiBzZWxmLmZpbmQoJy5obC1pdGVtLXRodW1iJykuZmlyc3QoKS5hdHRyKCd0aXRsZScpLAogICAgICAgICAgICBsaW5rOiBzZWxmLmZpbmQoJy5obC1pdGVtLXRodW1iJykuZmlyc3QoKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgIGNvdmVyOiBzZWxmLmZpbmQoJy5obC1pdGVtLXRodW1iJykuZmlyc3QoKS5hdHRyKCdkYXRhLW9yaWdpbmFsJyksCiAgICAgICAgICAgIGluZm86IHNlbGYuZmluZCgnLmhsLWl0ZW0tY29udGVudCA+IHAnKS5lcSgyKS50ZXh0KCkKICAgICAgICB9KTsKICAgIH0pOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgoKZnVuY3Rpb24gYm9va19wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGJvb2sgPSB7CiAgICAgICAgdGl0bGU6ICQoJy5obC1kYy10aXRsZScpLnRleHQoKSwKICAgICAgICBjb3ZlcjogJCgnLmhsLWl0ZW0tdGh1bWInKS5hdHRyKCdkYXRhLW9yaWdpbmFsJyksCiAgICAgICAgaW5mbzogeHBhdGgucXVlcnkxKCcvLypbQGlkPSJjb25jaC1jb250ZW50Il0vZGl2WzFdL2Rpdi9kaXYvZGl2L2RpdlsxXS9kaXYvZGl2WzJdL2RpdlsyXS9kaXZbMV0vZGl2WzJdL3VsL2xpWzEyXS90ZXh0KCknLGh0bWwpLAogICAgICAgIHVwZGF0ZVRpbWU6IHhwYXRoLnF1ZXJ5MSgnLy8qW0BpZD0iY29uY2gtY29udGVudCJdL2RpdlsxXS9kaXYvZGl2L2Rpdi9kaXZbMV0vZGl2L2RpdlsyXS9kaXZbMl0vZGl2WzFdL2RpdlsyXS91bC9saVsxMV0vdGV4dCgpJyxodG1sKSwKICAgIH07CiAgICB2YXIgbWFwID0gbmV3IE1hcCgpOwogICAgJCgnLmhsLXBsYXlzLWZyb20nKS5jaGlsZHJlbignYScpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VjdGlvbnMgPSBbXTsKICAgICAgICAkKGAuaGwtdGFicy1ib3hgKS5lcShpKS5maW5kKCdsaScpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICAgICAgc2VjdGlvbnMucHVzaCh7CiAgICAgICAgICAgICAgICB0aXRsZTogJCh0aGlzKS5jaGlsZHJlbignYScpLnRleHQoKSwKICAgICAgICAgICAgICAgIGxpbms6ICQodGhpcykuY2hpbGRyZW4oJ2EnKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgIH0pOwogICAgICAgIH0pOwogICAgICAgIG1hcFskKHRoaXMpLmF0dHIoJ2FsdCcpXSA9IHNlY3Rpb25zOwogICAgfSk7CiAgICBib29rLnNlY3Rpb25zID0gbWFwOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGJvb2spOwp9CgpmdW5jdGlvbiBkZXRhaWxzX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgbGV0IGRhdGEgPSBKU09OLnBhcnNlKGh0bWwpOwogICAgaWYgKGRhdGEucmVzb3VyY2UgPT0gbnVsbCB8fCBkYXRhLnJlc291cmNlLmxlbmd0aCA9PSAwKSB7CiAgICAgICAgcmV0dXJuICJFUlJPUjrmsqHmnInll4XmjqLliLDotYTmupAiOwogICAgfQogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHsgbWltZTogInZpZGVvLyoiLCBsaW5rOiBkYXRhLnJlc291cmNlWzBdLmxpbmt9KTsKfQ=="
+    },
+    "home": {
+        "title": "首页",
+        "url": "/index.php/map/index.html",
+        "method": "GET",
+        "parse": "home_parse",
+        "cacheAge": "1h"
+    },
+    "tag": {
+        "title": "分类",
+        "method": "GET",
+        "parse": "tag_parse",
+        "cacheAge": "1h",
+        "addPage": 1,
+        "startPage": 1,
+        "items": [
+            {
+                "group": "热门新番",
+                "title": "全部",
+                "url": "/index.php/vod/show/id/23/page/1.html"
+            },
+            {
+                "group": "动漫电影",
+                "title": "全部",
+                "url": "/index.php/vod/show/id/24/page/1.html"
+            }
+        ]
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/index.php/vod/search/page/@page/wd/@key.html",
+        "method": "GET",
+        "parse": "search_parse",
+        "cacheAge": "1h",
+        "addPage": 1,
+        "startPage": 1
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "sniffFilters": "\\.mp4|\\.m3u8|\\/video\\/",
+        "sniff": true,
+        "superSniff": true,
+        "sniffDelay": 8000,
+        "cacheAge": "1h"
+    }
+}
