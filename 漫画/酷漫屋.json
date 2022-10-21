@@ -9,9 +9,9 @@
     "encode": "utf-8",
     "userAgent": "Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Mobile Safari/537.36",
     "style": 2,
-    "version": "1.0.5",
+    "version": "1.0.6",
     "openSource": false,
-    "engine": 20,
+    "engine": 22,
     "imgMode": 2,
     "author": {
         "name": "静静",

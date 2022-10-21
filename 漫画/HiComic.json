@@ -13,9 +13,9 @@
     "userAgent": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Mobile Safari/537.36",
     "style": 1,
     "imgMode": 2,
-    "version": "1.0.2",
+    "version": "1.0.3",
     "isOpenSource": 0,
-    "engine": 20,
+    "engine": 22,
     "author": {
         "name": "静静",
         "info": "我是静静，App和轻应用有问题都可以联系我哦",

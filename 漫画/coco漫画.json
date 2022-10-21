@@ -10,7 +10,7 @@
     "http2": true,
     "cloudflare": true,
     "disable": true,
-    "engine": 20,
+    "engine": 22,
     "author": {
         "name": "静静",
         "info": "我是静静，App和轻应用有问题都可以联系我哦",
@@ -21,7 +21,7 @@
         ]
     },
     "isOpenSource": false,
-    "version": "1.2.2",
+    "version": "1.2.3",
     "script": {
         "requires": [
             {

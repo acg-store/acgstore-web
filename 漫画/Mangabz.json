@@ -9,7 +9,7 @@
     "grade": 1,
     "needProxy": 0,
     "imgMode": 2,
-    "engine": 20,
+    "engine": 22,
     "encode": "utf-8",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36",
     "author": {
@@ -22,7 +22,7 @@
         ]
     },
     "isOpenSource": 1,
-    "version": "1.0.4",
+    "version": "1.0.5",
     "script": {
         "requires": [
             {

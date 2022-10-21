@@ -10,7 +10,7 @@
     "encode": "gbk",
     "imageMode": 1,
     "isOpenSource": 1,
-    "engine": 20,
+    "engine": 22,
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36",
     "author": {
         "name": "静静",
@@ -21,7 +21,7 @@
             "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
         ]
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "script": {
         "requires": [
             {
