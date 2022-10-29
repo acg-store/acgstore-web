@@ -1,7 +1,6 @@
 function home_parse(url, html, headers) {
     var list = [];
     let $ = cheerio.load(html);
-
     $('.comics-card').each(function (i, e) {
         var self = $(this);
         list.push({

@@ -106,7 +106,7 @@ function createHtml(dirpath, title, data) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>${title}</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vant@2.12/lib/index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/vant@2.12/lib/index.css" />
 </head>
 
 <body>
