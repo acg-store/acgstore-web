@@ -1,0 +1,103 @@
+{
+    "sid": "9245f273-dfa7-4ab1-8797-424ce3e0d9f3",
+    "name": "新新漫画",
+    "logo": "",
+    "info": "网友推荐，资源全，速度快，集齐漫画资源相当丰富，只有你想不到的，没有看不到的，每天更新百部漫画。",
+    "baseUrl": "https://www.77mh.xyz/",
+    "expr": "\\.77mh\\.(top|com|xyz)",
+    "type": 1,
+    "grade": 8,
+    "imgMode": 2,
+    "encode": "utf-8",
+    "engine": 23,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "version": "1.0.0",
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            }
+        ],
+        "code": "NNJHkFDnbHDLHuuu65kcEA337gDCsdKmU1bVUeeFno2I4jv8B6tAmCRfDQraDpgDoZofe/km7EXetqYkiRR+5U7IDHMmy2fLGe97iYo29LIoaJKv0K6JTHK+AuJeXpkP0H/QAXktbvA6hRmKpAKnpj3qi0SJbr18Ue1AvDUPnnoBzl5GmtHud0pYATIgisX/Yx6EkXvih7RlolP4pOBQ2awmVEOSGtj2h78l6Ww8EUt/4zY59eiQZ7DrYlvT/g4z1BZUBVloSpKN+ou79L91rjlMZ7w5g3pAi5RvR89uG+PBmKUQEM0t9mb+WpaBCluGusbA6fssnXzWBeRZsAEh1JF2NaAkYPq2LbG8ClgaJBFAQgPkmOaKyPR0gVNtPCSzh2gmWdqv+4KX2ETMkFl+d8Z7vof19Rjt3I47ai3qgfJowQaTp+uM/vcWAQdYf7J/y2B5kQCExHz25nKIRiFE1JV7YyRSdSUjIeIBflSbNBe2quO3IXGvwtzeml2UWSFqSLP6NGIlTtozxmZ5HcYriwHVLXHnFf6DZg6k9eOhA7btphimGdZlclzvx2GTSfr1o0ZXhtJFV+e4f+5wgGs6c0pAip6pIRQbljPSQZMVwbDbB3Js7ScPMaJfBXs2GQoitzBqPaMbVKgtunn7GOJFhxR4dO0A1xGD/qh224srKF38LuEHcNNPuFijIVlQI4/pFRGo9WpzR1DuUPT42CXUSimcbB6TdRdHU+j+59iUWm2bcEV/PVaxvDWIgfenxCimY7umHpp+fjtMi2E5Yob+F5Y+O+bONXefUOnR8Be2YPaGzumTMvIB9hJgh9ljI+wriJ/rAPQf/VtWcM2L4tnaZJFRRin1Gh/MoDasq0LP+Jc/Ttwa311QDjrwWM4UaINol1r0YlEqDsuNy2Ic0haZmlKr/Ehjd6t2s9BhGUBFdExARp7M6W9mdbeOa4n8BPu4qzOCyafJ1HTR1oHs9yM9ILMV21AneRZtcieZcBy3Y6d7oRvXzsuCMP7b8cirbbacxpVEKArBl87qpBcFBd2/BW9kK/5lQsYDNNZLk1G0LHLJuJT+1Wy0wp/Irqy0DKdfTB27CTMVMKSxqhCSX2Ggmv1k/nfkwd/qFvWDCVM/LBRoYxA7NJ6ygW5DFOsk3TJfmhxKXB2Vot9r+3dsqgQqZp+KPQa5LSm7ZxQg4m5Y+cczVNOVRj/UwIz5bl4eE0HXYhZrzaLZlyROX+Aur0ORr2yUFUjlUkiPByH5EwfvewzQNSF44dEExvcIMjntdWYlA3p0XvkoajtWGaL25llXbNlkq+dd9u+xb7wkCYnxkHQqfMeFQe1PsChhpFSwlenhDkKLIn1wZgyRONO2EYsOK0kZezFI/+/NdUZs4s14TpJyzUvu9/qKi5luTq3pwFmJLz+xt6ZLnBy8q3DzJ9jVAArDQBxi9dW4SCvDdacw2iQKd+AXwMvb4gwZd4fwdzk/ceNmYByhVZO/pRTZPaliccwlznNSSB5mWJ0+dfCPxnXJM1SgYZmWnzoLCAmO+a4bILNZrQ5qMg/yzgyjIrd5NZkSOdvAmMPXXlU4caRJttyOlbKj8MfItcwviy1PXAnePgqOkEAzbCSNkuVg6EBGaDCdGQLdx6yaNWbORoyAtdj8lNOHFhdnGmfM6ZnZ/VDrq8j1EivcVUuN9XA01SXsX1VdILrtuyx8qQsK22nkOWTIA0jUDXYGg8CMt2OOEN1qG7tAzOFRjfQ5C5c2CFxPkgtFh8KwBlBY3bsNY0PjL30+I3n5bTSmr9abVD4J5iKveqjZ6r0V32bSM3NoJcIzgA9K6Rk349xvnxRLszuyTs75ApXUiC+Lt0Hua/zkDNVGxAtfq6V/RtQ8C1nbNkgR/q9aynWTEho2JJLXzutMn7qCsYGOfvwUNdvsC/sy1s1P0hWtQ1QQcxbAShL6YsHEUS33P5x2h3u9H5TMq0mhEN3hmqhJr+4FN9xop1Ieeud/O1R4vq6tQoMEujRyvyEAPZiI282mDoBVpyppAkQAc5+XFtJ7GAg939fGM82j1jAiGJaonMmNGrABP79VgRoEa1VR6p5cAPlhtCHjRilNhpLCglsJYia+5Gbj3FoLCWTYui9P61ERlm1HJBZ0KFW9iNMPxUpHYWrT96FJYUt4crAF+pctiNKf3KPkaAvUGU/F3L2VVF5QE1LouLML345P6KwjSEDQBvr/kIFWAVKw6KaxNwWewzaoTXhzYqMd6xG7FXXoCz9pXBi63NUKPJJa3ARu014nEeY55kt/OUjib3z2/T0LWHQWYtp0Nv5ZleXv4wBXrKN4P+h6+B5HYORqgpjj25MT058znTyJIo258rbwFBZ+zY38z0oHubW1/1RhTIAqCreIDEmPF7TAh7/HCP8jRhgJaMiFrEPuCOZVIzH122mmnLWSXMoi4AnNXgowdwXKJYcqVYKC7iix/A4+Q1N/8gcm3Qmoccrkw7yPQo/2jKO1jGAyp8CBS5ceF7qwxRHOUwlinVgLky+jBxPz9WFQthGRtY/dvYlZUyuaSWSNAV7uBiMRFgbyQBaf0EF4NDAAx0VBUjlSNxllGOb3eoIELU3bG0aIk0MEHKovTVcz1gB3p3RSi5VNgdaWElLz7mlbzyQVS49OiHMXfugBp7imYfJXe1sFIo+FjFPm/yhINKpK66HP/MHZjFik6qVg+8TeVnibuYUlzOzzViPLWbVB5AURglMPZ3rrXnJlirYRsEBM8TbOUxUwiwzLesmg/qzknpkusX+Mwn/G1wtbpZbjlGxDg3zWIW/XFpM6tp9DyKdIg+WdJqz8emVlm3pB6fyZijntcWgtCGhQ6GrmzuT4DKJBJwKDbEo3YAeUusp+/m50G7ohufRSd/tcqxjXyXF5Kh+wi67VYmvIT4DtoMZsJi+6e36XoPhaBae9frgHUfBf3VwBNmWrWdfz0780Q23OCljP07Hklp1v7xunx3sEovzo6Ws02Mgms+BUZkPpMSKOCcAC9onIRhFjUES/MiQOYF5QtckGTJwbCW5Am9wmlZwnJmVHm3NyedD7RkdesAtjB0/lNSkeftXkrlIiFRKmCpSKFP2WQbMDxvz0lkxalHGOz5/I3qN+OgRQQMczAH1hW7b1RDtdojg0OeNOuYBOe8K16poUGpCXz2M+G1kBzNFHTBu9mtwbo4e/BAj8oJALfThnIoVc4HyiKnbethCVhefb8nfCYZxLgHgWxD7POtP6jcNgB278lQdjjxomwsceBUXWnZVyLh0Wp6uiTIT2ikOFQebtC4dhv2iRw19FwSvTk831PdmRKnkVObO1PBrdtjF4cuLa90tc6OYIBSxBhyU2m5QTFSHlEsUQiZLBWxqilgRXMRi7ESDTXVZFP9v1OTEf/v5FIZTHSe5r2+AsqwQqyz2gFeV5+MkMVuRmOzSr5eC9srgW2lbhJjghaN2dQ469WxW70lGSZa2CFXuCmLAbExnB/bXfPvvtESdFCWro8AUo9UtSywp2LilMZJ7QSbO9gX7DGbu1jzA7Ttzpz6VbI973zrp6XzGJILUScb7dDhebRSKXkTLK/b0WT/pVxciS+XRD+8mq7h0Rl9ZzDbeku2UEYFZwecJYxRl/8hGqhOxIhEUDNvuzRDF+DMdk0+fMSBjvt+z1LddRinofTOZ2BWR4gh6U7kmw47AddANVc0yd7yIV0BuU5OIqSehlmt19+H9d7/M5qnp4G4tXzxH2PD8qjOqsLfXuIROQA+TK2A68dFExO9EPNREMhFOAH0ctme5SEs2sSeQ5f2gIVNIQ6J0MJSwHotho4Oi7Z7KNAxvGaX80ovCh79zkNUS6uR7mDsS6gp1hjvP/7otgzXweq4MiKCCXovzLXb3thCsZ1lggxf/2jjGbDguf/HKhLOO/AYwz7SbMlI2LY25202CZIv9pZGez8Y7Gda3I4pjYYcmM5fAocbOlf0urhlfOQJkzuq/mjayccgpEIe4r0p7NFFIKohWC315Ydj5xnTgGLH7J6xwNbvt9laA+cRtml7k/umkCJdFbiLrKB8cJK968ZBJYwhttMI7oLSZRPFrG6fME3JOIEswylloROvNGVZuEL3HIiejTLP41gWOfl9c7Zip/tqCSLSa+H0IcHm+XV89bf30bbiR8wA2NvDOvszM7KVzrSVanGtprGNKfZP3sveaGjW8PlkQVkJhzxW6U4YkBYwrbPHXRuFh8PHiJJPztl9cycmxJc9TkiWIlkIWvAB2mUX55l0CmB15XrjljPpR5UqjbgsEJa5d3k6E+8SugJ4tbPY4QdpeDOL4iiloNDOrs5sgoYExBlgxUXD6Ia7uR/ZFT7/Z+OE+4+pda9170VRDkI4n5xIxb3eaxQl7R3yaiiHGdp/5PGLOm4Q/isDqdVZ/KRjvZlthhe6ah8E/2PN4yChNS/5CZl3LDhk3VY7BCX3FEnYqaVw2oSoPmg0Ct8sm28cmWelv4bKKljTr/rpDOOsvXePKaZHHFAoM1x2tidX5ZGKBH04iInzPv6mYai6rs9yvV7odnPryyFgaLNiiTIPr8uUWO9br/Ly3gqDjwaEWzaPz4ofDELWXE5K6LsZsgVPwgNcZCr1sZ9gO1QvJj6fE0DkaDkif6iWlSpm2bLXt3pcJ0xd7PnB7+sTT3Ve62AV4Udr0l0eOr51x6Ddp09meXSYqReUgQ9AiFxFbXU6cgaxK+aba+qTeJRxerh0e3oncGjINctIPkjl4j3iC1vBvxck8qC0ktjhz13lrTv9yfoH0WbAt1+7lJP0TrgN7LQj9JAympF9lMHsbbSwaj1fJK98k0J19KX/pwjzU6v0H2O0SOrm34LXmRXrwJw0xFGNb6ldPZ6dBlyC1Xz9V/g7BOFtaimOnHPt59W5qT/jyBPyZnSYxyoVHX49FoAD6rAcrNneIagc8+c9Ogiyu06ictKBmZExaCThaXVrVCeZW1iWgchjAZrhjugnR0dW3u/+R+d6E6mxF8cLCwtDD57YYO3UzaeFzgu7tqHb7/3gbWkdhf8Wv0xQMPSgiYVmQENIVUSGTRpP3E+sdUSMy+eWJ3Q0DWxGulxz+JqJysfbZnJIwVZmNUif2oAlexfHF2yPDSBB6tL2+3RakBFnyg7ZDFtylL+jFeElbjs8J6gZ+T2bafndBvfkEbgU6CbCMlHJvJyy6rtvkxWkn89IllhB6ByAVpkBIyFRhWd+mhXc5VCY4WH36hYhtY/bKjrcNAg6x0FI++H+WVx7rfTtprpr1m0Jyo0RiZmUVv2Qrp58P47rRKl0WIp6WbmbL9rh5sSJYTGYheEhkfQ8IDxxO4FGnO6Oq4KKFd5k/APLwThSe7tBV8yg=="
+    },
+    "home": {
+        "title": "最新上架",
+        "url": "/new_coc.html",
+        "parse": "home_parse",
+        "cacheAge": "1h"
+    },
+    "tag": {
+        "title": "分类",
+        "method": "GET",
+        "parse": "tag_parse",
+        "startPage": 0,
+        "addPage": 1,
+        "cacheAge": "1h",
+        "items": [
+            {
+                "group": "类型",
+                "title": "热血",
+                "url": "/rexue/index_@page.html"
+            },
+            {
+                "group": "类型",
+                "title": "科幻",
+                "url": "/kehuan/index_@page.html"
+            },
+            {
+                "group": "类型",
+                "title": "恐怖",
+                "url": "/kongbu/index_@page.html"
+            },
+            {
+                "group": "类型",
+                "title": "悬疑",
+                "url": "/xuanyi/index_@page.html"
+            },
+            {
+                "group": "类型",
+                "title": "搞笑",
+                "url": "/gaoxiao/index_@page.html"
+            },
+            {
+                "group": "类型",
+                "title": "恋爱",
+                "url": "/love/index_@page.html"
+            },
+            {
+                "group": "类型",
+                "title": "耽美",
+                "url": "/danmei/index_@page.html"
+            }
+        ]
+    },
+    "search": {
+        "title": "搜索",
+        "url": "https://so.77mh.xyz/k.php?k=@key&p=@page&type=2-0-0-0",
+        "parse": "search_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "cacheAge": "1h"
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "cacheAge": "1h"
+    },
+    "openSource": false
+}
