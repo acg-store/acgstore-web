@@ -1,0 +1,46 @@
+{
+    "sid": "56d25d21-be27-4000-8091-061b8be03db2",
+    "name": "双辞动漫",
+    "info": "高清动漫",
+    "baseUrl": "https://www.scfun.net/",
+    "engine": 24,
+    "type": 2,
+    "imgMode": 2,
+    "http2": false,
+    "grade": 2,
+    "version": "1.0.0",
+    "author": {
+        "name": "静静",
+        "info": "我是静静",
+        "contact": "@qq.com"
+    },
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio",
+                "version": 0
+            }
+        ],
+        "code": "CmZ1bmN0aW9uIGhvbWVfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICB2YXIgbGlzdCA9IFtdOwogICAgbGV0ICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICAkKCcubW9kdWxlLW1haW4gPiAubW9kdWxlLWl0ZW1zJykuZmlyc3QoKS5jaGlsZHJlbignYScpLmVhY2goZnVuY3Rpb24oaSwgZSkgewogICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICBsaXN0LnB1c2goewogICAgICAgICAgICB0aXRsZTogc2VsZi5hdHRyKCd0aXRsZScpLAogICAgICAgICAgICAvLyDmoIfpopgKICAgICAgICAgICAgY292ZXI6IHNlbGYuZmluZCgnaW1nJykuZmlyc3QoKS5hdHRyKCdkYXRhLW9yaWdpbmFsJyksCiAgICAgICAgICAgIC8vIOWwgemdogogICAgICAgICAgICBsaW5rOiBzZWxmLmF0dHIoJ2hyZWYnKSwKICAgICAgICAgICAgLy8g6ZO+5o6lCiAgICAgICAgICAgIGluZm86IHNlbGYuZmluZCgnLm1vZHVsZS1pdGVtLW5vdGUnKS50ZXh0KCksCiAgICAgICAgICAgIC8vIOeugOS7iwogICAgICAgIH0pOwogICAgfSk7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KZnVuY3Rpb24gc2VhcmNoX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgdmFyIGxpc3QgPSBbXTsKICAgIGxldCAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgJCgnLm1vZHVsZS1pdGVtcyA+IGRpdicpLmVhY2goZnVuY3Rpb24oaSwgZSkgewogICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICBsaXN0LnB1c2goewogICAgICAgICAgICB0aXRsZTogc2VsZi5maW5kKCcubW9kdWxlLWNhcmQtaXRlbS10aXRsZScpLnRleHQoKS50cmltKCksCiAgICAgICAgICAgIC8vIOagh+mimAogICAgICAgICAgICBjb3Zlcjogc2VsZi5maW5kKCdpbWcnKS5hdHRyKCdkYXRhLW9yaWdpbmFsJykudHJpbSgpLAogICAgICAgICAgICAvLyDlsIHpnaIKICAgICAgICAgICAgbGluazogc2VsZi5jaGlsZHJlbignYScpLmF0dHIoJ2hyZWYnKSwKICAgICAgICAgICAgLy8g6ZO+5o6lCiAgICAgICAgICAgIGluZm86IHNlbGYuZmluZCgnLm1vZHVsZS1pbmZvLWl0ZW0nKS5maXJzdCgpLnRleHQoKSwKICAgICAgICB9KTsKICAgIH0pOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CmZ1bmN0aW9uIGJvb2tfcGFyc2UodXJsLCBodG1sKSB7CiAgICB2YXIgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBib29rID0gewogICAgICAgIGluZm86ICQoJy5tb2R1bGUtaW5mby1pbnRyb2R1Y3Rpb24tY29udGVudCcpLnRleHQoKSwKICAgICAgICAvLyDnroDku4sKICAgIH0KICAgIC8vIOebruW9lee7k+aehCB7IuebruW9lTEiOlt7dGl0bGU6IueroOiKgjEiLGxpbms6ImxpbmsxIn1dLCLnm67lvZUyIjpbe3RpdGxlOiLnq6DoioIxIixsaW5rOiJsaW5rMSJ9XX0KICAgIHZhciBtYXAgPSBuZXcgTWFwKCk7CiAgICAkKCcubW9kdWxlLXRhYi1pdGVtLnRhYi1pdGVtJykuZWFjaChmdW5jdGlvbihpLCBlKSB7CiAgICAgICAgdmFyIHNlY3Rpb25zID0gW107CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgICQoJy5tb2R1bGUtbGlzdCcpLmVxKGkpLmZpbmQoJ2EnKS5lYWNoKGZ1bmN0aW9uKGosIGYpIHsKICAgICAgICAgICAgc2VjdGlvbnMucHVzaCh7CiAgICAgICAgICAgICAgICBsaW5rOiAkKHRoaXMpLmF0dHIoJ2hyZWYnKSwKICAgICAgICAgICAgICAgIC8vIOeroOiKgumTvuaOpQogICAgICAgICAgICAgICAgdGl0bGU6ICQodGhpcykudGV4dCgpLnRyaW0oKSwKICAgICAgICAgICAgICAgIC8vIOeroOiKguagh+mimAogICAgICAgICAgICB9KTsKICAgICAgICB9KTsKICAgICAgICBtYXBbc2VsZi5hdHRyKCdkYXRhLWRyb3Bkb3duLXZhbHVlJyldID0gc2VjdGlvbnM7CiAgICB9KTsKICAgIGJvb2suc2VjdGlvbnMgPSBtYXA7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoYm9vayk7Cn0KZnVuY3Rpb24gY29udGVudF9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIGxldCBkYXRhID0gSlNPTi5wYXJzZShodG1sKTsKICAgIGlmIChkYXRhLnJlc291cmNlID09IG51bGwgfHwgZGF0YS5yZXNvdXJjZS5sZW5ndGggPD0gMCkgewogICAgICAgIHJldHVybiAiRVJST1I65rKh5pyJ5ZeF5o6i5Yiw6LWE5rqQIjsKICAgIH0KICAgIHJldHVybiBKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgbWltZTogInZpZGVvLyoiLAogICAgICAgIGxpbms6IGRhdGEucmVzb3VyY2VbMF0ubGluawogICAgfSk7Cn0="
+    },
+    "home": {
+        "title": "今日更新",
+        "url": "/label/new.html",
+        "parse": "home_parse"
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/search/wd/@key/page/@page.html",
+        "parse": "search_parse"
+    },
+    "book": {
+        "title": "详情",
+        "parse": "book_parse"
+    },
+    "details": {
+        "title": "嗅探",
+        "parse": "content_parse",
+        "sniff": true,
+        "sniffFilters": "\\.mp4|\\.m3u8"
+    }
+}
