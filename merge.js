@@ -90,7 +90,7 @@ function connectDiv(site, link) {
                 </div>
                 <p class="site-desc van-multi-ellipsis--l3">${site.info}</p>
                 <p>
-                    <van-button style="width: 120px" type="primary" url="${link}" target="_blank">导入</van-button>
+                    <van-button style="width: 120px" type="primary" ${site.disable ? "disabled" : ""} url="${link}" target="_blank">导入</van-button>
                 </p>
             </div>
         </van-grid-item>`;
