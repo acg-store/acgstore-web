@@ -6,6 +6,10 @@ function getHost() {
     return host;
 }
 
+function wrapImage(image) {
+    return `${image}@@headers={"referer":"${this.baseUrl}","user-agent":"USER_AGENT","protocol":"h2"}`;
+}
+
 function home_build_url(url, page) {
     let host = getHost();
     return `https://api.${host}/api/v3/ranks?type=1&date_type=day&offset=` + (page * 21) + "&limit=21&_update=true";
@@ -45,13 +49,13 @@ function tag_build_url(url, page, key) {
 }
 
 function home_parse(url, html) {
-    var data = JSON.parse(html); 
+    var data = JSON.parse(html);
     let host = getHost();
     if (data && data.code == 200) {
         var list = data.results.list.map((comic) => {
             return {
                 title: comic.comic.name,
-                cover: comic.comic.cover,
+                cover: wrapImage(comic.comic.cover),
                 link: `https://api.${host}/api/v3/comic2/` + comic.comic.path_word + '?platform=1',
             }
         });
@@ -68,7 +72,7 @@ function search_parse(url, html) {
         var list = data.results.list.map((comic) => {
             return {
                 title: comic.name,
-                cover: comic.cover,
+                cover: wrapImage(comic.cover),
                 link: `https://api.${host}/api/v3/comic2/` + comic.path_word + '?platform=1',
                 info: '原名：' + comic.orig_name + '\n' + '状态：' + comic.status
             }
@@ -86,9 +90,9 @@ function tag_parse(url, html) {
         var list = data.results.list.map((comic) => {
             return {
                 title: comic.name,
-                cover: comic.cover,
+                cover: wrapImage(comic.cover),
                 link: `https://api.${host}/api/v3/comic2/` + comic.path_word + '?platform=1',
-                info: '更新时间' + comic.datetime_updated 
+                info: '更新时间' + comic.datetime_updated
             }
         });
         return JSON.stringify(list);
@@ -105,10 +109,9 @@ function book_parse(url, html) {
         for (var p in data.results.groups) {
             sectionLink.push(`https://api.${host}/api/v3/comic/` + data.results.comic.path_word + '/group/' + data.results.groups[p].path_word + '/chapters?limit=500&offset=0');
         }
-        console.log(sectionLink);
         return JSON.stringify({
             title: data.results.comic.name,
-            cover: data.results.comic.cover,
+            cover: wrapImage(data.results.comic.cover),
             info: data.results.comic.brief,
             updateTime: data.results.comic.datetime_updated,
             sectionLink: sectionLink,
@@ -143,7 +146,7 @@ function details_parse(url, html) {
     var data = JSON.parse(html);
     if (data && data.code == 200) {
         var list = data.results.chapter.contents.map((content) => {
-            return content.url
+            return wrapImage(content.url);
         });
         return JSON.stringify({ images: list });
     } else {
