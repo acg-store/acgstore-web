@@ -62,7 +62,10 @@ function book_parse(url, html, headers) {
 function details_parse(url, html, headers) {
     let $ = cheerio.load(html);
     var details = {
-        images: []
+        images: [],
+        headers:{
+            referer: 'https://cn.webmota.com/',
+        },
     };
 
     $('.comic-contain').find('amp-img').each(function (e, i) {
@@ -75,7 +78,6 @@ function details_parse(url, html, headers) {
     if (nextPage.text().indexOf('下一页') != -1) {
         details.nextPageLink = nextPage.attr('href');
     }
-
 
     return JSON.stringify(details);
 }

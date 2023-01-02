@@ -51,7 +51,7 @@ function chapter_parse(url, html, headers, lastResult) {
 function details_parse(url, html, headers) {
     var details = {
         type: "text",
-        contents: xpath.query1('//*[@id="txtContent"]/text()', html).split('　　')
+        contents: xpath.query1('//*[@id="txtContent"]/text()', html).split('　　').map((t) => t.trim())
     };
     return JSON.stringify(details);
 }

@@ -52,7 +52,7 @@ function chapter_parse(url, html, headers, lastResult) {
 function details_parse(url, html, headers) {
     var details = {
         type: "text",
-        contents: xpath.query1('//*[@id="content"]/text()', html).split('\n').filter((t) => t != '')
+        contents: xpath.query1('//*[@id="content"]/text()', html).split('\n').filter((t) => t != '').map((t) => t.trim())
     };
     return JSON.stringify(details);
 }
