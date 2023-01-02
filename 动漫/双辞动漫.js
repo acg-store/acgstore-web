@@ -71,6 +71,6 @@ function content_parse(url, html, headers) {
     }
     return JSON.stringify({
         mime: "video/*",
-        link: link
+        link: link.replace('https://play.nyafun.net/?url=','')
     });
 }
