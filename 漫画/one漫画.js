@@ -7,7 +7,7 @@ function home_parse(url, html) {
         var aggregate = {};
         var a = self.children('a').first();
         aggregate.title = self.children('a.fed-list-title').first().text();
-        aggregate.cover = `${a.attr('data-original')}@@headers={"referer":"https://www.cocomanga.com","user-agent":"USER_AGENT","protocol":"h2"}`;
+        aggregate.cover = `${a.attr('data-original')}@@headers={"referer":"https://www.colamanhua.com","user-agent":"USER_AGENT","protocol":"h2"}`;
         aggregate.link = a.attr('href') + '/';
         aggregate.info = self.find('.fed-list-remarks').text();
         aggregate.updateTime = self.children('span').text().replace(/\s+/g, '');
@@ -23,7 +23,7 @@ function search_parse(url, html) {
         var aggregate = {};
         var a = self.find('a').first();
         aggregate.title = self.find('h1').first().text();
-        aggregate.cover = a.attr('data-original') + '@@headers={"referer":"https://www.cocomanga.com","user-agent":"USER_AGENT","protocol":"h2"}';
+        aggregate.cover = a.attr('data-original') + '@@headers={"referer":"https://www.colamanhua.com","user-agent":"USER_AGENT","protocol":"h2"}';
         aggregate.link = a.attr('href') + '/';
         aggregate.info = self.find('.fed-part-rows li').eq(1).text();
         list.push(aggregate);
@@ -35,7 +35,7 @@ function book_parse(url, html) {
     var book = {};
     var top = $('.fed-deta-info.fed-margin.fed-part-rows.fed-part-over');
     book.title = top.find('.fed-part-eone.fed-font-xvi').first().text();
-    book.cover = top.find('.fed-list-pics.fed-lazy.fed-part-2by3').first().attr('data-original') + '@@headers={"referer":"https://www.cocomanga.com","user-agent":"USER_AGENT","protocol":"h2"}';
+    book.cover = top.find('.fed-list-pics.fed-lazy.fed-part-2by3').first().attr('data-original') + '@@headers={"referer":"https://www.colamanhua.com","user-agent":"USER_AGENT","protocol":"h2"}';
     book.info = '';
     top.find('.fed-part-rows li').each(function (i, e) {
         book.info += $(this).children('.fed-text-muted').text().replace(/\s+/g, '') + ':' + $(this).children('a').text() + '\n';
