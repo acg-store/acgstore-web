@@ -55,8 +55,8 @@ function book_parse(url, html, headers) {
         book.comments.push({
             nickName: self.find('.author').text(),
             avatar: self.find('.avatar').attr('style').match(/url\((.*?)\)/i)[1],
-            content: self.find('.text-muted').first().text(),
-            date: self.find('.text-muted').last().text(),
+            content: self.find('.text-muted').last().text(),
+            date: self.find('.text-muted').first().text(),
         });
     });
     return JSON.stringify(book);
