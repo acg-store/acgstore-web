@@ -27,6 +27,7 @@ async function details_parse(url, html, headers) {
     return JSON.stringify({
         mime: 'audio/*',
         link: link,
+        cover: 'https://bkimg.cdn.bcebos.com/pic/72f082025aafa40f4bfb3e49b82d144f78f0f736b344',
         artist: $('.taglist > a').first().text(),
     });
 
