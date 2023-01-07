@@ -1,1 +1,50 @@
-{"sid":"247884c3-5a90-426b-a43f-6bb240dd1629","name":"musicenc","logo":"","info":"音乐搜索，在线播放","baseUrl":"https://www.musicenc.com/","type":8,"grade":1,"needProxy":false,"encode":"UTF-8","userAgent":"","version":"1.0.1","openSource":true,"engine":23,"imgMode":0,"author":{"name":"静静","info":"我是静静","contact":"群里联系"},"script":{"requires":[{"lib":"cheerio"},{"lib":"base64"}],"code":"CgpmdW5jdGlvbiBzZWFyY2hfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICB2YXIgbGlzdCA9IFtdOwogICAgbGV0ICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICAkKCcubGlzdCA+IGxpJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiAkKHRoaXMpLmNoaWxkcmVuKCdhJykudGV4dCgpLAogICAgICAgICAgICBpbmZvOiAkKHRoaXMpLmNoaWxkcmVuKCdzcGFuJykudGV4dCgpLAogICAgICAgICAgICBsaW5rOiBgaHR0cHM6Ly93d3cubXVzaWNlbmMuY29tL3NlYXJjaHIvP3Rva2VuPSR7JCh0aGlzKS5jaGlsZHJlbignYScpLmF0dHIoJ2RhdGVzJyl9YCwKICAgICAgICB9KQogICAgfSk7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCmFzeW5jIGZ1bmN0aW9uIGRldGFpbHNfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBsaW5rID0gJCgnLmRvd25idXR0ID4gYScpLmF0dHIoJ2hyZWYnKTsKCiAgICBpZiAobGluay5zdGFydHNXaXRoKCdodHRwJykpIHsKICAgICAgICBsaW5rID0gYXdhaXQgZihsaW5rKTsKICAgIH0gZWxzZSB7CiAgICAgICAgbGluayA9IEJhc2U2NC5kZWNvZGUobGluay5tYXRjaCgvdHBzXCgnKC4qPyknXCkvaSlbMV0pOwogICAgfQoKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoewogICAgICAgIG1pbWU6ICdhdWRpby8qJywKICAgICAgICBsaW5rOiBsaW5rLAogICAgICAgIGNvdmVyOiAnaHR0cHM6Ly9ia2ltZy5jZG4uYmNlYm9zLmNvbS9waWMvNzJmMDgyMDI1YWFmYTQwZjRiZmIzZTQ5YjgyZDE0NGY3OGYwZjczNmIzNDQnLAogICAgICAgIGFydGlzdDogJCgnLnRhZ2xpc3QgPiBhJykuZmlyc3QoKS50ZXh0KCksCiAgICB9KTsKCn0KCmFzeW5jIGZ1bmN0aW9uIGYobGluaykgewogICAgbGV0IHJlc3AgPSBhd2FpdCBmZXRjaChsaW5rLCB7CiAgICAgICAgImhlYWRlcnMiOiB7ICJyZWZlcmVyIjogbGluayB9LAogICAgICAgICJtZXRob2QiOiAiR0VUIgogICAgfSk7CiAgICBsZXQgaHRtbCA9IGF3YWl0IHJlc3AudGV4dCgpOwogICAgbGV0ICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICB2YXIgc2NyaXB0ID0gJCgnc2NyaXB0JykuZmlsdGVyKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgcmV0dXJuICQoZSkudGV4dCgpLnRyaW0oKS5zdGFydHNXaXRoKCd2YXIgaW1ncycpOwogICAgfSk7CgogICAgZXZhbChzY3JpcHQudGV4dCgpKTsKICAgIGxldCBtcDNMaW5rID0gQmFzZTY0LmRlY29kZShwaWNzKTsKCiAgICBsZXQgbXAzUmVzcCA9IGF3YWl0IGZldGNoKG1wM0xpbmssIHsKICAgICAgICAiaGVhZGVycyI6IHsgInJlZmVyZXIiOiBsaW5rIH0sCiAgICAgICAgIm1ldGhvZCI6ICJHRVQiCiAgICB9KTsKICAgIHJldHVybiBtcDNSZXNwLnRleHQoKTsKfQ=="},"home":{"title":"首页","url":"/?search=%E5%91%A8%E6%9D%B0%E4%BC%A6","method":"GET","parse":"search_parse","cacheAge":"8h"},"search":{"title":"搜索","url":"/?search=@key","parse":"search_parse","cacheAge":"8h"},"details":{"title":"内容","parse":"details_parse","cacheAge":"1h"}}
+{
+    "sid": "247884c3-5a90-426b-a43f-6bb240dd1629",
+    "name": "musicenc",
+    "logo": "",
+    "info": "音乐搜索，在线播放",
+    "baseUrl": "https://www.musicenc.com/",
+    "type": 8,
+    "grade": 1,
+    "needProxy": false,
+    "encode": "UTF-8",
+    "userAgent": "",
+    "version": "1.0.2",
+    "openSource": true,
+    "engine": 25,
+    "imgMode": 0,
+    "author": {
+        "name": "静静",
+        "info": "我是静静",
+        "contact": "群里联系"
+    },
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            },
+            {
+                "lib": "base64"
+            }
+        ],
+        "code": "CgpmdW5jdGlvbiBzZWFyY2hfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICB2YXIgbGlzdCA9IFtdOwogICAgbGV0ICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICAkKCcubGlzdCA+IGxpJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiAkKHRoaXMpLmNoaWxkcmVuKCdhJykudGV4dCgpLAogICAgICAgICAgICBpbmZvOiAkKHRoaXMpLmNoaWxkcmVuKCdzcGFuJykudGV4dCgpLAogICAgICAgICAgICBsaW5rOiBgaHR0cHM6Ly93d3cubXVzaWNlbmMuY29tL3NlYXJjaHIvP3Rva2VuPSR7JCh0aGlzKS5jaGlsZHJlbignYScpLmF0dHIoJ2RhdGVzJyl9YCwKICAgICAgICB9KQogICAgfSk7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCmFzeW5jIGZ1bmN0aW9uIGRldGFpbHNfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBsaW5rID0gJCgnLmRvd25idXR0ID4gYScpLmF0dHIoJ2hyZWYnKTsKCiAgICBpZiAobGluay5zdGFydHNXaXRoKCdodHRwJykpIHsKICAgICAgICBsaW5rID0gYXdhaXQgZihsaW5rKTsKICAgIH0gZWxzZSB7CiAgICAgICAgbGluayA9IEJhc2U2NC5kZWNvZGUobGluay5tYXRjaCgvdHBzXCgnKC4qPyknXCkvaSlbMV0pOwogICAgfQoKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoewogICAgICAgIG1pbWU6ICdhdWRpby8qJywKICAgICAgICBsaW5rOiBsaW5rLAogICAgICAgIGNvdmVyOiAnaHR0cHM6Ly9ia2ltZy5jZG4uYmNlYm9zLmNvbS9waWMvNzJmMDgyMDI1YWFmYTQwZjRiZmIzZTQ5YjgyZDE0NGY3OGYwZjczNmIzNDQnLAogICAgICAgIGFydGlzdDogJCgnLnRhZ2xpc3QgPiBhJykuZmlyc3QoKS50ZXh0KCksCiAgICB9KTsKCn0KCmFzeW5jIGZ1bmN0aW9uIGYobGluaykgewogICAgbGV0IHJlc3AgPSBhd2FpdCBmZXRjaChsaW5rLCB7CiAgICAgICAgImhlYWRlcnMiOiB7ICJyZWZlcmVyIjogbGluayB9LAogICAgICAgICJtZXRob2QiOiAiR0VUIgogICAgfSk7CiAgICBsZXQgaHRtbCA9IGF3YWl0IHJlc3AudGV4dCgpOwogICAgbGV0ICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICB2YXIgc2NyaXB0ID0gJCgnc2NyaXB0JykuZmlsdGVyKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgcmV0dXJuICQoZSkudGV4dCgpLnRyaW0oKS5zdGFydHNXaXRoKCd2YXIgaW1ncycpOwogICAgfSk7CgogICAgZXZhbChzY3JpcHQudGV4dCgpKTsKICAgIGxldCBtcDNMaW5rID0gQmFzZTY0LmRlY29kZShwaWNzKTsKCiAgICBsZXQgbXAzUmVzcCA9IGF3YWl0IGZldGNoKG1wM0xpbmssIHsKICAgICAgICAiaGVhZGVycyI6IHsgInJlZmVyZXIiOiBsaW5rIH0sCiAgICAgICAgIm1ldGhvZCI6ICJHRVQiCiAgICB9KTsKICAgIHJldHVybiBtcDNSZXNwLnRleHQoKTsKfQ=="
+    },
+    "home": {
+        "title": "首页",
+        "url": "/?search=%E5%91%A8%E6%9D%B0%E4%BC%A6",
+        "method": "GET",
+        "parse": "search_parse",
+        "cacheAge": "8h"
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/?search=@key",
+        "parse": "search_parse",
+        "cacheAge": "8h"
+    },
+    "details": {
+        "title": "内容",
+        "parse": "details_parse",
+        "cacheAge": "1h"
+    }
+}

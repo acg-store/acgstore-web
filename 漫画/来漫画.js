@@ -21,18 +21,18 @@ function home_parse(url, html) {
     return JSON.stringify(list);
 }
 
+// function search_parse(url, html, headers) {
+
+//     let link = 'https://www.laimanhua.net/e/search/result/?searchid=' + html.match(/searchid=(.*?)"/i)[1];
+
+//     return JSON.stringify([{ "link": link }]);
+// }
+
+// function search_add_build_url(url, lastResult) {
+//     return JSON.parse(lastResult)[0].link;
+// }
+
 function search_parse(url, html, headers) {
-
-    let link = 'https://www.laimanhua.net/e/search/result/?searchid=' + html.match(/searchid=(.*?)"/i)[1];
-
-    return JSON.stringify([{ "link": link }]);
-}
-
-function search_add_build_url(url, lastResult) {
-    return JSON.parse(lastResult)[0].link;
-}
-
-function search_add_parse(url, html, headers) {
     var $ = cheerio.load(html);
     var list = [];
     $('.dmList.clearfix').find('li').each(function (i, e) {
