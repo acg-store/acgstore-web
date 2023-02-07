@@ -24,11 +24,28 @@ async function details_parse(url, html, headers) {
     }
 
 
+    var script = $('script').filter(function (i, e) {
+        return $(e).text().trim().startsWith('var imgs');
+    });
+    console.log(script.text());
+    eval(script.text());
+
+    let lrcUrl = Base64.decode(lrc) + lr + "&t=lrc&q=" + domtitle;
+
+    let header = JSON.parse(headers);
+    
+    let resp = await fetch(lrcUrl, {
+        "headers": header.request,
+        "method": "GET"
+    });
+    let lrcStr = await resp.text();
+
     return JSON.stringify({
         mime: 'audio/*',
         link: link,
         cover: 'https://bkimg.cdn.bcebos.com/pic/72f082025aafa40f4bfb3e49b82d144f78f0f736b344',
         artist: $('.taglist > a').first().text(),
+        lrc: lrcStr.replace(/\n/g, '\\n'),
     });
 
 }
