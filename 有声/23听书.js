@@ -1,7 +1,6 @@
 function home_parse(url, html, headers) {
     var list = [];
     let $ = cheerio.load(html);
-
     $('.gengxin').children('li').each(function (i, e) {
         var self = $(this);
         list.push({
@@ -75,10 +74,10 @@ function audio_info_parse(url, html, headers, lastResult) {
         return $(e).text().trim().startsWith('var');
     });
     var code = script.text().trim();
-    code = code.substr(0, code.indexOf('function')-1);
+    code = code.substr(0, code.indexOf('function') - 1);
     console.log(code);
     eval(code);
-    
+
     let temp = html.match(/mp3:(.*?)\n/)[1];
     console.log(temp)
     eval(`var newlink = ${temp}`);
