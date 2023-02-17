@@ -56,10 +56,11 @@ function book_parse(url, html, headers) {
 function details_parse(url, html, headers) {
     var $ = cheerio.load(html);
     var script = $('script').filter(function (i, e) {
-        return $(e).text().trim().startsWith('var player_data');
+        return $(e).text().trim().startsWith('var player_');
     });
     let code = script.text();
     eval(code);
+    let player_data = player_aaaa;
     if (!player_data) {
         return "ERROR:获取资源失败";
     }
