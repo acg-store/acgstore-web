@@ -60,9 +60,14 @@ function details_parse(url, html, headers) {
     });
     let code = script.text();
     eval(code);
-    let player_data = player_aaaa;
-    if (!player_data) {
+    var url;
+    if (typeof (player_data) == "undefined" || player_data == null) {
+        url = player_aaaa.url;
+    } else {
+        url = player_data.url;
+    }
+    if (!url) {
         return "ERROR:获取资源失败";
     }
-    return JSON.stringify({ mime: "video/*", link: player_data.url });
+    return JSON.stringify({ mime: "video/*", link: url });
 }
