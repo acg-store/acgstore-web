@@ -61,11 +61,13 @@ function details_parse(url, html, headers) {
     let code = script.text();
     eval(code);
     var url;
+
     if (typeof (player_data) == "undefined" || player_data == null) {
         url = player_aaaa.url;
     } else {
         url = player_data.url;
     }
+
     if (!url) {
         return "ERROR:获取资源失败";
     }
