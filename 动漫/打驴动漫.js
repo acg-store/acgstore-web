@@ -1,44 +1,29 @@
 function home_parse(url, html, headers) {
     var list = [];
     let $ = cheerio.load(html);
-    $('.hl-rank-list').children('li').each(function (i, e) {
+    $('.public-list-box').each(function (i, e) {
         var self = $(this);
         list.push({
-            title: self.children('a').first().attr('title'),
-            link: self.children('a').first().attr('href'),
-            cover: self.find('.hl-item-thumb').first().attr('data-original'),
-            info: self.find('.hl-text-subs').first().text().replace('/',''),
-            updateTime: self.find('.hl-item-time span').first().text(),
+            title: self.find('a').first().attr('title'),
+            link: self.find('a').first().attr('href'),
+            cover: self.find('a').first().children('div').first().attr('data-original'),
+            info: self.find('.public-list-subtitle').first().text(),
         });
     });
     return JSON.stringify(list);
 }
 
-function tag_parse(url, html, headers) {
-    var list = [];
-    let $ = cheerio.load(html);
-    $('ul.hl-vod-list').children('li').each(function (i, e) {
-        var self = $(this);
-        list.push({
-            title: self.children('.hl-item-thumb').first().attr('title'),
-            link: self.children('.hl-item-thumb').first().attr('href'),
-            cover: self.children('.hl-item-thumb').first().attr('data-original'),
-            info: self.find('.hl-item-text > .hl-item-sub').text()
-        });
-    });
-    return JSON.stringify(list);
-}
 
 function search_parse(url, html, headers) {
     var list = [];
     let $ = cheerio.load(html);
-    $('ul.hl-one-list').children('li').each(function (i, e) {
+    $('.search-box').each(function (i, e) {
         var self = $(this);
         list.push({
-            title: self.find('.hl-item-thumb').first().attr('title'),
-            link: self.find('.hl-item-thumb').first().attr('href'),
-            cover: self.find('.hl-item-thumb').first().attr('data-original'),
-            info: self.find('.hl-item-content > p').eq(2).text()
+            title: self.find('.thumb-txt.cor4').text(),
+            link: self.find('.thumb-menu > a').attr('href'),
+            cover: self.children('.cover').first().attr('style').match(/url\((.*?)\)/i)[1],
+            info: self.find('.thumb-blurb').text()
         });
     });
     return JSON.stringify(list);
@@ -48,21 +33,18 @@ function search_parse(url, html, headers) {
 function book_parse(url, html, headers) {
     var $ = cheerio.load(html);
     var book = {
-        title: $('.hl-dc-title').text(),
-        cover: $('.hl-item-thumb').attr('data-original'),
-        info: xpath.query1('//*[@id="conch-content"]/div[1]/div/div/div/div[1]/div/div[2]/div[2]/div[1]/div[2]/ul/li[12]/text()',html),
-        updateTime: xpath.query1('//*[@id="conch-content"]/div[1]/div/div/div/div[1]/div/div[2]/div[2]/div[1]/div[2]/ul/li[11]/text()',html),
+        info: $('#height_limit').text(),
     };
     var map = new Map();
-    $('.hl-plays-from').children('a').each(function (i, e) {
+    $('.swiper-wrapper').children('a').each(function (i, e) {
         var sections = [];
-        $(`.hl-tabs-box`).eq(i).find('li').each(function (i, e) {
+        $(`.anthology-list-box`).eq(i).find('li').each(function (i, e) {
             sections.push({
                 title: $(this).children('a').text(),
                 link: $(this).children('a').attr('href'),
             });
         });
-        map[$(this).attr('alt')] = sections;
+        map[$(this).text().trim()] = sections;
     });
     book.sections = map;
     return JSON.stringify(book);
@@ -73,5 +55,5 @@ function details_parse(url, html, headers) {
     if (data.resource == null || data.resource.length == 0) {
         return "ERROR:没有嗅探到资源";
     }
-    return JSON.stringify({ mime: "video/*", link: data.resource[0].link});
+    return JSON.stringify({ mime: "video/*", link: data.resource[0].link });
 }
