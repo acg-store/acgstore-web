@@ -44,9 +44,11 @@ function details_parse(url, html, headers) {
         },
     };
 
-    $('img.lazyload').each(function (e, i) {
-        var self = $(this);
-        details.images.push(self.attr('data-src'));
+    $('noscript > img').each(function (e, i) {
+        let img = $(this).attr('src');
+        if (img.startsWith('http')) {
+            details.images.push(img);
+        }
     });
 
     return JSON.stringify(details);
