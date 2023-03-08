@@ -1,1 +1,74 @@
-{"sid":"f5ededdf-6a68-459b-a749-822a7d7d776f","name":"one漫画","logo":"","info":"One漫画，和Coco同源，使用浏览器方式加载，理论上不会失效。","baseUrl":"https://www.colamanhua.com/","type":1,"grade":6,"imgMode":2,"http2":true,"cloudflare":true,"engine":25,"author":{"name":"静静","info":"我是静静，App和轻应用有问题都可以联系我哦","contact":"1077674403","donateLink":["https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg","https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"]},"isOpenSource":false,"version":"1.0.4","script":{"requires":[{"lib":"cheerio","url":""},{"lib":"crypto","url":""},{"lib":"base64","url":""}],"code":"ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGxpc3QgPSBbXTsKICAgIGNvbnNvbGUubG9nKGh0bWwpOwogICAgJCgnLmZlZC1saXN0LWl0ZW0nKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIHZhciBhZ2dyZWdhdGUgPSB7fTsKICAgICAgICB2YXIgYSA9IHNlbGYuY2hpbGRyZW4oJ2EnKS5maXJzdCgpOwogICAgICAgIGFnZ3JlZ2F0ZS50aXRsZSA9IHNlbGYuY2hpbGRyZW4oJ2EuZmVkLWxpc3QtdGl0bGUnKS5maXJzdCgpLnRleHQoKTsKICAgICAgICBhZ2dyZWdhdGUuY292ZXIgPSBgJHthLmF0dHIoJ2RhdGEtb3JpZ2luYWwnKX1AQGhlYWRlcnM9eyJyZWZlcmVyIjoiaHR0cHM6Ly93d3cuY29sYW1hbmh1YS5jb20iLCJ1c2VyLWFnZW50IjoiVVNFUl9BR0VOVCIsInByb3RvY29sIjoiaDIifWA7CiAgICAgICAgYWdncmVnYXRlLmxpbmsgPSBhLmF0dHIoJ2hyZWYnKSArICcvJzsKICAgICAgICBhZ2dyZWdhdGUuaW5mbyA9IHNlbGYuZmluZCgnLmZlZC1saXN0LXJlbWFya3MnKS50ZXh0KCk7CiAgICAgICAgYWdncmVnYXRlLnVwZGF0ZVRpbWUgPSBzZWxmLmNoaWxkcmVuKCdzcGFuJykudGV4dCgpLnJlcGxhY2UoL1xzKy9nLCAnJyk7CiAgICAgICAgbGlzdC5wdXNoKGFnZ3JlZ2F0ZSk7CiAgICB9KTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShsaXN0KTsKfQpmdW5jdGlvbiBzZWFyY2hfcGFyc2UodXJsLCBodG1sKSB7CiAgICB2YXIgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBsaXN0ID0gW107CiAgICAkKCcuZmVkLWRldGEtaW5mby5mZWQtZGV0YS1wYWRkaW5nLmZlZC1saW5lLXRvcC5mZWQtbWFyZ2luLmZlZC1wYXJ0LXJvd3MuZmVkLXBhcnQtb3ZlcicpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgdmFyIGFnZ3JlZ2F0ZSA9IHt9OwogICAgICAgIHZhciBhID0gc2VsZi5maW5kKCdhJykuZmlyc3QoKTsKICAgICAgICBhZ2dyZWdhdGUudGl0bGUgPSBzZWxmLmZpbmQoJ2gxJykuZmlyc3QoKS50ZXh0KCk7CiAgICAgICAgYWdncmVnYXRlLmNvdmVyID0gYS5hdHRyKCdkYXRhLW9yaWdpbmFsJykgKyAnQEBoZWFkZXJzPXsicmVmZXJlciI6Imh0dHBzOi8vd3d3LmNvbGFtYW5odWEuY29tIiwidXNlci1hZ2VudCI6IlVTRVJfQUdFTlQiLCJwcm90b2NvbCI6ImgyIn0nOwogICAgICAgIGFnZ3JlZ2F0ZS5saW5rID0gYS5hdHRyKCdocmVmJykgKyAnLyc7CiAgICAgICAgYWdncmVnYXRlLmluZm8gPSBzZWxmLmZpbmQoJy5mZWQtcGFydC1yb3dzIGxpJykuZXEoMSkudGV4dCgpOwogICAgICAgIGxpc3QucHVzaChhZ2dyZWdhdGUpOwogICAgfSk7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KZnVuY3Rpb24gYm9va19wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGJvb2sgPSB7fTsKICAgIHZhciB0b3AgPSAkKCcuZmVkLWRldGEtaW5mby5mZWQtbWFyZ2luLmZlZC1wYXJ0LXJvd3MuZmVkLXBhcnQtb3ZlcicpOwogICAgYm9vay50aXRsZSA9IHRvcC5maW5kKCcuZmVkLXBhcnQtZW9uZS5mZWQtZm9udC14dmknKS5maXJzdCgpLnRleHQoKTsKICAgIGJvb2suY292ZXIgPSB0b3AuZmluZCgnLmZlZC1saXN0LXBpY3MuZmVkLWxhenkuZmVkLXBhcnQtMmJ5MycpLmZpcnN0KCkuYXR0cignZGF0YS1vcmlnaW5hbCcpICsgJ0BAaGVhZGVycz17InJlZmVyZXIiOiJodHRwczovL3d3dy5jb2xhbWFuaHVhLmNvbSIsInVzZXItYWdlbnQiOiJVU0VSX0FHRU5UIiwicHJvdG9jb2wiOiJoMiJ9JzsKICAgIGJvb2suaW5mbyA9ICcnOwogICAgdG9wLmZpbmQoJy5mZWQtcGFydC1yb3dzIGxpJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIGJvb2suaW5mbyArPSAkKHRoaXMpLmNoaWxkcmVuKCcuZmVkLXRleHQtbXV0ZWQnKS50ZXh0KCkucmVwbGFjZSgvXHMrL2csICcnKSArICc6JyArICQodGhpcykuY2hpbGRyZW4oJ2EnKS50ZXh0KCkgKyAnXG4nOwogICAgfSk7CiAgICB2YXIgbWFwID0gbmV3IE1hcCgpOwogICAgJCgnLmZlZC10YWJzLWJveHMnKS5maW5kKCcuZmVkLWRyb3AtYnRucy5mZWQtcGFkZGluZy5mZWQtY29sLXhzMy5mZWQtY29sLW1kMicpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VjdGlvbnMgPSBbXTsKICAgICAgICAkKCcuYWxsX2RhdGFfbGlzdCcpLmVxKGkpLmZpbmQoJ2EnKS5lYWNoKGZ1bmN0aW9uIChqLCBmKSB7CiAgICAgICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICAgICAgdmFyIHNlY3Rpb24gPSB7fTsKICAgICAgICAgICAgc2VjdGlvbi50aXRsZSA9IHNlbGYudGV4dCgpLnJlcGxhY2UoL1xzKy9nLCAnJyk7CiAgICAgICAgICAgIHNlY3Rpb24ubGluayA9IHNlbGYuYXR0cignaHJlZicpICsgJy8nOwogICAgICAgICAgICBzZWN0aW9ucy5wdXNoKHNlY3Rpb24pOwogICAgICAgIH0pOwogICAgICAgIG1hcFskKHRoaXMpLnRleHQoKS5yZXBsYWNlKC9ccysvZywgJycpXSA9IHNlY3Rpb25zOwogICAgfSk7CgogICAgYm9vay5zZWN0aW9ucyA9IG1hcDsKICAgIGJvb2suaXNTZWN0aW9uQXNjID0gMDsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShib29rKTsKfQoKCgpmdW5jdGlvbiBkZXRhaWxzX3BhcnNlKHVybCwgaHRtbCkgewogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHsKICAgICAgICB0eXBlOiAnd2VidmlldycsCiAgICAgICAgbGluazogdXJsLAogICAgICAgIGpzOiAiJCgnI21hbmdhbGlzdCcpLnNpYmxpbmdzKCkuaGlkZSgpIgogICAgfSkKfQo="},"home":{"title":"首页","url":"https://www.colamanhua.com/show?orderBy=update&page=@page","method":"GET","parse":"home_parse","startPage":1,"addPage":1,"imageMode":2,"cacheAge":"1h","requestType":1},"search":{"title":"搜索","url":"/search?searchString=@key&page=@page","method":"GET","parse":"search_parse","startPage":1,"addPage":1,"cacheAge":"1h"},"book":{"title":"详情","method":"GET","parse":"book_parse","cacheAge":"1h"},"details":{"title":"内容","method":"GET","parse":"details_parse","requestType":3}}
+{
+    "sid": "f5ededdf-6a68-459b-a749-822a7d7d776f",
+    "name": "one漫画",
+    "logo": "",
+    "info": "One漫画，和Coco同源，使用浏览器方式加载，理论上不会失效。",
+    "baseUrl": "https://www.colamanhua.com/",
+    "expr": "colamanhua\\.com",
+    "type": 1,
+    "grade": 6,
+    "imgMode": 2,
+    "http2": true,
+    "cloudflare": true,
+    "engine": 25,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "isOpenSource": false,
+    "version": "1.0.5",
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio",
+                "url": ""
+            },
+            {
+                "lib": "crypto",
+                "url": ""
+            },
+            {
+                "lib": "base64",
+                "url": ""
+            }
+        ],
+        "code": "ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGxpc3QgPSBbXTsKICAgIGNvbnNvbGUubG9nKGh0bWwpOwogICAgJCgnLmZlZC1saXN0LWl0ZW0nKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIHZhciBhZ2dyZWdhdGUgPSB7fTsKICAgICAgICB2YXIgYSA9IHNlbGYuY2hpbGRyZW4oJ2EnKS5maXJzdCgpOwogICAgICAgIGFnZ3JlZ2F0ZS50aXRsZSA9IHNlbGYuY2hpbGRyZW4oJ2EuZmVkLWxpc3QtdGl0bGUnKS5maXJzdCgpLnRleHQoKTsKICAgICAgICBhZ2dyZWdhdGUuY292ZXIgPSBgJHthLmF0dHIoJ2RhdGEtb3JpZ2luYWwnKX1AQGhlYWRlcnM9eyJyZWZlcmVyIjoiaHR0cHM6Ly93d3cuY29sYW1hbmh1YS5jb20iLCJ1c2VyLWFnZW50IjoiVVNFUl9BR0VOVCIsInByb3RvY29sIjoiaDIifWA7CiAgICAgICAgYWdncmVnYXRlLmxpbmsgPSBhLmF0dHIoJ2hyZWYnKSArICcvJzsKICAgICAgICBhZ2dyZWdhdGUuaW5mbyA9IHNlbGYuZmluZCgnLmZlZC1saXN0LXJlbWFya3MnKS50ZXh0KCk7CiAgICAgICAgYWdncmVnYXRlLnVwZGF0ZVRpbWUgPSBzZWxmLmNoaWxkcmVuKCdzcGFuJykudGV4dCgpLnJlcGxhY2UoL1xzKy9nLCAnJyk7CiAgICAgICAgbGlzdC5wdXNoKGFnZ3JlZ2F0ZSk7CiAgICB9KTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShsaXN0KTsKfQpmdW5jdGlvbiBzZWFyY2hfcGFyc2UodXJsLCBodG1sKSB7CiAgICB2YXIgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBsaXN0ID0gW107CiAgICAkKCcuZmVkLWRldGEtaW5mby5mZWQtZGV0YS1wYWRkaW5nLmZlZC1saW5lLXRvcC5mZWQtbWFyZ2luLmZlZC1wYXJ0LXJvd3MuZmVkLXBhcnQtb3ZlcicpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgdmFyIGFnZ3JlZ2F0ZSA9IHt9OwogICAgICAgIHZhciBhID0gc2VsZi5maW5kKCdhJykuZmlyc3QoKTsKICAgICAgICBhZ2dyZWdhdGUudGl0bGUgPSBzZWxmLmZpbmQoJ2gxJykuZmlyc3QoKS50ZXh0KCk7CiAgICAgICAgYWdncmVnYXRlLmNvdmVyID0gYS5hdHRyKCdkYXRhLW9yaWdpbmFsJykgKyAnQEBoZWFkZXJzPXsicmVmZXJlciI6Imh0dHBzOi8vd3d3LmNvbGFtYW5odWEuY29tIiwidXNlci1hZ2VudCI6IlVTRVJfQUdFTlQiLCJwcm90b2NvbCI6ImgyIn0nOwogICAgICAgIGFnZ3JlZ2F0ZS5saW5rID0gYS5hdHRyKCdocmVmJykgKyAnLyc7CiAgICAgICAgYWdncmVnYXRlLmluZm8gPSBzZWxmLmZpbmQoJy5mZWQtcGFydC1yb3dzIGxpJykuZXEoMSkudGV4dCgpOwogICAgICAgIGxpc3QucHVzaChhZ2dyZWdhdGUpOwogICAgfSk7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KZnVuY3Rpb24gYm9va19wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGJvb2sgPSB7fTsKICAgIHZhciB0b3AgPSAkKCcuZmVkLWRldGEtaW5mby5mZWQtbWFyZ2luLmZlZC1wYXJ0LXJvd3MuZmVkLXBhcnQtb3ZlcicpOwogICAgYm9vay50aXRsZSA9IHRvcC5maW5kKCcuZmVkLXBhcnQtZW9uZS5mZWQtZm9udC14dmknKS5maXJzdCgpLnRleHQoKTsKICAgIGJvb2suY292ZXIgPSB0b3AuZmluZCgnLmZlZC1saXN0LXBpY3MuZmVkLWxhenkuZmVkLXBhcnQtMmJ5MycpLmZpcnN0KCkuYXR0cignZGF0YS1vcmlnaW5hbCcpICsgJ0BAaGVhZGVycz17InJlZmVyZXIiOiJodHRwczovL3d3dy5jb2xhbWFuaHVhLmNvbSIsInVzZXItYWdlbnQiOiJVU0VSX0FHRU5UIiwicHJvdG9jb2wiOiJoMiJ9JzsKICAgIGJvb2suaW5mbyA9ICcnOwogICAgdG9wLmZpbmQoJy5mZWQtcGFydC1yb3dzIGxpJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIGJvb2suaW5mbyArPSAkKHRoaXMpLmNoaWxkcmVuKCcuZmVkLXRleHQtbXV0ZWQnKS50ZXh0KCkucmVwbGFjZSgvXHMrL2csICcnKSArICc6JyArICQodGhpcykuY2hpbGRyZW4oJ2EnKS50ZXh0KCkgKyAnXG4nOwogICAgfSk7CiAgICB2YXIgbWFwID0gbmV3IE1hcCgpOwogICAgJCgnLmZlZC10YWJzLWJveHMnKS5maW5kKCcuZmVkLWRyb3AtYnRucy5mZWQtcGFkZGluZy5mZWQtY29sLXhzMy5mZWQtY29sLW1kMicpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VjdGlvbnMgPSBbXTsKICAgICAgICAkKCcuYWxsX2RhdGFfbGlzdCcpLmVxKGkpLmZpbmQoJ2EnKS5lYWNoKGZ1bmN0aW9uIChqLCBmKSB7CiAgICAgICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICAgICAgdmFyIHNlY3Rpb24gPSB7fTsKICAgICAgICAgICAgc2VjdGlvbi50aXRsZSA9IHNlbGYudGV4dCgpLnJlcGxhY2UoL1xzKy9nLCAnJyk7CiAgICAgICAgICAgIHNlY3Rpb24ubGluayA9IHNlbGYuYXR0cignaHJlZicpICsgJy8nOwogICAgICAgICAgICBzZWN0aW9ucy5wdXNoKHNlY3Rpb24pOwogICAgICAgIH0pOwogICAgICAgIG1hcFskKHRoaXMpLnRleHQoKS5yZXBsYWNlKC9ccysvZywgJycpXSA9IHNlY3Rpb25zOwogICAgfSk7CgogICAgYm9vay5zZWN0aW9ucyA9IG1hcDsKICAgIGJvb2suaXNTZWN0aW9uQXNjID0gMDsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShib29rKTsKfQoKCgpmdW5jdGlvbiBkZXRhaWxzX3BhcnNlKHVybCwgaHRtbCkgewogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHsKICAgICAgICB0eXBlOiAnd2VidmlldycsCiAgICAgICAgbGluazogdXJsLAogICAgICAgIGpzOiAiJCgnI21hbmdhbGlzdCcpLnNpYmxpbmdzKCkuaGlkZSgpIgogICAgfSkKfQo="
+    },
+    "home": {
+        "title": "首页",
+        "url": "https://www.colamanhua.com/show?orderBy=update&page=@page",
+        "method": "GET",
+        "parse": "home_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "imageMode": 2,
+        "cacheAge": "1h",
+        "requestType": 1
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/search?searchString=@key&page=@page",
+        "method": "GET",
+        "parse": "search_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "cacheAge": "1h"
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "requestType": 3
+    }
+}
