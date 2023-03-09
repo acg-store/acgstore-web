@@ -33,7 +33,7 @@ function book_parse(url, html) {
             var section = {};
             section.link = a.attr('href');
             section.title = a.text().trim();
-            if (section.title != '下拉式阅读'){
+            if (section.title != '下拉式阅读') {
                 sections.push(section);
             }
         });
@@ -47,16 +47,19 @@ function book_parse(url, html) {
 function details_parse(url, html) {
     var $ = cheerio.load(html);
     var details = {
-        otherPageLink:[],
+        otherPageLink: [],
+        headers: {
+            referer: "https://m.guoguomh.com/",
+        },
     };
     details.images = [$('#manga-image').attr("src")];
 
     var num = $('.image-content > p').last().text().split('/')[1];
     console.log(num);
 
-    for(var i = 2;i<=num;i++){
-        details.otherPageLink.push(url.replace('.html',`-${i}.html`));
+    for (var i = 2; i <= num; i++) {
+        details.otherPageLink.push(url.replace('.html', `-${i}.html`));
     }
-   
+
     return JSON.stringify(details);
 }
