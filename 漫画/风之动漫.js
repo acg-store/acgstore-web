@@ -6,7 +6,7 @@ function home_parse(url, html, headers) {
         if (link != null) {
             list.push({
                 title: $(this).children('a').text(),
-                link: 'https://manhua.fffdm.com/' + link[1] + '/',
+                link: link[1] + '/',
                 updateTime: $(this).children('.time').text(),
             });
         }
@@ -20,7 +20,7 @@ function tag_parse(url, html, headers) {
     $('#mhmain').find('.round').each(function (e, i) {
         list.push({
             title: $(this).find('a').last().text(),
-            link: 'https://manhua.fffdm.com/' + $(this).find('a').last().attr('href'),
+            link:  $(this).find('a').last().attr('href'),
         });
     });
     return JSON.stringify(list);
@@ -35,7 +35,7 @@ function book_parse(url, html, headers) {
         $('.pure-u-1-2.pure-u-lg-1-4').each(function (e, i) {
             sections.push({
                 title: $(this).children('a').attr('title'),
-                link: url + $(this).children('a').attr('href')
+                link: url.replace('.com/', '.com/api/manhua/') + $(this).children('a').attr('href').slice(0, -1)
             });
         });
         map['目录'] = sections;
@@ -48,23 +48,21 @@ function book_parse(url, html, headers) {
 }
 
 function details_parse(url, html, headers) {
-    let $ = cheerio.load(html);
+    let data = JSON.parse(html);
+
     var details = {
         images: [],
         headers: {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
         }
     };
-    var script = html.match(/var temps = .*?;/)[0];
-
-    eval(script);
+    
     var mhss = "";
     if (mhss == "" || mhss == "http://" || mhss == "https://") {
         mhss = "http://p1.fzacg.com";
     }
 
-    let temp = Base64.decode(temps);
-    let list = temp.split('\r\n');
+    let list = data.cont;
     list.forEach(mhurl => {
         if (mhurl.indexOf("2016") == -1 && mhurl.indexOf("2017") == -1 && mhurl.indexOf("2018") == -1 && mhurl.indexOf("2019") == -1 && mhurl.indexOf("2020") == -1 && mhurl.indexOf("2021") == -1) {
             mhss = "https://p5.fzacg.com";
