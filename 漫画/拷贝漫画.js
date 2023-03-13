@@ -2,6 +2,8 @@ function getHost() {
     var host = pref.get('线路地址');
     if (!host) {
         host = 'copymanga.site';
+    }else{
+        host = host.replace(/https?:\/\//, '');
     }
     return host;
 }
@@ -129,6 +131,7 @@ function sections_parse(url, html) {
         var groupName = '目录';
         var list = data.results.list.map((chapter) => {
             groupName = chapter.group_path_word;
+
             return {
                 title: chapter.name,
                 link: `https://api.${host}/api/v3/comic/` + chapter.comic_path_word + '/chapter/' + chapter.uuid + '?platform=1&_update=true'
