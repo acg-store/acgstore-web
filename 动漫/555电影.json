@@ -10,9 +10,9 @@
     "encode": "utf-8",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
     "style": 1,
-    "version": "1.1.0",
+    "version": "1.1.1",
     "isOpenSource": 1,
-    "engine": 21,
+    "engine": 23,
     "imgMode": 2,
     "login": {
         "link": "https://www.555dyy6.com/",

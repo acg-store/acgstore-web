@@ -3,13 +3,14 @@
     "name": "新新漫画",
     "logo": "",
     "info": "网友推荐，资源全，速度快，集齐漫画资源相当丰富，只有你想不到的，没有看不到的，每天更新百部漫画。",
-    "baseUrl": "https://www.77mh.xyz/",
-    "expr": "\\.77mh\\.(top|com|xyz)",
+    "baseUrl": "https://www.77mh.nl/",
+    "expr": "\\.77mh\\.(nl|top|com|xyz)",
     "type": 1,
     "grade": 8,
     "imgMode": 2,
     "encode": "utf-8",
-    "engine": 23,
+    "engine": 25,
+    "http2": false,
     "author": {
         "name": "静静",
         "info": "我是静静，App和轻应用有问题都可以联系我哦",
@@ -19,7 +20,7 @@
             "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
         ]
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "script": {
         "requires": [
             {
@@ -31,7 +32,16 @@
     "prefs": [
         {
             "key": "图片服务器",
-            "defaultValue": "4"
+            "defaultValue": "4",
+            "type": "radio",
+            "valueList": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
         }
     ],
     "home": {
@@ -87,7 +97,7 @@
     },
     "search": {
         "title": "搜索",
-        "url": "https://so.77mh.xyz/k.php?k=@key&p=@page&type=2-0-0-0",
+        "url": "https://so.77mh.nl/k.php?k=@key&p=@page&type=2-0-0-0",
         "parse": "search_parse",
         "startPage": 1,
         "addPage": 1,
