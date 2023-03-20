@@ -63,20 +63,16 @@ function book_parse(url, html) {
 
 function gethost() {
     var hosts = ["xwdf.kingwar.cn", "mhreswhm.kingwar.cn", "qwe123.kingwar.cn", "resmhpic.kingwar.cn", "reszxc.kingwar.cn"];
-    ddl = Math.round(Math.random() * 4);
-    realurlsj = "https://" + hosts[ddl];
-    return realurlsj;
+    var ddl = Math.round(Math.random() * 4);
+    return "https://" + hosts[ddl];
 }
 
-function getcurpic(chapterId, path,img) {
-    let host = gethost();
+function getcurpic(host,chapterId, path,img) {
     parseInt(chapterId) > 542724 ? realurl = host : realurl = 'https://mhpic6.kingwar.cn';
-    console.log(realurl);
     return realurl + path + img;
 }
 
 function details_parse(url, html) {
-
     var $ = cheerio.load(html);
     var script = $('script').filter(function (i, e) {
         return $(e).text().trim().startsWith('var');
@@ -87,8 +83,9 @@ function details_parse(url, html) {
 
     var details = {};
     details.images = [];
+    let host = gethost();
     mhInfo.images.forEach(function (ele) {
-        details.images.push(getcurpic(mhInfo.chapterId, mhInfo.path, ele));
+        details.images.push(getcurpic(host,mhInfo.chapterId, mhInfo.path, ele));
     });
     details.headers = { referer: "https://www.laimanhua.net/" }
 
