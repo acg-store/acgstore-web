@@ -1,1 +1,65 @@
-{"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36","version":"1.1.0","engine":20,"encode":"UTF-8","imgMode":2,"author":{"name":"静静","info":"我是静静，App和轻应用有问题都可以联系我哦","contact":"1077674403","donateLink":["https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg","https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"]},"isOpenSource":1,"book":{"title":"详情","method":"GET","parse":"book_parse","cacheAge":"1h","requestType":0},"baseUrl":"http://www.dm88.me","details":{"method":"GET","parse":"details_video_parse","title":"内容","cacheAge":"1w"},"type":2,"script":{"requires":[{"lib":"cheerio","url":""}],"code":"ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGxpc3QgPSBbXTsKICAgICQoJy5teXVpLXZvZGxpc3RfX2JveCcpLmVhY2goZnVuY3Rpb24gKGUsIGkpIHsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgdmFyIGFnZ3JlZ2F0ZSA9IHt9OwogICAgICAgIGFnZ3JlZ2F0ZS5jb3ZlciA9IHNlbGYuY2hpbGRyZW4oJ2EnKS5maXJzdCgpLmF0dHIoJ2RhdGEtb3JpZ2luYWwnKTsKICAgICAgICBhZ2dyZWdhdGUudGl0bGUgPSBzZWxmLmNoaWxkcmVuKCdhJykuZmlyc3QoKS5hdHRyKCd0aXRsZScpOwogICAgICAgIGFnZ3JlZ2F0ZS5saW5rID0gc2VsZi5jaGlsZHJlbignYScpLmZpcnN0KCkuYXR0cignaHJlZicpOwogICAgICAgIGFnZ3JlZ2F0ZS5pbmZvID0gc2VsZi5maW5kKCdzcGFuLnBpYy10ZXh0JykudGV4dCgpOwogICAgICAgIGxpc3QucHVzaChhZ2dyZWdhdGUpOwogICAgfSk7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCmZ1bmN0aW9uIHNlYXJjaF9wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgY29uc29sZS5sb2coJCgndGl0bGUnKS50ZXh0KCkgPT09ICfns7vnu5/lronlhajpqozor4EnKTsKICAgIGlmICgkKCd0aXRsZScpLnRleHQoKSA9PT0gJ+ezu+e7n+WuieWFqOmqjOivgScpIHsKICAgICAgICByZXR1cm4gIkVSUk9SOumcgOimgemqjOivge+8jOivt+aJk+W8gOa1j+iniOWZqOWhq+WGmemqjOivgeeggeWGjei/lOWbniI7CiAgICB9CiAgICB2YXIgbGlzdCA9IFtdOwogICAgJCgnI3NlYXJjaExpc3QnKS5jaGlsZHJlbignbGknKS5lYWNoKGZ1bmN0aW9uIChlLCBpKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIHZhciBhZ2dyZWdhdGUgPSB7fTsKICAgICAgICBhZ2dyZWdhdGUubGluayA9IHNlbGYuZmluZCgnYScpLmZpcnN0KCkuYXR0cignaHJlZicpOwogICAgICAgIGFnZ3JlZ2F0ZS5jb3ZlciA9IHNlbGYuZmluZCgnYScpLmZpcnN0KCkuYXR0cignZGF0YS1vcmlnaW5hbCcpOwogICAgICAgIGFnZ3JlZ2F0ZS50aXRsZSA9IHNlbGYuZmluZCgnYScpLmZpcnN0KCkuYXR0cigndGl0bGUnKTsKICAgICAgICBhZ2dyZWdhdGUuaW5mbyA9IHNlbGYuZmluZCgnc3Bhbi5waWMtdGV4dCcpLnRleHQoKTsKICAgICAgICBsaXN0LnB1c2goYWdncmVnYXRlKTsKICAgIH0pOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgpmdW5jdGlvbiBib29rX3BhcnNlKHVybCwgaHRtbCkgewogICAgdmFyICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICB2YXIgYm9vayA9IHt9OwogICAgYm9vay50aXRsZSA9ICQoJ2gxLnRpdGxlJykudGV4dCgpOwogICAgYm9vay5jb3ZlciA9ICQoJy5sYXp5bG9hZCcpLmZpcnN0KCkuYXR0cignZGF0YS1vcmlnaW5hbCcpOwogICAgYm9vay5pbmZvID0gJCgnI2Rlc2MgPiBkaXYgPiBkaXYubXl1aS1wYW5lbF9iZCA+IGRpdiA+IHNwYW4uZGF0YScpLnRleHQoKTsKICAgIHZhciBtYXAgPSBuZXcgTWFwKCk7CiAgICB2YXIgZ3JvdXBMaXN0ID0gW107CiAgICAkKCdkaXYubXl1aS1wYW5lbF9oZCA+IGRpdiA+IHVsJykuZmlyc3QoKS5jaGlsZHJlbignbGknKS5lYWNoKGZ1bmN0aW9uIChlLCBpKSB7CiAgICAgICAgZ3JvdXBMaXN0LnB1c2goJ+aSreaUvuWcsOWdgCcpOwogICAgfSk7CiAgICBjb25zb2xlLmxvZyhncm91cExpc3QpOwogICAgZm9yICh2YXIgaSA9IDE7IGkgPD0gZ3JvdXBMaXN0Lmxlbmd0aDsgaSsrKSB7CiAgICAgICAgdmFyIGxpc3QgPSBbXTsKICAgICAgICAkKCcjcGxheWxpc3QnICsgaSkuZmluZCgnbGknKS5lYWNoKGZ1bmN0aW9uIChlLCBpKSB7CiAgICAgICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICAgICAgdmFyIHNlY3Rpb24gPSB7fTsKICAgICAgICAgICAgc2VjdGlvbi50aXRsZSA9IHNlbGYuY2hpbGRyZW4oJ2EnKS50ZXh0KCk7CiAgICAgICAgICAgIHNlY3Rpb24ubGluayA9IHNlbGYuY2hpbGRyZW4oJ2EnKS5hdHRyKCdocmVmJyk7CiAgICAgICAgICAgIGxpc3QucHVzaChzZWN0aW9uKTsKICAgICAgICB9KQogICAgICAgIG1hcFsn5pKt5pS+5Zyw5Z2AJyArIGldID0gbGlzdDsKICAgIH0KICAgIGJvb2suaXNTZWN0aW9uc0FzYyA9IDE7CiAgICBib29rLnNlY3Rpb25zID0gbWFwOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGJvb2spOwp9CgpmdW5jdGlvbiBkZXRhaWxzX3BhcnNlX3VybCh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGxpbmsgPSAkKCcucGxheWVyJykuY2hpbGRyZW4oJ3NjcmlwdCcpLmVxKDApLmF0dHIoJ3NyYycpOwogICAgcmV0dXJuIGxpbms7Cn0KCmZ1bmN0aW9uIGRldGFpbHNfcGFyc2UodXJsLCBodG1sKSB7CiAgICB2YXIgZGV0YWlscyA9IHt9OwogICAgdHJ5IHsKICAgICAgICB2YXIgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgICAgICB2YXIgc2NyaXB0ID0gaHRtbC5zdWJzdHJpbmcoMCwgaHRtbC5sYXN0SW5kZXhPZignLHVybGluZm89JykpOwogICAgICAgIGV2YWwoc2NyaXB0KTsKICAgICAgICB2YXIgcmVnID0gbmV3IFJlZ0V4cCgvLShcZCspLShcZCspXC5odG1sLyk7CiAgICAgICAgdmFyIGZyb20gPSByZWcuZXhlYyh1cmwpWzFdOwogICAgICAgIHZhciBwb3MgPSByZWcuZXhlYyh1cmwpWzJdOwogICAgICAgIHZhciByZXN1bHQgPSBWaWRlb0xpc3RKc29uW2Zyb21dWzFdOwogICAgICAgIHZhciBsaW5rID0gcmVzdWx0W3Bvc10uc3BsaXQoJyQnKVsxXTsKICAgICAgICBpZiAobGluayA9PSBudWxsIHx8IGxpbmsgPT0gJycgfHwgIWxpbmsuc3RhcnRzV2l0aCgnaHR0cCcpKSB7CiAgICAgICAgICAgIGRldGFpbHMubGluayA9IHVybDsKICAgICAgICAgICAgZGV0YWlscy5taW1lID0gJ3RleHQvaHRtbCc7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZGV0YWlscy5saW5rID0gbGluazsKICAgICAgICAgICAgZGV0YWlscy5taW1lID0gJ3ZpZGVvLyonOwogICAgICAgIH0KICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICBkZXRhaWxzLmxpbmsgPSB1cmw7CiAgICAgICAgZGV0YWlscy5taW1lID0gJ3RleHQvaHRtbCc7CiAgICB9CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoZGV0YWlscyk7Cn0KCmZ1bmN0aW9uIGRldGFpbHNfdmlkZW9fcGFyc2UodXJsLCBodG1sKSB7CgogICAgdmFyICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICBsZXQgc2NyaXB0ID0gJCgnZGl2LmVtYmVkLXJlc3BvbnNpdmUuY2xlYXJmaXggPiBzY3JpcHQ6bnRoLWNoaWxkKDEpJykudGV4dCgpOwogICAgZXZhbChzY3JpcHQpOwogICAgdmFyIHZpZGVvID0gewogICAgICAgIGxpbms6IHBsYXllcl9hYWFhLnVybCwKICAgICAgICBtaW1lOiAndmlkZW8vKicsCiAgICB9OwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHZpZGVvKQp9"},"logo":"","sid":"4cd779a1ad4fab427d22a0f1b4e693e9","home":{"method":"GET","requestType":0,"parse":"home_parse","title":"最近更新","addPage":1,"startPage":1,"imageMode":1,"url":"/list/2_@page.html"},"search":{"method":"GET","cacheAge":"1h","parse":"search_parse","title":"搜索","requestType":0,"url":"/search.asp?page=@page&searchword=@key"},"info":"专注动漫的门户网站","grade":1,"name":"樱花动漫","expr":"dm88\\.me"}
+{
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36",
+    "version": "1.1.0",
+    "engine": 20,
+    "encode": "UTF-8",
+    "imgMode": 2,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "isOpenSource": 1,
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h",
+        "requestType": 0
+    },
+    "baseUrl": "http://www.dm88.me",
+    "details": {
+        "method": "GET",
+        "parse": "details_video_parse",
+        "title": "内容",
+        "cacheAge": "1w"
+    },
+    "type": 2,
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio",
+                "url": ""
+            }
+        ],
+        "code": "ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGxpc3QgPSBbXTsKICAgICQoJy5teXVpLXZvZGxpc3RfX2JveCcpLmVhY2goZnVuY3Rpb24gKGUsIGkpIHsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgdmFyIGFnZ3JlZ2F0ZSA9IHt9OwogICAgICAgIGFnZ3JlZ2F0ZS5jb3ZlciA9IHNlbGYuY2hpbGRyZW4oJ2EnKS5maXJzdCgpLmF0dHIoJ2RhdGEtb3JpZ2luYWwnKTsKICAgICAgICBhZ2dyZWdhdGUudGl0bGUgPSBzZWxmLmNoaWxkcmVuKCdhJykuZmlyc3QoKS5hdHRyKCd0aXRsZScpOwogICAgICAgIGFnZ3JlZ2F0ZS5saW5rID0gc2VsZi5jaGlsZHJlbignYScpLmZpcnN0KCkuYXR0cignaHJlZicpOwogICAgICAgIGFnZ3JlZ2F0ZS5pbmZvID0gc2VsZi5maW5kKCdzcGFuLnBpYy10ZXh0JykudGV4dCgpOwogICAgICAgIGxpc3QucHVzaChhZ2dyZWdhdGUpOwogICAgfSk7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCmZ1bmN0aW9uIHNlYXJjaF9wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgY29uc29sZS5sb2coJCgndGl0bGUnKS50ZXh0KCkgPT09ICfns7vnu5/lronlhajpqozor4EnKTsKICAgIGlmICgkKCd0aXRsZScpLnRleHQoKSA9PT0gJ+ezu+e7n+WuieWFqOmqjOivgScpIHsKICAgICAgICByZXR1cm4gIkVSUk9SOumcgOimgemqjOivge+8jOivt+aJk+W8gOa1j+iniOWZqOWhq+WGmemqjOivgeeggeWGjei/lOWbniI7CiAgICB9CiAgICB2YXIgbGlzdCA9IFtdOwogICAgJCgnI3NlYXJjaExpc3QnKS5jaGlsZHJlbignbGknKS5lYWNoKGZ1bmN0aW9uIChlLCBpKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIHZhciBhZ2dyZWdhdGUgPSB7fTsKICAgICAgICBhZ2dyZWdhdGUubGluayA9IHNlbGYuZmluZCgnYScpLmZpcnN0KCkuYXR0cignaHJlZicpOwogICAgICAgIGFnZ3JlZ2F0ZS5jb3ZlciA9IHNlbGYuZmluZCgnYScpLmZpcnN0KCkuYXR0cignZGF0YS1vcmlnaW5hbCcpOwogICAgICAgIGFnZ3JlZ2F0ZS50aXRsZSA9IHNlbGYuZmluZCgnYScpLmZpcnN0KCkuYXR0cigndGl0bGUnKTsKICAgICAgICBhZ2dyZWdhdGUuaW5mbyA9IHNlbGYuZmluZCgnc3Bhbi5waWMtdGV4dCcpLnRleHQoKTsKICAgICAgICBsaXN0LnB1c2goYWdncmVnYXRlKTsKICAgIH0pOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgpmdW5jdGlvbiBib29rX3BhcnNlKHVybCwgaHRtbCkgewogICAgdmFyICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICB2YXIgYm9vayA9IHt9OwogICAgYm9vay50aXRsZSA9ICQoJ2gxLnRpdGxlJykudGV4dCgpOwogICAgYm9vay5jb3ZlciA9ICQoJy5sYXp5bG9hZCcpLmZpcnN0KCkuYXR0cignZGF0YS1vcmlnaW5hbCcpOwogICAgYm9vay5pbmZvID0gJCgnI2Rlc2MgPiBkaXYgPiBkaXYubXl1aS1wYW5lbF9iZCA+IGRpdiA+IHNwYW4uZGF0YScpLnRleHQoKTsKICAgIHZhciBtYXAgPSBuZXcgTWFwKCk7CiAgICB2YXIgZ3JvdXBMaXN0ID0gW107CiAgICAkKCdkaXYubXl1aS1wYW5lbF9oZCA+IGRpdiA+IHVsJykuZmlyc3QoKS5jaGlsZHJlbignbGknKS5lYWNoKGZ1bmN0aW9uIChlLCBpKSB7CiAgICAgICAgZ3JvdXBMaXN0LnB1c2goJ+aSreaUvuWcsOWdgCcpOwogICAgfSk7CiAgICBjb25zb2xlLmxvZyhncm91cExpc3QpOwogICAgZm9yICh2YXIgaSA9IDE7IGkgPD0gZ3JvdXBMaXN0Lmxlbmd0aDsgaSsrKSB7CiAgICAgICAgdmFyIGxpc3QgPSBbXTsKICAgICAgICAkKCcjcGxheWxpc3QnICsgaSkuZmluZCgnbGknKS5lYWNoKGZ1bmN0aW9uIChlLCBpKSB7CiAgICAgICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICAgICAgdmFyIHNlY3Rpb24gPSB7fTsKICAgICAgICAgICAgc2VjdGlvbi50aXRsZSA9IHNlbGYuY2hpbGRyZW4oJ2EnKS50ZXh0KCk7CiAgICAgICAgICAgIHNlY3Rpb24ubGluayA9IHNlbGYuY2hpbGRyZW4oJ2EnKS5hdHRyKCdocmVmJyk7CiAgICAgICAgICAgIGxpc3QucHVzaChzZWN0aW9uKTsKICAgICAgICB9KQogICAgICAgIG1hcFsn5pKt5pS+5Zyw5Z2AJyArIGldID0gbGlzdDsKICAgIH0KICAgIGJvb2suaXNTZWN0aW9uc0FzYyA9IDE7CiAgICBib29rLnNlY3Rpb25zID0gbWFwOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGJvb2spOwp9CgpmdW5jdGlvbiBkZXRhaWxzX3BhcnNlX3VybCh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGxpbmsgPSAkKCcucGxheWVyJykuY2hpbGRyZW4oJ3NjcmlwdCcpLmVxKDApLmF0dHIoJ3NyYycpOwogICAgcmV0dXJuIGxpbms7Cn0KCmZ1bmN0aW9uIGRldGFpbHNfcGFyc2UodXJsLCBodG1sKSB7CiAgICB2YXIgZGV0YWlscyA9IHt9OwogICAgdHJ5IHsKICAgICAgICB2YXIgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgICAgICB2YXIgc2NyaXB0ID0gaHRtbC5zdWJzdHJpbmcoMCwgaHRtbC5sYXN0SW5kZXhPZignLHVybGluZm89JykpOwogICAgICAgIGV2YWwoc2NyaXB0KTsKICAgICAgICB2YXIgcmVnID0gbmV3IFJlZ0V4cCgvLShcZCspLShcZCspXC5odG1sLyk7CiAgICAgICAgdmFyIGZyb20gPSByZWcuZXhlYyh1cmwpWzFdOwogICAgICAgIHZhciBwb3MgPSByZWcuZXhlYyh1cmwpWzJdOwogICAgICAgIHZhciByZXN1bHQgPSBWaWRlb0xpc3RKc29uW2Zyb21dWzFdOwogICAgICAgIHZhciBsaW5rID0gcmVzdWx0W3Bvc10uc3BsaXQoJyQnKVsxXTsKICAgICAgICBpZiAobGluayA9PSBudWxsIHx8IGxpbmsgPT0gJycgfHwgIWxpbmsuc3RhcnRzV2l0aCgnaHR0cCcpKSB7CiAgICAgICAgICAgIGRldGFpbHMubGluayA9IHVybDsKICAgICAgICAgICAgZGV0YWlscy5taW1lID0gJ3RleHQvaHRtbCc7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZGV0YWlscy5saW5rID0gbGluazsKICAgICAgICAgICAgZGV0YWlscy5taW1lID0gJ3ZpZGVvLyonOwogICAgICAgIH0KICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICBkZXRhaWxzLmxpbmsgPSB1cmw7CiAgICAgICAgZGV0YWlscy5taW1lID0gJ3RleHQvaHRtbCc7CiAgICB9CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoZGV0YWlscyk7Cn0KCmZ1bmN0aW9uIGRldGFpbHNfdmlkZW9fcGFyc2UodXJsLCBodG1sKSB7CgogICAgdmFyICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICBsZXQgc2NyaXB0ID0gJCgnZGl2LmVtYmVkLXJlc3BvbnNpdmUuY2xlYXJmaXggPiBzY3JpcHQ6bnRoLWNoaWxkKDEpJykudGV4dCgpOwogICAgZXZhbChzY3JpcHQpOwogICAgdmFyIHZpZGVvID0gewogICAgICAgIGxpbms6IHBsYXllcl9hYWFhLnVybCwKICAgICAgICBtaW1lOiAndmlkZW8vKicsCiAgICB9OwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHZpZGVvKQp9"
+    },
+    "logo": "",
+    "sid": "4cd779a1ad4fab427d22a0f1b4e693e9",
+    "home": {
+        "method": "GET",
+        "requestType": 0,
+        "parse": "home_parse",
+        "title": "最近更新",
+        "addPage": 1,
+        "startPage": 1,
+        "imageMode": 1,
+        "url": "/list/2_@page.html"
+    },
+    "search": {
+        "method": "GET",
+        "cacheAge": "1h",
+        "parse": "search_parse",
+        "title": "搜索",
+        "requestType": 0,
+        "url": "/search.asp?page=@page&searchword=@key"
+    },
+    "info": "专注动漫的门户网站",
+    "grade": 1,
+    "name": "樱花动漫",
+    "expr": "dm88\\.me"
+}

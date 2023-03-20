@@ -1,1 +1,82 @@
-{"sid":"0833e72c-3e26-4bc9-a588-6433d63d4ba6","name":"555电影","logo":"https://tc.manduhu.com/2021/06/14/ad9d1af220785.png","info":"网友推荐，高清资源","baseUrl":"#pref￥线路地址￥https://www.555dyy6.com","type":2,"grade":1,"needProxy":0,"encode":"utf-8","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36","style":1,"version":"1.1.0","isOpenSource":1,"engine":21,"imgMode":2,"login":{"link":"https://www.555dyy6.com/","tips":"网页加载完返回即可"},"prefs":[{"key":"线路地址","defaultValue":"https://www.555dyy6.com","type":"radio","valueList":["https://www.555dyy5.com","https://www.555dyy6.com","https://www.555dyy7.com","https://www.555dyy8.com"]}],"author":{"name":"静静","info":"我是静静，App和轻应用有问题都可以联系我哦","contact":"1077674403","donateLink":["https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg","https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"]},"script":{"requires":[{"lib":"cheerio"}],"code":"ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciBsaXN0ID0gW107CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgICQoJy5tb2R1bGUtcG9zdGVyLWl0ZW1zID4gLm1vZHVsZS1pdGVtJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICBsaXN0LnB1c2goewogICAgICAgICAgICB0aXRsZTogc2VsZi5hdHRyKCd0aXRsZScpLAogICAgICAgICAgICBsaW5rOiBzZWxmLmF0dHIoJ2hyZWYnKSwKICAgICAgICAgICAgY292ZXI6IHNlbGYuZmluZCgnaW1nJykuZmlyc3QoKS5hdHRyKCdkYXRhLW9yaWdpbmFsJyksCiAgICAgICAgICAgIGluZm86IHNlbGYuZmluZCgnLm1vZHVsZS1pdGVtLW5vdGUnKS5maXJzdCgpLnRleHQoKSwKICAgICAgICB9KTsKICAgIH0pOwoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShsaXN0KTsKfQoKZnVuY3Rpb24gc2VhcmNoX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgaWYgKGh0bWwuaW5kZXhPZign5a6M5oiQ6aqM6K+B5ZCO5bGV56S65pCc57Si57uT5p6cJykgIT0gLTEpIHsKICAgICAgICByZXR1cm4gIkVSUk9SOuivt+aJk+W8gOe9kemhtei3s+i/h+e9keermemqjOivgeWQjuWIt+aWsCI7CiAgICB9CiAgICB2YXIgbGlzdCA9IFtdOwogICAgbGV0ICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICBjb25zb2xlLmxvZyhodG1sKTsKICAgICQoJy5tb2R1bGUtaXRlbXMgPiAubW9kdWxlLWl0ZW0nKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiBzZWxmLmZpbmQoJy5tb2R1bGUtY2FyZC1pdGVtLXRpdGxlJykudGV4dCgpLAogICAgICAgICAgICBsaW5rOiBzZWxmLmZpbmQoJy5tb2R1bGUtY2FyZC1pdGVtLXRpdGxlJykuY2hpbGRyZW4oJ2EnKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgIGNvdmVyOiBzZWxmLmZpbmQoJ2ltZycpLmZpcnN0KCkuYXR0cignZGF0YS1vcmlnaW5hbCcpLAogICAgICAgICAgICBpbmZvOiBzZWxmLmZpbmQoJy5tb2R1bGUtaXRlbS1ub3RlJykuZmlyc3QoKS50ZXh0KCksCiAgICAgICAgfSk7CiAgICB9KTsKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCgpmdW5jdGlvbiBib29rX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgdmFyICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICB2YXIgYm9vayA9IHsKICAgICAgICB0aXRsZTogJCgnLnRpdGxlJykuZmlyc3QoKS50ZXh0KCksCiAgICAgICAgaW5mbzogJCgnc3Bhbi5kYXRhJykudGV4dCgpLAogICAgICAgIHVwZGF0ZVRpbWU6ICQoJ3AuZGF0YSA+IHNwYW4udGV4dC1yZWQnKS50ZXh0KCksCiAgICB9OwogICAgdmFyIG1hcCA9IG5ldyBNYXAoKTsKICAgICQoJy5tb2R1bGUtdGFiLWl0ZW1zLWJveCA+IC5tb2R1bGUtdGFiLWl0ZW0nKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlY3Rpb25zID0gW107CiAgICAgICAgY29uc29sZS5sb2coaSk7CiAgICAgICAgJChgI3BhbmVsMWApLmVxKGkpLmZpbmQoJy5tb2R1bGUtcGxheS1saXN0LWNvbnRlbnQnKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgICAgICQodGhpcykuY2hpbGRyZW4oJ2EnKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgICAgICAgICBzZWN0aW9ucy5wdXNoKHsKICAgICAgICAgICAgICAgICAgICB0aXRsZTogJCh0aGlzKS50ZXh0KCksCiAgICAgICAgICAgICAgICAgICAgbGluazogJCh0aGlzKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgfSk7CgogICAgICAgIH0pOwogICAgICAgIG1hcFskKHRoaXMpLmNoaWxkcmVuKCdzcGFuJykudGV4dCgpXSA9IHNlY3Rpb25zOwogICAgfSk7CiAgICBib29rLnNlY3Rpb25zID0gbWFwOwogICAgY29uc29sZS5sb2coSlNPTi5zdHJpbmdpZnkoYm9vaykpOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGJvb2spOwp9CgpmdW5jdGlvbiBkZXRhaWxzX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgY29uc29sZS5sb2codXJsKTsKICAgIGNvbnNvbGUubG9nKGh0bWwpOwogICAgbGV0IGRhdGEgPSBKU09OLnBhcnNlKGh0bWwpOwogICAgaWYgKGRhdGEucmVzb3VyY2UgPT0gbnVsbCB8fCBkYXRhLnJlc291cmNlLmxlbmd0aCA8PSAwKSB7CiAgICAgICAgdGhyb3cgIuayoeacieWXheaOouWIsOi1hOa6kCI7CiAgICB9CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoeyBtaW1lOiAidmlkZW8vKiIsIGxpbms6IGRhdGEucmVzb3VyY2VbMF0ubGluayB9KTsKfQ=="},"home":{"title":"今日更新","url":"/label/new.html","method":"GET","parse":"home_parse"},"search":{"title":"搜索","url":"/vodsearch/@key----------@page---.html","method":"GET","parse":"search_parse","startPage":1,"addPage":1},"book":{"title":"详情","method":"GET","parse":"book_parse","cacheAge":"1h"},"details":{"title":"内容","method":"GET","parse":"details_parse","sniffFilters":"^http[s]?://((?!url=).)*\\.(mp4|m3u8).*$","sniffUA":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36","sniff":1,"sniffDelay":8000,"superSniff":true,"cacheAge":"1h"}}
+{
+    "sid": "0833e72c-3e26-4bc9-a588-6433d63d4ba6",
+    "name": "555电影",
+    "logo": "https://tc.manduhu.com/2021/06/14/ad9d1af220785.png",
+    "info": "网友推荐，高清资源",
+    "baseUrl": "#pref￥线路地址￥https://www.555dyy6.com",
+    "type": 2,
+    "grade": 1,
+    "needProxy": 0,
+    "encode": "utf-8",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+    "style": 1,
+    "version": "1.1.0",
+    "isOpenSource": 1,
+    "engine": 21,
+    "imgMode": 2,
+    "login": {
+        "link": "https://www.555dyy6.com/",
+        "tips": "网页加载完返回即可"
+    },
+    "prefs": [
+        {
+            "key": "线路地址",
+            "defaultValue": "https://www.555dyy6.com",
+            "type": "radio",
+            "valueList": [
+                "https://www.555dyy5.com",
+                "https://www.555dyy6.com",
+                "https://www.555dyy7.com",
+                "https://www.555dyy8.com"
+            ]
+        }
+    ],
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            }
+        ],
+        "code": "ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciBsaXN0ID0gW107CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgICQoJy5tb2R1bGUtcG9zdGVyLWl0ZW1zID4gLm1vZHVsZS1pdGVtJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICBsaXN0LnB1c2goewogICAgICAgICAgICB0aXRsZTogc2VsZi5hdHRyKCd0aXRsZScpLAogICAgICAgICAgICBsaW5rOiBzZWxmLmF0dHIoJ2hyZWYnKSwKICAgICAgICAgICAgY292ZXI6IHNlbGYuZmluZCgnaW1nJykuZmlyc3QoKS5hdHRyKCdkYXRhLW9yaWdpbmFsJyksCiAgICAgICAgICAgIGluZm86IHNlbGYuZmluZCgnLm1vZHVsZS1pdGVtLW5vdGUnKS5maXJzdCgpLnRleHQoKSwKICAgICAgICB9KTsKICAgIH0pOwoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShsaXN0KTsKfQoKZnVuY3Rpb24gc2VhcmNoX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgaWYgKGh0bWwuaW5kZXhPZign5a6M5oiQ6aqM6K+B5ZCO5bGV56S65pCc57Si57uT5p6cJykgIT0gLTEpIHsKICAgICAgICByZXR1cm4gIkVSUk9SOuivt+aJk+W8gOe9kemhtei3s+i/h+e9keermemqjOivgeWQjuWIt+aWsCI7CiAgICB9CiAgICB2YXIgbGlzdCA9IFtdOwogICAgbGV0ICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICBjb25zb2xlLmxvZyhodG1sKTsKICAgICQoJy5tb2R1bGUtaXRlbXMgPiAubW9kdWxlLWl0ZW0nKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiBzZWxmLmZpbmQoJy5tb2R1bGUtY2FyZC1pdGVtLXRpdGxlJykudGV4dCgpLAogICAgICAgICAgICBsaW5rOiBzZWxmLmZpbmQoJy5tb2R1bGUtY2FyZC1pdGVtLXRpdGxlJykuY2hpbGRyZW4oJ2EnKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgIGNvdmVyOiBzZWxmLmZpbmQoJ2ltZycpLmZpcnN0KCkuYXR0cignZGF0YS1vcmlnaW5hbCcpLAogICAgICAgICAgICBpbmZvOiBzZWxmLmZpbmQoJy5tb2R1bGUtaXRlbS1ub3RlJykuZmlyc3QoKS50ZXh0KCksCiAgICAgICAgfSk7CiAgICB9KTsKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCgpmdW5jdGlvbiBib29rX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgdmFyICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICB2YXIgYm9vayA9IHsKICAgICAgICB0aXRsZTogJCgnLnRpdGxlJykuZmlyc3QoKS50ZXh0KCksCiAgICAgICAgaW5mbzogJCgnc3Bhbi5kYXRhJykudGV4dCgpLAogICAgICAgIHVwZGF0ZVRpbWU6ICQoJ3AuZGF0YSA+IHNwYW4udGV4dC1yZWQnKS50ZXh0KCksCiAgICB9OwogICAgdmFyIG1hcCA9IG5ldyBNYXAoKTsKICAgICQoJy5tb2R1bGUtdGFiLWl0ZW1zLWJveCA+IC5tb2R1bGUtdGFiLWl0ZW0nKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlY3Rpb25zID0gW107CiAgICAgICAgY29uc29sZS5sb2coaSk7CiAgICAgICAgJChgI3BhbmVsMWApLmVxKGkpLmZpbmQoJy5tb2R1bGUtcGxheS1saXN0LWNvbnRlbnQnKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgICAgICQodGhpcykuY2hpbGRyZW4oJ2EnKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgICAgICAgICBzZWN0aW9ucy5wdXNoKHsKICAgICAgICAgICAgICAgICAgICB0aXRsZTogJCh0aGlzKS50ZXh0KCksCiAgICAgICAgICAgICAgICAgICAgbGluazogJCh0aGlzKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgfSk7CgogICAgICAgIH0pOwogICAgICAgIG1hcFskKHRoaXMpLmNoaWxkcmVuKCdzcGFuJykudGV4dCgpXSA9IHNlY3Rpb25zOwogICAgfSk7CiAgICBib29rLnNlY3Rpb25zID0gbWFwOwogICAgY29uc29sZS5sb2coSlNPTi5zdHJpbmdpZnkoYm9vaykpOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGJvb2spOwp9CgpmdW5jdGlvbiBkZXRhaWxzX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgY29uc29sZS5sb2codXJsKTsKICAgIGNvbnNvbGUubG9nKGh0bWwpOwogICAgbGV0IGRhdGEgPSBKU09OLnBhcnNlKGh0bWwpOwogICAgaWYgKGRhdGEucmVzb3VyY2UgPT0gbnVsbCB8fCBkYXRhLnJlc291cmNlLmxlbmd0aCA8PSAwKSB7CiAgICAgICAgdGhyb3cgIuayoeacieWXheaOouWIsOi1hOa6kCI7CiAgICB9CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoeyBtaW1lOiAidmlkZW8vKiIsIGxpbms6IGRhdGEucmVzb3VyY2VbMF0ubGluayB9KTsKfQ=="
+    },
+    "home": {
+        "title": "今日更新",
+        "url": "/label/new.html",
+        "method": "GET",
+        "parse": "home_parse"
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/vodsearch/@key----------@page---.html",
+        "method": "GET",
+        "parse": "search_parse",
+        "startPage": 1,
+        "addPage": 1
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "sniffFilters": "^http[s]?://((?!url=).)*\\.(mp4|m3u8).*$",
+        "sniffUA": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+        "sniff": 1,
+        "sniffDelay": 8000,
+        "superSniff": true,
+        "cacheAge": "1h"
+    }
+}
