@@ -1,1 +1,65 @@
-{"sid":"0c73b0a6-2e46-4c0d-8dde-978299831390","name":"147漫画","logo":"","info":"网友推荐，资源全，速度快","baseUrl":"https://m.i2356.com/","expr":"i2356\\.com","type":1,"grade":2,"imgMode":2,"needProxy":0,"encode":"utf-8","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1","isOpenSource":1,"engine":24,"author":{"name":"静静","info":"我是静静，App和轻应用有问题都可以联系我哦","contact":"1077674403","donateLink":["https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg","https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"]},"version":"1.1.2","script":{"requires":[{"lib":"cheerio","url":""}],"code":"ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGxpc3QgPSBbXTsKICAgICQoJy5VcGRhdGVMaXN0JykuY2hpbGRyZW4oJ2RpdicpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgdmFyIGFnZ3JlZ2F0ZSA9IHt9OwogICAgICAgIHZhciBhID0gc2VsZi5maW5kKCdhJykuZmlyc3QoKTsKICAgICAgICBhZ2dyZWdhdGUudGl0bGUgPSBzZWxmLmZpbmQoJy50aXRsZScpLnRleHQoKTsKICAgICAgICBhZ2dyZWdhdGUuY292ZXIgPSBhLmNoaWxkcmVuKCdtaXAtaW1nJykuYXR0cignc3JjJyk7CiAgICAgICAgYWdncmVnYXRlLmxpbmsgPSBhLmF0dHIoJ2hyZWYnKTsKICAgICAgICBhZ2dyZWdhdGUuaW5mbyA9ICfkvZzogIXvvJonICsgc2VsZi5maW5kKCcudHh0SXRtZScpLmVxKDApLnRleHQoKSArICdcbic7CiAgICAgICAgYWdncmVnYXRlLmluZm8gKz0gJ+exu+Wei++8micgKyBzZWxmLmZpbmQoJy50eHRJdG1lJykuZXEoMSkudGV4dCgpLnJlcGxhY2UoL1xzKy9nLCAnJyk7CiAgICAgICAgYWdncmVnYXRlLnVwZGF0ZVRpbWUgPSBzZWxmLmZpbmQoJy50eHRJdG1lJykuZXEoMikudGV4dCgpLnRyaW0oKTsKICAgICAgICBsaXN0LnB1c2goYWdncmVnYXRlKTsKICAgIH0pOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgpmdW5jdGlvbiBib29rX3BhcnNlKHVybCwgaHRtbCkgewogICAgdmFyICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICB2YXIgYm9vayA9IHt9OwogICAgdmFyIHRvcCA9ICQoJy52aWV3LXN1Yi5hdXRvSGVpZ2h0Jyk7CiAgICBib29rLnRpdGxlID0gdG9wLmZpbmQoJy5taXAtZmlsbC1jb250ZW50Lm1pcC1yZXBsYWNlZC1jb250ZW50JykuZmlyc3QoKS5hdHRyKCdhbHQnKTsKICAgIGJvb2suY292ZXIgPSB0b3AuZmluZCgnLm1pcC1maWxsLWNvbnRlbnQubWlwLXJlcGxhY2VkLWNvbnRlbnQnKS5maXJzdCgpLmF0dHIoJ3NyYycpOwogICAgYm9vay5pbmZvID0gJCgnLnR4dERlc2MuYXV0b0hlaWdodCcpLnRleHQoKTsKICAgIGJvb2sudXBkYXRlVGltZSA9IHRvcC5maW5kKCcucGljX3ppLmZzMTUnKS5lcSgzKS50ZXh0KCkudHJpbSgpOwogICAgdmFyIG1hcCA9IG5ldyBNYXAoKTsKICAgICQoJy5jb21pYy1jaGFwdGVycycpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VjdGlvbnMgPSBbXTsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgc2VsZi5maW5kKCdsaScpLmVhY2goZnVuY3Rpb24gKGosIGYpIHsKICAgICAgICAgICAgdmFyIGEgPSAkKHRoaXMpLmNoaWxkcmVuKCdhJyk7CiAgICAgICAgICAgIHZhciBzZWN0aW9uID0ge307CiAgICAgICAgICAgIHNlY3Rpb24ubGluayA9ICdodHRwczovL20uaTIzNTYuY29tJyArIGEuYXR0cignaHJlZicpOwogICAgICAgICAgICBzZWN0aW9uLnRpdGxlID0gYS50ZXh0KCkudHJpbSgpOwogICAgICAgICAgICBzZWN0aW9ucy5wdXNoKHNlY3Rpb24pOwogICAgICAgIH0pOwogICAgICAgIG1hcFtzZWxmLmZpbmQoJy50aXRsZTFfMScpLnRleHQoKV0gPSBzZWN0aW9uczsKICAgIH0pOwogICAgYm9vay5zZWN0aW9ucyA9IG1hcDsKICAgIGJvb2suaXNTZWN0aW9uQXNjID0gMDsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShib29rKTsKfQoKZnVuY3Rpb24gZGV0YWlsc19wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGRldGFpbHMgPSB7CiAgICAgICAgaW1hZ2VzOiBbXQogICAgfTsKICAgICQoJy5pbWFnZS1jb250ZW50JykuY2hpbGRyZW4oJ2ltZycpLmVhY2goZnVuY3Rpb24gKGUsIGkpIHsKICAgICAgICBsZXQgc3JjID0gJCh0aGlzKS5hdHRyKCdzcmMnKTsKICAgICAgICBpZiAoc3JjLnN0YXJ0c1dpdGgoJ2h0dHAnKSkgewogICAgICAgICAgICBkZXRhaWxzLmltYWdlcy5wdXNoKHNyYyk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZGV0YWlscy5pbWFnZXMucHVzaCgkKHRoaXMpLmF0dHIoJ2RhdGEtc3JjJykpOwogICAgICAgIH0KICAgIH0pOwogICAgJCgnI3Njcm9sbC1pbWFnZScpLmZpbmQoJ2ltZycpLmVhY2goZnVuY3Rpb24gKGUsIGkpIHsKICAgICAgICBsZXQgc3JjID0gJCh0aGlzKS5hdHRyKCdzcmMnKTsKICAgICAgICBpZiAoc3JjLnN0YXJ0c1dpdGgoJ2h0dHAnKSkgewogICAgICAgICAgICBkZXRhaWxzLmltYWdlcy5wdXNoKHNyYyk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZGV0YWlscy5pbWFnZXMucHVzaCgkKHRoaXMpLmF0dHIoJ2RhdGEtc3JjJykpOwogICAgICAgIH0KICAgIH0pOwoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShkZXRhaWxzKTsKfQ=="},"home":{"title":"更新","url":"https://m.i2356.com/update/@page/","method":"GET","parse":"home_parse","startPage":1,"addPage":1,"imageMode":1,"requestType":0},"search":{"title":"搜索","url":"https://m.i2356.com/search/?keywords=@key&page=@page","method":"GET","parse":"home_parse","startPage":1,"addPage":1},"book":{"title":"详情","method":"GET","parse":"book_parse","cacheAge":"1h"},"details":{"title":"内容","method":"GET","parse":"details_parse"}}
+{
+    "sid": "0c73b0a6-2e46-4c0d-8dde-978299831390",
+    "name": "147漫画",
+    "logo": "",
+    "info": "网友推荐，资源全，速度快",
+    "baseUrl": "https://m.i2356.com/",
+    "expr": "i2356\\.com",
+    "type": 1,
+    "grade": 2,
+    "imgMode": 2,
+    "needProxy": 0,
+    "encode": "utf-8",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+    "isOpenSource": 1,
+    "engine": 24,
+    "disable": true,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "version": "1.1.2",
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio",
+                "url": ""
+            }
+        ],
+        "code": "ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGxpc3QgPSBbXTsKICAgICQoJy5VcGRhdGVMaXN0JykuY2hpbGRyZW4oJ2RpdicpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgdmFyIGFnZ3JlZ2F0ZSA9IHt9OwogICAgICAgIHZhciBhID0gc2VsZi5maW5kKCdhJykuZmlyc3QoKTsKICAgICAgICBhZ2dyZWdhdGUudGl0bGUgPSBzZWxmLmZpbmQoJy50aXRsZScpLnRleHQoKTsKICAgICAgICBhZ2dyZWdhdGUuY292ZXIgPSBhLmNoaWxkcmVuKCdtaXAtaW1nJykuYXR0cignc3JjJyk7CiAgICAgICAgYWdncmVnYXRlLmxpbmsgPSBhLmF0dHIoJ2hyZWYnKTsKICAgICAgICBhZ2dyZWdhdGUuaW5mbyA9ICfkvZzogIXvvJonICsgc2VsZi5maW5kKCcudHh0SXRtZScpLmVxKDApLnRleHQoKSArICdcbic7CiAgICAgICAgYWdncmVnYXRlLmluZm8gKz0gJ+exu+Wei++8micgKyBzZWxmLmZpbmQoJy50eHRJdG1lJykuZXEoMSkudGV4dCgpLnJlcGxhY2UoL1xzKy9nLCAnJyk7CiAgICAgICAgYWdncmVnYXRlLnVwZGF0ZVRpbWUgPSBzZWxmLmZpbmQoJy50eHRJdG1lJykuZXEoMikudGV4dCgpLnRyaW0oKTsKICAgICAgICBsaXN0LnB1c2goYWdncmVnYXRlKTsKICAgIH0pOwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgpmdW5jdGlvbiBib29rX3BhcnNlKHVybCwgaHRtbCkgewogICAgdmFyICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICB2YXIgYm9vayA9IHt9OwogICAgdmFyIHRvcCA9ICQoJy52aWV3LXN1Yi5hdXRvSGVpZ2h0Jyk7CiAgICBib29rLnRpdGxlID0gdG9wLmZpbmQoJy5taXAtZmlsbC1jb250ZW50Lm1pcC1yZXBsYWNlZC1jb250ZW50JykuZmlyc3QoKS5hdHRyKCdhbHQnKTsKICAgIGJvb2suY292ZXIgPSB0b3AuZmluZCgnLm1pcC1maWxsLWNvbnRlbnQubWlwLXJlcGxhY2VkLWNvbnRlbnQnKS5maXJzdCgpLmF0dHIoJ3NyYycpOwogICAgYm9vay5pbmZvID0gJCgnLnR4dERlc2MuYXV0b0hlaWdodCcpLnRleHQoKTsKICAgIGJvb2sudXBkYXRlVGltZSA9IHRvcC5maW5kKCcucGljX3ppLmZzMTUnKS5lcSgzKS50ZXh0KCkudHJpbSgpOwogICAgdmFyIG1hcCA9IG5ldyBNYXAoKTsKICAgICQoJy5jb21pYy1jaGFwdGVycycpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICB2YXIgc2VjdGlvbnMgPSBbXTsKICAgICAgICB2YXIgc2VsZiA9ICQodGhpcyk7CiAgICAgICAgc2VsZi5maW5kKCdsaScpLmVhY2goZnVuY3Rpb24gKGosIGYpIHsKICAgICAgICAgICAgdmFyIGEgPSAkKHRoaXMpLmNoaWxkcmVuKCdhJyk7CiAgICAgICAgICAgIHZhciBzZWN0aW9uID0ge307CiAgICAgICAgICAgIHNlY3Rpb24ubGluayA9ICdodHRwczovL20uaTIzNTYuY29tJyArIGEuYXR0cignaHJlZicpOwogICAgICAgICAgICBzZWN0aW9uLnRpdGxlID0gYS50ZXh0KCkudHJpbSgpOwogICAgICAgICAgICBzZWN0aW9ucy5wdXNoKHNlY3Rpb24pOwogICAgICAgIH0pOwogICAgICAgIG1hcFtzZWxmLmZpbmQoJy50aXRsZTFfMScpLnRleHQoKV0gPSBzZWN0aW9uczsKICAgIH0pOwogICAgYm9vay5zZWN0aW9ucyA9IG1hcDsKICAgIGJvb2suaXNTZWN0aW9uQXNjID0gMDsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShib29rKTsKfQoKZnVuY3Rpb24gZGV0YWlsc19wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGRldGFpbHMgPSB7CiAgICAgICAgaW1hZ2VzOiBbXQogICAgfTsKICAgICQoJy5pbWFnZS1jb250ZW50JykuY2hpbGRyZW4oJ2ltZycpLmVhY2goZnVuY3Rpb24gKGUsIGkpIHsKICAgICAgICBsZXQgc3JjID0gJCh0aGlzKS5hdHRyKCdzcmMnKTsKICAgICAgICBpZiAoc3JjLnN0YXJ0c1dpdGgoJ2h0dHAnKSkgewogICAgICAgICAgICBkZXRhaWxzLmltYWdlcy5wdXNoKHNyYyk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZGV0YWlscy5pbWFnZXMucHVzaCgkKHRoaXMpLmF0dHIoJ2RhdGEtc3JjJykpOwogICAgICAgIH0KICAgIH0pOwogICAgJCgnI3Njcm9sbC1pbWFnZScpLmZpbmQoJ2ltZycpLmVhY2goZnVuY3Rpb24gKGUsIGkpIHsKICAgICAgICBsZXQgc3JjID0gJCh0aGlzKS5hdHRyKCdzcmMnKTsKICAgICAgICBpZiAoc3JjLnN0YXJ0c1dpdGgoJ2h0dHAnKSkgewogICAgICAgICAgICBkZXRhaWxzLmltYWdlcy5wdXNoKHNyYyk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZGV0YWlscy5pbWFnZXMucHVzaCgkKHRoaXMpLmF0dHIoJ2RhdGEtc3JjJykpOwogICAgICAgIH0KICAgIH0pOwoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShkZXRhaWxzKTsKfQ=="
+    },
+    "home": {
+        "title": "更新",
+        "url": "https://m.i2356.com/update/@page/",
+        "method": "GET",
+        "parse": "home_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "imageMode": 1,
+        "requestType": 0
+    },
+    "search": {
+        "title": "搜索",
+        "url": "https://m.i2356.com/search/?keywords=@key&page=@page",
+        "method": "GET",
+        "parse": "home_parse",
+        "startPage": 1,
+        "addPage": 1
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse"
+    }
+}
