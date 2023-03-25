@@ -31,7 +31,7 @@ function search_parse(url, html, headers) {
 function book_parse(url, html, headers) {
     var book = {
         title: xpath.query('//*[@id="info"]/h1', html).shift(),
-        cover: 'http://www.yawenku.com'+xpath.query1('//*[@id="fmimg"]/img/@src', html),
+        cover: 'https://www.yawenku.com'+xpath.query1('//*[@id="fmimg"]/img/@src', html),
         referer: url,
         info: xpath.query1('//*[@id="intro"]/p[1]/text()', html),
         author: xpath.query1('//*[@id="info"]/p[1]/text()', html).replace(/作\s+者：/g, ''),
@@ -52,7 +52,7 @@ function book_parse(url, html, headers) {
 function details_parse(url, html, headers) {
     var details = {
         type: "text",
-        contents: xpath.query1('//*[@id="content"]/text()', html).split('\n').filter((t) => t != '').map((t) => t.trim())
+        contents: xpath.query('//*[@id="content"]/p/text()', html).filter((t) => t != '').map((t) => t.trim())
     };
     return JSON.stringify(details);
 }
