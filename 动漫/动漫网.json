@@ -1,0 +1,65 @@
+{
+    "sid": "27a45ca5-095e-4239-b322-2599db861a68",
+    "name": "动漫网",
+    "info": "免嗅探，多线路，快速播放，动漫网提供最新好看动漫在线观看,樱花动漫,风车动漫,日本动漫,最新动漫,好看动漫,免费动漫,动画片大全,动漫在线观看,动漫电影网,免费动漫在线观看,好看动漫网站。",
+    "baseUrl": "https://www.dongman8.com/",
+    "expr": "www\\.dongman8\\.com",
+    "type": 2,
+    "grade": 10,
+    "needProxy": 0,
+    "encode": "utf-8",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+    "style": 1,
+    "version": "1.0.0",
+    "isOpenSource": 1,
+    "engine": 28,
+    "imgMode": 2,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            }
+        ],
+        "code": "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"
+    },
+    "home": {
+        "title": "最新日漫",
+        "url": "/riben/index@page.html",
+        "firstPageUrl": "/riben/index.html",
+        "method": "GET",
+        "parse": "home_parse",
+        "startPage": 1,
+        "addPage": 1
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/search.php?page=@page&searchword=@key&searchtype=",
+        "method": "GET",
+        "parse": "search_parse",
+        "buildCookies": "search_build_cookies",
+        "startPage": 1,
+        "addPage": 1
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "cacheAge": "1h"
+    },
+    "openSource": false
+}

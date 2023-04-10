@@ -51,9 +51,10 @@ function book_parse(url, html, headers) {
 
 
 function details_parse(url, html, headers) {
+    let doc = new DOMParser().parseFromString(html)
     var details = {
         type: "text",
-        contents: xpath.query1('//*[@id="content"]/text()', html).split('\n').filter((t) => t != '').map((t) => t.trim())
+        contents: xpath.select('//*[@id="content"]/text()', doc).map(function (i) { return i.toString().trim().replaceAll('&amp;nbsp;', ''); }),
     };
     return JSON.stringify(details);
 }
