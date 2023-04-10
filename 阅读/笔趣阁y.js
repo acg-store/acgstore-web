@@ -18,7 +18,7 @@ function search_parse(url, html, headers) {
     $('.result-item').each(function (i, e) {
         list.push({
             title: $(this).find('img').first().attr('alt').trim(),
-            link: $(this).find('a').last().attr('href'),
+            link: $(this).find('a').first().attr('href'),
             info: $(this).find('.result-game-item-desc').last().text().trim(),
             newest: $(this).find('.result-game-item-info-tag-item').last().text(),
             updateTime: $(this).find('.result-game-item-info-tag').eq(2).text()
