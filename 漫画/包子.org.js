@@ -6,7 +6,7 @@ function home_parse(url, html, headers) {
         list.push({
             title: self.find('img').first().attr('alt'),
             link: self.find('a').first().attr('href').replace(/manga/i, 'chapterlist'),
-            cover: self.find('img').first().attr('data-src'),
+            cover: self.find('img').first().attr('src'),
         });
     });
 
@@ -44,10 +44,10 @@ function details_parse(url, html, headers) {
         },
     };
 
-    $('noscript > img').each(function (e, i) {
-        let img = $(this).attr('src');
-        if (img.startsWith('http')) {
-            details.images.push(img);
+    $('.inside-article').find('img').each(function (e, i) {
+        let src = $(this).attr('src');
+        if (src && src.startsWith('http')) {
+            details.images.push(src);
         }
     });
 
