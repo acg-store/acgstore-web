@@ -1,61 +1,56 @@
-
 function home_parse(url, html, headers) {
     var list = [];
     let $ = cheerio.load(html);
-    $('.list-vod').children('div').each(function (i, e) {
+    $('.module-main > .module-poster-items').children('a').each(function (i, e) {
         var self = $(this);
         list.push({
-            title: self.find('a').first().attr('title'),
-            // 标题
-            cover: self.find('div.gen-movie-img').first().attr('data-original'),
-            // 封面
-            link: self.find('a').first().attr('href'),
-            // 链接
-            info: self.find('.public-list-subtitle').text(),
-            // 简介 
+            title: self.attr('title'),
+            link: self.attr('href'),
+            cover: self.find('img').first().attr('data-original'),
+            info: self.find('.module-item-douban').text()
         });
     });
     return JSON.stringify(list);
 }
+
 function search_parse(url, html, headers) {
     var list = [];
     let $ = cheerio.load(html);
-    $('.search-box').each(function (i, e) {
+    $('.module-card-item').each(function (i, e) {
         var self = $(this);
         list.push({
-            title: self.find('.thumb-txt').first().text().trim(),
-            // 标题
-            cover: self.find('div.gen-movie-img').first().attr('data-original'),
-            // 封面
-            link: self.find('a').first().attr('href'),
-            // 链接
-            info: self.find('.thumb-blurb').first().text(),
+            title: self.find('img').first().attr('alt'),
+            link: self.children('a').first().attr('href'),
+            cover: self.find('img').first().attr('data-original'),
+            info: self.find('.module-item-note').first().text()
         });
     });
     return JSON.stringify(list);
 }
-function book_parse(url, html) {
+
+
+function book_parse(url, html, headers) {
     var $ = cheerio.load(html);
     var book = {
-        info: $('#height_limit').text(),
-        // 简介
-    }
-    // 目录结构 {"目录1":[{title:"章节1",link:"link1"}],"目录2":[{title:"章节1",link:"link1"}]}
+        comments: [],
+        info: $('.col.mb-2').text().trim(),
+        updateTime: $('.mt-1 > .badge').first().text()
+    };
     var map = new Map();
-    $('.anthology-tab').find('.swiper-slide').each(function (i, e) {
+
+    $('.module-tab-item').each(function (i, e) {
         var sections = [];
-        var self = $(this);
-        $('.anthology-list-play').eq(i).find('a').each(function (j, f) {
+        $('.module-play-list-content').eq(i).children('a').each(function (i, e) {
             sections.push({
+                title: $(this).text(),
                 link: $(this).attr('href'),
-                // 章节链接
-                title: $(this).text().trim(),
-                // 章节标题
             });
         });
-        map[`播放地址-${i + 1}`] = sections;
+        map[$(this).children('span').text()] = sections;
     });
+
     book.sections = map;
+
     return JSON.stringify(book);
 }
 function content_parse(url, html, headers) {

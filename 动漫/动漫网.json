@@ -1,7 +1,7 @@
 {
     "sid": "27a45ca5-095e-4239-b322-2599db861a68",
     "name": "动漫网",
-    "info": "免嗅探，多线路，快速播放，动漫网提供最新好看动漫在线观看,樱花动漫,风车动漫,日本动漫,最新动漫,好看动漫,免费动漫,动画片大全,动漫在线观看,动漫电影网,免费动漫在线观看,好看动漫网站。",
+    "info": "⚠️需要先在应用内访问一次网页！免嗅探，多线路，快速播放，动漫网提供最新好看动漫在线观看,樱花动漫,风车动漫,日本动漫,最新动漫,好看动漫,免费动漫,动画片大全,动漫在线观看,动漫电影网,免费动漫在线观看,好看动漫网站。",
     "baseUrl": "https://www.dongman8.com/",
     "expr": "www\\.dongman8\\.com",
     "type": 2,
@@ -10,7 +10,7 @@
     "encode": "utf-8",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
     "style": 1,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "isOpenSource": 1,
     "engine": 28,
     "imgMode": 2,

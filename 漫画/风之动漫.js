@@ -6,7 +6,7 @@ function home_parse(url, html, headers) {
         if (link != null) {
             list.push({
                 title: $(this).children('a').text(),
-                link: link[1] + '/',
+                link: baseUrl + link[1] + '/',
                 updateTime: $(this).children('.time').text(),
             });
         }
@@ -20,7 +20,7 @@ function tag_parse(url, html, headers) {
     $('#mhmain').find('.round').each(function (e, i) {
         list.push({
             title: $(this).find('a').last().text(),
-            link:  $(this).find('a').last().attr('href'),
+            link: $(this).find('a').last().attr('href'),
         });
     });
     return JSON.stringify(list);
@@ -32,7 +32,7 @@ function book_parse(url, html, headers) {
     try {
         var map = new Map();
         var sections = [];
-        $('.pure-u-1-2.pure-u-lg-1-4').each(function (e, i) {
+        $('#content > li').each(function (e, i) {
             sections.push({
                 title: $(this).children('a').attr('title'),
                 link: url.replace('.com/', '.com/api/manhua/') + $(this).children('a').attr('href').slice(0, -1)
@@ -56,7 +56,7 @@ function details_parse(url, html, headers) {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
         }
     };
-    
+
     var mhss = "";
     if (mhss == "" || mhss == "http://" || mhss == "https://") {
         mhss = "http://p1.fzacg.com";
