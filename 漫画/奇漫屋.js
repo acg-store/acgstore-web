@@ -20,13 +20,11 @@ function home_parse(url, html, headers) {
 function search_parse(url, html, headers) {
     var list = [];
     let $ = cheerio.load(html);
-    $('.result-list').children('a').each(function (i, e) {
+    $('.search-result').children('.comic-list-item').each(function (i, e) {
         list.push({
-            title: $(this).find('.cartoon-info > h2').text(),
-            link: $(this).attr('href'),
-            cover: $(this).find('img').first().attr('src'),
-            author: $(this).find('.cartoon-info > p').first().text(),
-            info: $(this).find('.cartoon-info > p').eq(1).text(),
+            title: $(this).find('img').first().attr('alt').replace('漫画', ''),
+            link: $(this).children('a').attr('href'),
+            cover: $(this).find('img').first().attr('src')
         });
     });
     return JSON.stringify(list);
@@ -42,6 +40,10 @@ function book_parse(url, html, headers) {
         sections: new Map(),
         isSectionAsc: 0
     };
+    var time = html.match(/更新时间：(.*?)<\//);
+    if (time != null && time.length >= 2) {
+        book.updateTime = time[1];
+    }
     var sections = [];
     $('.chapter-item > a').each(function (i, e) {
         sections.push({
