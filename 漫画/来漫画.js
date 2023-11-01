@@ -30,7 +30,7 @@ function search_parse(url, html, headers) {
         var a = self.find('a').first();
         aggregate.title = a.children('img').attr('alt');
         aggregate.link = a.attr('href');
-        aggregate.cover = a.children('img').attr('src') + '@@headers={"referer":"https://m.laimanhua.net","protocol":"h2"}';;
+        aggregate.cover = a.children('img').attr('src') + `@@headers={"referer":"${this.baseUrl}","protocol":"h2"}`;
         aggregate.info = self.find('.intro').text();
         aggregate.updateTime = self.find('dd').last().children('p').first().text();
         list.push(aggregate);

@@ -1,1 +1,49 @@
-{"sid":"8c96c933-00fc-464d-8e10-636375516c80","name":"财经夜读","logo":"","info":"分享中央人民广播电台经济之声《财经夜读》节目的文章、图书、音乐等资源，欢迎喜欢该节目的朋友们多多支持。","baseUrl":"https://www.caijingyedu.com/","type":8,"grade":1,"needProxy":0,"encode":"utf-8","userAgent":"","openSource":true,"imgMode":3,"disable":true,"author":{"name":"静静","info":"我是静静，App和轻应用有问题都可以联系我哦","contact":"1077674403","donateLink":["https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg","https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"]},"version":"1.0.0","script":{"requires":[{"lib":"cheerio","url":""}],"code":"ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciBkYXRhID0gSlNPTi5wYXJzZShodG1sKTsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGRhdGEuZGF0YS5jb250ZW50KTsKICAgIHZhciBsaXN0ID0gW107CiAgICBpZiAoZGF0YS5zdWNjZXNzKSB7CiAgICAgICAgJCgnLnBvc3Qtb3V0ZXInKS5lYWNoKGZ1bmN0aW9uIChlLCBpKSB7CiAgICAgICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICAgICAgbGlzdC5wdXNoKHsKICAgICAgICAgICAgICAgIHRpdGxlOiBzZWxmLmZpbmQoJy5lbnRyeS10aXRsZSA+IGEnKS50ZXh0KCksCiAgICAgICAgICAgICAgICBsaW5rOiBzZWxmLmZpbmQoJy5lbnRyeS10aXRsZSA+IGEnKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgICAgICBhdXRob3I6IHNlbGYuZmluZCgnLnRlcm1zLWxpdS1qaW5nID4gYScpLnRleHQoKSwKICAgICAgICAgICAgICAgIGluZm86IHNlbGYuZmluZCgnLmVudHJ5LWV4Y2VycHQnKS50ZXh0KCksCiAgICAgICAgICAgICAgICB1cGRhdGVUaW1lOiBzZWxmLmZpbmQoJy5wb3N0LW1ldGEnKS5jaGlsZHJlbignbGknKS5lcSgyKS50ZXh0KCksCiAgICAgICAgICAgICAgICBjb3Zlcjogc2VsZi5maW5kKCdpbWcnKS5maXJzdCgpLmF0dHIoJ2RhdGEtcGstc3JjJyksCiAgICAgICAgICAgIH0pOwogICAgICAgIH0pOwogICAgfSBlbHNlIHsKICAgICAgICByZXR1cm4gJ0VSUk9SOuivt+axguaVsOaNruWksei0pSc7CiAgICB9CgogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgpmdW5jdGlvbiBkZXRhaWxzX3BhcnNlKHVybCwgaHRtbCkgewogICAgdmFyIGRldGFpbHMgPSB7fTsKICAgIGxldCAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgZGV0YWlscy5jb3ZlciA9ICQoJy5way1saWdodGJveC1jb250YWluZXInKS5maW5kKCdpbWcnKS5maXJzdCgpLmF0dHIoJ3NyYycpOwogICAgZGV0YWlscy50aXRsZSA9ICQoJ2gxLmVudHJ5LXRpdGxlJykudGV4dCgpOwogICAgZGV0YWlscy5hdXRob3IgPSAkKCcudGVybXMtbGl1LWppbmcnKS50ZXh0KCk7CiAgICBkZXRhaWxzLmxpbmsgPSAkKCcud3AtYmxvY2stYXVkaW8gPiBhdWRpbycpLmF0dHIoJ3NyYycpOwogICAgZGV0YWlscy5hbGJ1bSA9ICQoJy5wb3N0LW1ldGEnKS5jaGlsZHJlbignbGknKS5lcSgzKS50ZXh0KCk7CiAgICBkZXRhaWxzLnR5cGUgPSAnYXVkaW8vKic7CiAgICBjb25zb2xlLmxvZyhkZXRhaWxzKTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShkZXRhaWxzKTsKfQ=="},"home":{"title":"首页","url":"/wp-json/csco/v1/more-posts","method":"POST","parse":"home_parse","startPage":1,"addPage":1,"params":"action=csco_ajax_load_more&page=@page&posts_per_page=10&query_data=%7B%22location%22%3A%22home%22%2C%22infinite_load%22%3Afalse%2C%22query_vars%22%3A%7B%22error%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A0%2C%22post_parent%22%3A%22%22%2C%22subpost%22%3A%22%22%2C%22subpost_id%22%3A%22%22%2C%22attachment%22%3A%22%22%2C%22attachment_id%22%3A0%2C%22name%22%3A%22%22%2C%22pagename%22%3A%22%22%2C%22page_id%22%3A0%2C%22second%22%3A%22%22%2C%22minute%22%3A%22%22%2C%22hour%22%3A%22%22%2C%22day%22%3A0%2C%22monthnum%22%3A0%2C%22year%22%3A0%2C%22w%22%3A0%2C%22category_name%22%3A%22%22%2C%22tag%22%3A%22%22%2C%22cat%22%3A%22%22%2C%22tag_id%22%3A%22%22%2C%22author%22%3A%22%22%2C%22author_name%22%3A%22%22%2C%22feed%22%3A%22%22%2C%22tb%22%3A%22%22%2C%22paged%22%3A0%2C%22meta_key%22%3A%22%22%2C%22meta_value%22%3A%22%22%2C%22preview%22%3A%22%22%2C%22s%22%3A%22%22%2C%22sentence%22%3A%22%22%2C%22title%22%3A%22%22%2C%22fields%22%3A%22%22%2C%22menu_order%22%3A%22%22%2C%22embed%22%3A%22%22%2C%22category__in%22%3A%5B%5D%2C%22category__not_in%22%3A%5B%5D%2C%22category__and%22%3A%5B%5D%2C%22post__in%22%3A%5B%5D%2C%22post__not_in%22%3A%5B582%2C565%2C539%2C561%2C556%2C552%5D%2C%22post_name__in%22%3A%5B%5D%2C%22tag__in%22%3A%5B%5D%2C%22tag__not_in%22%3A%5B%5D%2C%22tag__and%22%3A%5B%5D%2C%22tag_slug__in%22%3A%5B%5D%2C%22tag_slug__and%22%3A%5B%5D%2C%22post_parent__in%22%3A%5B%5D%2C%22post_parent__not_in%22%3A%5B%5D%2C%22author__in%22%3A%5B%5D%2C%22author__not_in%22%3A%5B%5D%2C%2249f47c948536c05fb3145f9e3a863558%22%3A%5B582%5D%2C%22f3066848a5be74f27a75568698ce3d9a%22%3A%5B565%2C539%2C561%2C556%2C552%5D%2C%22parsed_rml_folder%22%3A0%2C%22ignore_sticky_posts%22%3Afalse%2C%22suppress_filters%22%3Afalse%2C%22cache_results%22%3Atrue%2C%22update_post_term_cache%22%3Atrue%2C%22lazy_load_term_meta%22%3Atrue%2C%22update_post_meta_cache%22%3Atrue%2C%22post_type%22%3A%22%22%2C%22posts_per_page%22%3A10%2C%22nopaging%22%3Afalse%2C%22comments_per_page%22%3A%2250%22%2C%22no_found_rows%22%3Afalse%2C%22order%22%3A%22DESC%22%2C%22use_rml_folder%22%3Afalse%7D%2C%22in_the_loop%22%3Afalse%2C%22is_single%22%3Afalse%2C%22is_page%22%3Afalse%2C%22is_archive%22%3Afalse%2C%22is_author%22%3Afalse%2C%22is_category%22%3Afalse%2C%22is_tag%22%3Afalse%2C%22is_tax%22%3Afalse%2C%22is_home%22%3Atrue%2C%22is_singular%22%3Afalse%7D&_ajax_nonce=b9060df9d9"},"details":{"title":"内容","method":"GET","parse":"details_parse","cacheAge":"1h"}}
+{
+    "sid": "8c96c933-00fc-464d-8e10-636375516c80",
+    "name": "财经夜读",
+    "logo": "",
+    "info": "分享中央人民广播电台经济之声《财经夜读》节目的文章、图书、音乐等资源，欢迎喜欢该节目的朋友们多多支持。",
+    "baseUrl": "https://www.caijingyedu.com/",
+    "type": 8,
+    "grade": 1,
+    "needProxy": 0,
+    "encode": "utf-8",
+    "userAgent": "",
+    "openSource": true,
+    "imgMode": 3,
+    "disable": true,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "version": "1.0.0",
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio",
+                "url": ""
+            }
+        ],
+        "code": "ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwpIHsKICAgIHZhciBkYXRhID0gSlNPTi5wYXJzZShodG1sKTsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGRhdGEuZGF0YS5jb250ZW50KTsKICAgIHZhciBsaXN0ID0gW107CiAgICBpZiAoZGF0YS5zdWNjZXNzKSB7CiAgICAgICAgJCgnLnBvc3Qtb3V0ZXInKS5lYWNoKGZ1bmN0aW9uIChlLCBpKSB7CiAgICAgICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICAgICAgbGlzdC5wdXNoKHsKICAgICAgICAgICAgICAgIHRpdGxlOiBzZWxmLmZpbmQoJy5lbnRyeS10aXRsZSA+IGEnKS50ZXh0KCksCiAgICAgICAgICAgICAgICBsaW5rOiBzZWxmLmZpbmQoJy5lbnRyeS10aXRsZSA+IGEnKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgICAgICBhdXRob3I6IHNlbGYuZmluZCgnLnRlcm1zLWxpdS1qaW5nID4gYScpLnRleHQoKSwKICAgICAgICAgICAgICAgIGluZm86IHNlbGYuZmluZCgnLmVudHJ5LWV4Y2VycHQnKS50ZXh0KCksCiAgICAgICAgICAgICAgICB1cGRhdGVUaW1lOiBzZWxmLmZpbmQoJy5wb3N0LW1ldGEnKS5jaGlsZHJlbignbGknKS5lcSgyKS50ZXh0KCksCiAgICAgICAgICAgICAgICBjb3Zlcjogc2VsZi5maW5kKCdpbWcnKS5maXJzdCgpLmF0dHIoJ2RhdGEtcGstc3JjJyksCiAgICAgICAgICAgIH0pOwogICAgICAgIH0pOwogICAgfSBlbHNlIHsKICAgICAgICByZXR1cm4gJ0VSUk9SOuivt+axguaVsOaNruWksei0pSc7CiAgICB9CgogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGxpc3QpOwp9CgpmdW5jdGlvbiBkZXRhaWxzX3BhcnNlKHVybCwgaHRtbCkgewogICAgdmFyIGRldGFpbHMgPSB7fTsKICAgIGxldCAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgZGV0YWlscy5jb3ZlciA9ICQoJy5way1saWdodGJveC1jb250YWluZXInKS5maW5kKCdpbWcnKS5maXJzdCgpLmF0dHIoJ3NyYycpOwogICAgZGV0YWlscy50aXRsZSA9ICQoJ2gxLmVudHJ5LXRpdGxlJykudGV4dCgpOwogICAgZGV0YWlscy5hdXRob3IgPSAkKCcudGVybXMtbGl1LWppbmcnKS50ZXh0KCk7CiAgICBkZXRhaWxzLmxpbmsgPSAkKCcud3AtYmxvY2stYXVkaW8gPiBhdWRpbycpLmF0dHIoJ3NyYycpOwogICAgZGV0YWlscy5hbGJ1bSA9ICQoJy5wb3N0LW1ldGEnKS5jaGlsZHJlbignbGknKS5lcSgzKS50ZXh0KCk7CiAgICBkZXRhaWxzLnR5cGUgPSAnYXVkaW8vKic7CiAgICBjb25zb2xlLmxvZyhkZXRhaWxzKTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShkZXRhaWxzKTsKfQ=="
+    },
+    "home": {
+        "title": "首页",
+        "url": "/wp-json/csco/v1/more-posts",
+        "method": "POST",
+        "parse": "home_parse",
+        "startPage": 1,
+        "addPage": 1,
+        "params": "action=csco_ajax_load_more&page=@page&posts_per_page=10&query_data=%7B%22location%22%3A%22home%22%2C%22infinite_load%22%3Afalse%2C%22query_vars%22%3A%7B%22error%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A0%2C%22post_parent%22%3A%22%22%2C%22subpost%22%3A%22%22%2C%22subpost_id%22%3A%22%22%2C%22attachment%22%3A%22%22%2C%22attachment_id%22%3A0%2C%22name%22%3A%22%22%2C%22pagename%22%3A%22%22%2C%22page_id%22%3A0%2C%22second%22%3A%22%22%2C%22minute%22%3A%22%22%2C%22hour%22%3A%22%22%2C%22day%22%3A0%2C%22monthnum%22%3A0%2C%22year%22%3A0%2C%22w%22%3A0%2C%22category_name%22%3A%22%22%2C%22tag%22%3A%22%22%2C%22cat%22%3A%22%22%2C%22tag_id%22%3A%22%22%2C%22author%22%3A%22%22%2C%22author_name%22%3A%22%22%2C%22feed%22%3A%22%22%2C%22tb%22%3A%22%22%2C%22paged%22%3A0%2C%22meta_key%22%3A%22%22%2C%22meta_value%22%3A%22%22%2C%22preview%22%3A%22%22%2C%22s%22%3A%22%22%2C%22sentence%22%3A%22%22%2C%22title%22%3A%22%22%2C%22fields%22%3A%22%22%2C%22menu_order%22%3A%22%22%2C%22embed%22%3A%22%22%2C%22category__in%22%3A%5B%5D%2C%22category__not_in%22%3A%5B%5D%2C%22category__and%22%3A%5B%5D%2C%22post__in%22%3A%5B%5D%2C%22post__not_in%22%3A%5B582%2C565%2C539%2C561%2C556%2C552%5D%2C%22post_name__in%22%3A%5B%5D%2C%22tag__in%22%3A%5B%5D%2C%22tag__not_in%22%3A%5B%5D%2C%22tag__and%22%3A%5B%5D%2C%22tag_slug__in%22%3A%5B%5D%2C%22tag_slug__and%22%3A%5B%5D%2C%22post_parent__in%22%3A%5B%5D%2C%22post_parent__not_in%22%3A%5B%5D%2C%22author__in%22%3A%5B%5D%2C%22author__not_in%22%3A%5B%5D%2C%2249f47c948536c05fb3145f9e3a863558%22%3A%5B582%5D%2C%22f3066848a5be74f27a75568698ce3d9a%22%3A%5B565%2C539%2C561%2C556%2C552%5D%2C%22parsed_rml_folder%22%3A0%2C%22ignore_sticky_posts%22%3Afalse%2C%22suppress_filters%22%3Afalse%2C%22cache_results%22%3Atrue%2C%22update_post_term_cache%22%3Atrue%2C%22lazy_load_term_meta%22%3Atrue%2C%22update_post_meta_cache%22%3Atrue%2C%22post_type%22%3A%22%22%2C%22posts_per_page%22%3A10%2C%22nopaging%22%3Afalse%2C%22comments_per_page%22%3A%2250%22%2C%22no_found_rows%22%3Afalse%2C%22order%22%3A%22DESC%22%2C%22use_rml_folder%22%3Afalse%7D%2C%22in_the_loop%22%3Afalse%2C%22is_single%22%3Afalse%2C%22is_page%22%3Afalse%2C%22is_archive%22%3Afalse%2C%22is_author%22%3Afalse%2C%22is_category%22%3Afalse%2C%22is_tag%22%3Afalse%2C%22is_tax%22%3Afalse%2C%22is_home%22%3Atrue%2C%22is_singular%22%3Afalse%7D&_ajax_nonce=b9060df9d9"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "cacheAge": "1h"
+    }
+}

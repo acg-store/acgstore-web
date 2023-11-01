@@ -3,13 +3,13 @@
     "name": "新新漫画",
     "logo": "",
     "info": "网友推荐，资源全，速度快，集齐漫画资源相当丰富，只有你想不到的，没有看不到的，每天更新百部漫画。",
-    "baseUrl": "https://www.77mh.nl/",
+    "baseUrl": "#pref￥线路地址￥https://www.77mh.xyz",
     "expr": "\\.77mh\\.(nl|top|com|xyz)",
     "type": 1,
     "grade": 8,
-    "imgMode": 2,
+    "imgMode": 4,
     "encode": "utf-8",
-    "engine": 25,
+    "engine": 26,
     "http2": false,
     "author": {
         "name": "静静",
@@ -20,7 +20,7 @@
             "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
         ]
     },
-    "version": "1.0.3",
+    "version": "1.0.4",
     "script": {
         "requires": [
             {
@@ -30,6 +30,17 @@
         "code": "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"
     },
     "prefs": [
+        {
+            "key": "线路地址",
+            "defaultValue": "https://www.77mh.xyz",
+            "type": "radio",
+            "valueList": [
+                "https://www.77mh.com",
+                "https://www.77mh.nl",
+                "https://www.77mh.top",
+                "https://www.77mh.xyz"
+            ]
+        },
         {
             "key": "图片服务器",
             "defaultValue": "4",

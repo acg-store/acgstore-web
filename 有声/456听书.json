@@ -1,1 +1,61 @@
-{"sid":"ee7e9605-4e1b-4c4e-a522-f725ca66f1a2","name":"456听书","logo":"","info":"456听书网提供有声小说，名家评书，相声小品，海量资源，应有尽有。释放双眼，用耳朵聆听声音！懒人的最佳选择！","baseUrl":"http://m.ting456.com","type":4,"grade":7,"encode":"utf-8","userAgent":"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1","style":1,"imgMode":2,"version":"1.0.0","engine":23,"author":{"name":"静静","info":"我是静静，App和轻应用有问题都可以联系我哦","contact":"1077674403","donateLink":["https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg","https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"]},"script":{"requires":[{"lib":"cheerio"}],"code":"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"},"home":{"title":"新书","url":"/fenlei/c30-@page.html","method":"GET","parse":"home_parse","cacheAge":"1h"},"search":{"title":"搜索","url":"/search.php?page=@page&searchword=@key&searchtype=","method":"GET","parse":"home_parse","imageMode":1,"startPage":1,"cacheAge":"1h"},"book":{"title":"详情","method":"GET","parse":"book_parse","cacheAge":"1h"},"details":{"title":"内容","method":"GET","parse":"details_parse","cacheAge":"1h"},"openSource":false}
+{
+    "sid": "ee7e9605-4e1b-4c4e-a522-f725ca66f1a2",
+    "name": "456听书",
+    "logo": "",
+    "info": "456听书网提供有声小说，名家评书，相声小品，海量资源，应有尽有。释放双眼，用耳朵聆听声音！懒人的最佳选择！",
+    "baseUrl": "http://m.ting456.com",
+    "type": 4,
+    "grade": 7,
+    "encode": "utf-8",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+    "style": 1,
+    "imgMode": 2,
+    "version": "1.0.0",
+    "engine": 23,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            }
+        ],
+        "code": "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"
+    },
+    "home": {
+        "title": "新书",
+        "url": "/fenlei/c30-@page.html",
+        "method": "GET",
+        "parse": "home_parse",
+        "cacheAge": "1h"
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/search.php?page=@page&searchword=@key&searchtype=",
+        "method": "GET",
+        "parse": "home_parse",
+        "imageMode": 1,
+        "startPage": 1,
+        "cacheAge": "1h"
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "cacheAge": "1h"
+    },
+    "openSource": false
+}

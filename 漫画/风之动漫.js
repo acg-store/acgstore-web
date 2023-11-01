@@ -6,7 +6,7 @@ function home_parse(url, html, headers) {
         if (link != null) {
             list.push({
                 title: $(this).children('a').text(),
-                link: baseUrl + link[1] + '/',
+                link: '/manhua/' + link[1] + '/',
                 updateTime: $(this).children('.time').text(),
             });
         }
@@ -35,7 +35,7 @@ function book_parse(url, html, headers) {
         $('#content > li').each(function (e, i) {
             sections.push({
                 title: $(this).children('a').attr('title'),
-                link: url.replace('.com/', '.com/api/manhua/') + $(this).children('a').attr('href').slice(0, -1)
+                link: url.replace('.com/', '.com/api/') + $(this).children('a').attr('href').slice(0, -1)
             });
         });
         map['目录'] = sections;
