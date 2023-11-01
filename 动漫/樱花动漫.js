@@ -96,6 +96,10 @@ function details_video_parse(url, html) {
     var $ = cheerio.load(html);
     let script = $('div.embed-responsive.clearfix > script:nth-child(1)').text();
     eval(script);
+    if (!player_aaaa.url.startsWith('http')) {
+        player_aaaa.url = decodeURIComponent(Base64.decode(player_aaaa.url));
+    }
+
     var video = {
         link: player_aaaa.url,
         mime: 'video/*',
