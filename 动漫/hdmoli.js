@@ -38,7 +38,7 @@ function book_parse(url, html, headers) {
     var map = new Map();
     $('ul.nav-tabs').children('li').each(function (i, e) {
         var sections = [];
-        $(`#playlist${i+1}`).find('li').each(function (i, e) {
+        $(`#playlist${i + 1}`).find('li').each(function (i, e) {
             sections.push({
                 title: $(this).children('a').text(),
                 link: $(this).children('a').attr('href'),
@@ -55,5 +55,11 @@ function details_parse(url, html, headers) {
     if (data.resource == null || data.resource.length == 0) {
         return "ERROR:没有嗅探到资源";
     }
-    return JSON.stringify({ mime: "video/*", link: data.resource[0].link});
+    return JSON.stringify({
+        mime: "video/*",
+        link: data.resource[0].link,
+        headers: {
+            referer: this.baseUrl,
+        }
+    });
 }

@@ -21,7 +21,7 @@ function search_parse(url, html, headers) {
         list.push({
             title: self.find('.post-title').text().replace(/ \(.*?\)/, ''),
             link: self.find('.post-title > a').attr('href'),
-            info: self.find('.entry-content').text() +'\n'+ self.find('.cat-links').text(),
+            info: self.find('.entry-content').text() + '\n' + self.find('.cat-links').text(),
             updateTime: self.find('.meta_date > time').first().text()
         });
     });
@@ -35,7 +35,6 @@ function book_parse(url, html, headers) {
 
     let play_data = JSON.parse(script);
     var book = {
-        cover: $('div.post > img').attr('src'),
         info: $('.abstract').text(),
         sectionLink: [],
     };
@@ -43,7 +42,7 @@ function book_parse(url, html, headers) {
     var sections = [];
     play_data.tracks.forEach(element => {
         sections.push({
-            link: `https://ddys.tv/getvddr/video?id=${element.src1}&dim=1080P&type=mix`,
+            link: `/getvddr2/video?id=${element.src1}&type=json`,
             title: element.caption,
         })
     });
@@ -54,11 +53,11 @@ function book_parse(url, html, headers) {
     }
     map['第1季'] = sections;
     book.sections = map;
-    
+
     return JSON.stringify(book);
 }
 
-function sections_parse(url, html, headers,lastResult){
+function sections_parse(url, html, headers, lastResult) {
     var $ = cheerio.load(html);
     var script = $('.wp-playlist-script').text();
     let play_data = JSON.parse(script);
@@ -66,7 +65,7 @@ function sections_parse(url, html, headers,lastResult){
     var sections = [];
     play_data.tracks.forEach(element => {
         sections.push({
-            link: `https://ddys.tv/getvddr/video?id=${element.src1}&dim=1080P&type=mix`,
+            link: `/getvddr2/video?id=${element.src1}&type=json`,
             title: element.caption,
         })
     });

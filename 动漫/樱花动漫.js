@@ -36,14 +36,12 @@ function book_parse(url, html) {
     var $ = cheerio.load(html);
     var book = {};
     book.title = $('h1.title').text();
-    book.cover = $('.lazyload').first().attr('data-original');
     book.info = $('#desc > div > div.myui-panel_bd > div > span.data').text();
     var map = new Map();
     var groupList = [];
     $('div.myui-panel_hd > div > ul').first().children('li').each(function (e, i) {
         groupList.push('播放地址');
     });
-    console.log(groupList);
     for (var i = 1; i <= groupList.length; i++) {
         var list = [];
         $('#playlist' + i).find('li').each(function (e, i) {

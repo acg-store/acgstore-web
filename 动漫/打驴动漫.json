@@ -1,1 +1,62 @@
-{"sid":"3d09283f-461a-4eaa-8930-2f0f01611175","name":"打驴动漫","logo":"https://www.hualigs.cn/image/6351f44e361a9.jpg","info":"速度快,资源全,打驴动漫,是二次元爱好者专属的温馨小站,本站提供无修樱花动漫新番且拥有最新最全的日本动漫,国产动漫,最新番剧,全站无广告播放,完美支持电脑手机端观看，欢迎各位动漫爱好者前来观看。","baseUrl":"https://www.dqsj.top","expr":"dqsj\\.top","type":2,"grade":8,"needProxy":0,"encode":"utf-8","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36","style":1,"version":"1.0.4","openSource":true,"imgMode":3,"engine":23,"author":{"name":"静静","info":"请打开源网页，支持打驴动漫"},"script":{"requires":[{"lib":"cheerio"}],"code":"ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciBsaXN0ID0gW107CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgICQoJy5wdWJsaWMtbGlzdC1ib3gnKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiBzZWxmLmZpbmQoJ2EnKS5maXJzdCgpLmF0dHIoJ3RpdGxlJyksCiAgICAgICAgICAgIGxpbms6IHNlbGYuZmluZCgnYScpLmZpcnN0KCkuYXR0cignaHJlZicpLAogICAgICAgICAgICBjb3Zlcjogc2VsZi5maW5kKCdhJykuZmlyc3QoKS5jaGlsZHJlbignZGl2JykuZmlyc3QoKS5hdHRyKCdkYXRhLW9yaWdpbmFsJyksCiAgICAgICAgICAgIGluZm86IHNlbGYuZmluZCgnLnB1YmxpYy1saXN0LXN1YnRpdGxlJykuZmlyc3QoKS50ZXh0KCksCiAgICAgICAgfSk7CiAgICB9KTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShsaXN0KTsKfQoKCmZ1bmN0aW9uIHNlYXJjaF9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciBsaXN0ID0gW107CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgICQoJy5zZWFyY2gtYm94JykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICBsaXN0LnB1c2goewogICAgICAgICAgICB0aXRsZTogc2VsZi5maW5kKCcudGh1bWItdHh0LmNvcjQnKS50ZXh0KCksCiAgICAgICAgICAgIGxpbms6IHNlbGYuZmluZCgnLnRodW1iLW1lbnUgPiBhJykuYXR0cignaHJlZicpLAogICAgICAgICAgICBjb3Zlcjogc2VsZi5jaGlsZHJlbignLmNvdmVyJykuZmlyc3QoKS5hdHRyKCdzdHlsZScpLm1hdGNoKC91cmxcKCguKj8pXCkvaSlbMV0sCiAgICAgICAgICAgIGluZm86IHNlbGYuZmluZCgnLnRodW1iLWJsdXJiJykudGV4dCgpCiAgICAgICAgfSk7CiAgICB9KTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShsaXN0KTsKfQoKCmZ1bmN0aW9uIGJvb2tfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICB2YXIgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBib29rID0gewogICAgICAgIGluZm86ICQoJyNoZWlnaHRfbGltaXQnKS50ZXh0KCksCiAgICB9OwogICAgdmFyIG1hcCA9IG5ldyBNYXAoKTsKICAgICQoJy5zd2lwZXItd3JhcHBlcicpLmNoaWxkcmVuKCdhJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIHZhciBzZWN0aW9ucyA9IFtdOwogICAgICAgICQoYC5hbnRob2xvZ3ktbGlzdC1ib3hgKS5lcShpKS5maW5kKCdsaScpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICAgICAgc2VjdGlvbnMucHVzaCh7CiAgICAgICAgICAgICAgICB0aXRsZTogJCh0aGlzKS5jaGlsZHJlbignYScpLnRleHQoKSwKICAgICAgICAgICAgICAgIGxpbms6ICQodGhpcykuY2hpbGRyZW4oJ2EnKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgIH0pOwogICAgICAgIH0pOwogICAgICAgIG1hcFskKHRoaXMpLnRleHQoKS50cmltKCldID0gc2VjdGlvbnM7CiAgICB9KTsKICAgIGJvb2suc2VjdGlvbnMgPSBtYXA7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoYm9vayk7Cn0KCmZ1bmN0aW9uIGRldGFpbHNfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICBsZXQgZGF0YSA9IEpTT04ucGFyc2UoaHRtbCk7CiAgICBpZiAoZGF0YS5yZXNvdXJjZSA9PSBudWxsIHx8IGRhdGEucmVzb3VyY2UubGVuZ3RoID09IDApIHsKICAgICAgICByZXR1cm4gIkVSUk9SOuayoeacieWXheaOouWIsOi1hOa6kCI7CiAgICB9CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoeyBtaW1lOiAidmlkZW8vKiIsIGxpbms6IGRhdGEucmVzb3VyY2VbMF0ubGluayB9KTsKfQ=="},"home":{"title":"首页","url":"/index.php/map/index.html","method":"GET","parse":"home_parse","cacheAge":"1h"},"search":{"title":"搜索","url":"/index.php/vod/search/page/@page/wd/@key.html","method":"GET","parse":"search_parse","cacheAge":"1h","addPage":1,"startPage":1},"book":{"title":"详情","method":"GET","parse":"book_parse","cacheAge":"1h"},"details":{"title":"内容","method":"GET","parse":"details_parse","sniffFilters":"\\.mp4|\\.m3u8|\\/video\\/","sniff":true,"superSniff":true,"sniffDelay":8000,"cacheAge":"1h"}}
+{
+    "sid": "3d09283f-461a-4eaa-8930-2f0f01611175",
+    "name": "打驴动漫",
+    "logo": "https://www.hualigs.cn/image/6351f44e361a9.jpg",
+    "info": "速度快,资源全,打驴动漫,是二次元爱好者专属的温馨小站,本站提供无修樱花动漫新番且拥有最新最全的日本动漫,国产动漫,最新番剧,全站无广告播放,完美支持电脑手机端观看，欢迎各位动漫爱好者前来观看。",
+    "baseUrl": "https://www.dqsj.top",
+    "expr": "dqsj\\.top",
+    "type": 2,
+    "grade": 8,
+    "needProxy": 0,
+    "encode": "utf-8",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+    "style": 1,
+    "version": "1.0.4",
+    "openSource": true,
+    "imgMode": 3,
+    "engine": 23,
+    "author": {
+        "name": "静静",
+        "info": "请打开源网页，支持打驴动漫"
+    },
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            }
+        ],
+        "code": "ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciBsaXN0ID0gW107CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgICQoJy5wdWJsaWMtbGlzdC1ib3gnKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiBzZWxmLmZpbmQoJ2EnKS5maXJzdCgpLmF0dHIoJ3RpdGxlJyksCiAgICAgICAgICAgIGxpbms6IHNlbGYuZmluZCgnYScpLmZpcnN0KCkuYXR0cignaHJlZicpLAogICAgICAgICAgICBjb3Zlcjogc2VsZi5maW5kKCdhJykuZmlyc3QoKS5jaGlsZHJlbignZGl2JykuZmlyc3QoKS5hdHRyKCdkYXRhLW9yaWdpbmFsJyksCiAgICAgICAgICAgIGluZm86IHNlbGYuZmluZCgnLnB1YmxpYy1saXN0LXN1YnRpdGxlJykuZmlyc3QoKS50ZXh0KCksCiAgICAgICAgfSk7CiAgICB9KTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShsaXN0KTsKfQoKCmZ1bmN0aW9uIHNlYXJjaF9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciBsaXN0ID0gW107CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgICQoJy5zZWFyY2gtYm94JykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIHZhciBzZWxmID0gJCh0aGlzKTsKICAgICAgICBsaXN0LnB1c2goewogICAgICAgICAgICB0aXRsZTogc2VsZi5maW5kKCcudGh1bWItdHh0LmNvcjQnKS50ZXh0KCksCiAgICAgICAgICAgIGxpbms6IHNlbGYuZmluZCgnLnRodW1iLW1lbnUgPiBhJykuYXR0cignaHJlZicpLAogICAgICAgICAgICBjb3Zlcjogc2VsZi5jaGlsZHJlbignLmNvdmVyJykuZmlyc3QoKS5hdHRyKCdzdHlsZScpLm1hdGNoKC91cmxcKCguKj8pXCkvaSlbMV0sCiAgICAgICAgICAgIGluZm86IHNlbGYuZmluZCgnLnRodW1iLWJsdXJiJykudGV4dCgpCiAgICAgICAgfSk7CiAgICB9KTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShsaXN0KTsKfQoKCmZ1bmN0aW9uIGJvb2tfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICB2YXIgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBib29rID0gewogICAgICAgIGluZm86ICQoJyNoZWlnaHRfbGltaXQnKS50ZXh0KCksCiAgICB9OwogICAgdmFyIG1hcCA9IG5ldyBNYXAoKTsKICAgICQoJy5zd2lwZXItd3JhcHBlcicpLmNoaWxkcmVuKCdhJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIHZhciBzZWN0aW9ucyA9IFtdOwogICAgICAgICQoYC5hbnRob2xvZ3ktbGlzdC1ib3hgKS5lcShpKS5maW5kKCdsaScpLmVhY2goZnVuY3Rpb24gKGksIGUpIHsKICAgICAgICAgICAgc2VjdGlvbnMucHVzaCh7CiAgICAgICAgICAgICAgICB0aXRsZTogJCh0aGlzKS5jaGlsZHJlbignYScpLnRleHQoKSwKICAgICAgICAgICAgICAgIGxpbms6ICQodGhpcykuY2hpbGRyZW4oJ2EnKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgIH0pOwogICAgICAgIH0pOwogICAgICAgIG1hcFskKHRoaXMpLnRleHQoKS50cmltKCldID0gc2VjdGlvbnM7CiAgICB9KTsKICAgIGJvb2suc2VjdGlvbnMgPSBtYXA7CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoYm9vayk7Cn0KCmZ1bmN0aW9uIGRldGFpbHNfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICBsZXQgZGF0YSA9IEpTT04ucGFyc2UoaHRtbCk7CiAgICBpZiAoZGF0YS5yZXNvdXJjZSA9PSBudWxsIHx8IGRhdGEucmVzb3VyY2UubGVuZ3RoID09IDApIHsKICAgICAgICByZXR1cm4gIkVSUk9SOuayoeacieWXheaOouWIsOi1hOa6kCI7CiAgICB9CiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkoeyBtaW1lOiAidmlkZW8vKiIsIGxpbms6IGRhdGEucmVzb3VyY2VbMF0ubGluayB9KTsKfQ=="
+    },
+    "home": {
+        "title": "首页",
+        "url": "/index.php/map/index.html",
+        "method": "GET",
+        "parse": "home_parse",
+        "cacheAge": "1h"
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/index.php/vod/search/page/@page/wd/@key.html",
+        "method": "GET",
+        "parse": "search_parse",
+        "cacheAge": "1h",
+        "addPage": 1,
+        "startPage": 1
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "sniffFilters": "\\.mp4|\\.m3u8|\\/video\\/",
+        "sniff": true,
+        "superSniff": true,
+        "sniffDelay": 8000,
+        "cacheAge": "1h"
+    }
+}
