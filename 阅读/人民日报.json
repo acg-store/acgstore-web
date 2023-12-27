@@ -1,1 +1,52 @@
-{"sid":"4c32766c-a18b-4bb5-b0f9-0f516058fc7f","name":"人民日报","logo":"http://img.ibiaozhi.com/uploads/allimg/c120629/1340961312560-12504.png","info":"获取今天的人民日报内容","baseUrl":"http://paper.people.com.cn","type":3,"grade":1,"needProxy":false,"encode":"UTF-8","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36","version":"1.0.0","openSource":true,"engine":25,"imgMode":0,"enableSearch":false,"author":{"name":"静静","info":"我是静静，App和轻应用有问题都可以联系我哦","contact":"1077674403","donateLink":["https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg","https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"]},"script":{"requires":[{"lib":"cheerio"}],"code":"ZnVuY3Rpb24gZ2V0RGF0ZVVybCgpIHsKICAgIGxldCBkYXRlID0gbmV3IERhdGUoKTsKICAgIGxldCB5ZWFyID0gZGF0ZS5nZXRGdWxsWWVhcigpOwogICAgbGV0IG1vbnRoID0gZGF0ZS5nZXRNb250aCgpICsgMTsKICAgIGxldCBkYXkgPSBkYXRlLmdldERhdGUoKTsKICAgIHJldHVybiBgL3JtcmIvaHRtbC8ke3llYXJ9LSR7bW9udGggPiAxMCA/IG1vbnRoIDogJzAnICsgbW9udGh9LyR7ZGF5ID4gMTAgPyBkYXkgOiAnMCcgKyBkYXl9L2A7Cn0KCmZ1bmN0aW9uIGhvbWVfYnVpbGRfdXJsKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgcmV0dXJuIGAke2dldERhdGVVcmwoKX0vbmJzLkQxMTAwMDByZW5tcmJfMDEuaHRtYDsKfQoKZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIGxldCAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGxpc3QgPSBbXTsKICAgIGxldCBkYXRlID0gJCgnLmRhdGUubGVmdCcpLnRleHQoKS5yZXBsYWNlKCfkurrmsJHml6XmiqUnLCAnJykudHJpbSgpOwogICAgJCgnLnN3aXBlci1jb250YWluZXIgPiAuc3dpcGVyLXNsaWRlJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIHZhciBsaW5rID0gJCh0aGlzKS5jaGlsZHJlbignYScpLmF0dHIoJ2hyZWYnKTsKICAgICAgICBpZiAobGluay5zdGFydHNXaXRoKCcuLycpKSB7CiAgICAgICAgICAgIGxpbmsgPSBsaW5rLnJlcGxhY2UoJy4vJywgJycpOwogICAgICAgIH0KICAgICAgICBsaXN0LnB1c2goCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHRpdGxlOiAkKHRoaXMpLmNoaWxkcmVuKCdhJykudGV4dCgpLAogICAgICAgICAgICAgICAgbGluazogYCR7Z2V0RGF0ZVVybCgpfSR7bGlua31gLAogICAgICAgICAgICAgICAgaW5mbzogZGF0ZSwKICAgICAgICAgICAgfQogICAgICAgICk7CiAgICB9KTsKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCmZ1bmN0aW9uIGJvb2tfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBib29rID0gewogICAgICAgIHRpdGxlOiAkKCdkaXYucGFwZXItYm90ID4gcC5sZWZ0LmJhbicpLnRleHQoKSwKICAgICAgICBjb3ZlcjogJCgnZGl2LnBhcGVyID4gaW1nJykuYXR0cignc3JjJykucmVwbGFjZSgnLi4vLi4vLi4nLCAnaHR0cDovL3BhcGVyLnBlb3BsZS5jb20uY24vcm1yYicpCiAgICB9OwogICAgdmFyIGNoYXB0ZXJzID0gW107CiAgICAkKCcubmV3cy1saXN0ID4gbGknKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgY2hhcHRlcnMucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiAkKHRoaXMpLmNoaWxkcmVuKCdhJykudGV4dCgpLAogICAgICAgICAgICBsaW5rOiBgJHtnZXREYXRlVXJsKCl9JHskKHRoaXMpLmNoaWxkcmVuKCdhJykuYXR0cignaHJlZicpfWAsCiAgICAgICAgfSk7CiAgICB9KTsKICAgIGJvb2suc2VjdGlvbnMgPSB7ICLnm67lvZUiOiBjaGFwdGVycyB9OwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGJvb2spOwp9CgpmdW5jdGlvbiBkZXRhaWxzX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgbGV0ICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICB2YXIgZGV0YWlscyA9IHt9OwogICAgZGV0YWlscy50eXBlID0gInRleHQiOwogICAgZGV0YWlscy5jb250ZW50cyA9IHhwYXRoLnF1ZXJ5KCcvLypbQGlkPSJvem9vbSJdL3AvdGV4dCgpJywgaHRtbCkuZmlsdGVyKCh0KSA9PiB0ICE9ICcnKS5tYXAoKHQpID0+IHQudHJpbSgpKTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShkZXRhaWxzKTsKfQ=="},"home":{"title":"今日新闻","buildUrl":"home_build_url","method":"GET","parse":"home_parse","cacheAge":"1h"},"book":{"title":"详情","parse":"book_parse","cacheAge":"1h"},"details":{"title":"内容","parse":"details_parse","cacheAge":"1h"}}
+{
+    "sid": "4c32766c-a18b-4bb5-b0f9-0f516058fc7f",
+    "name": "人民日报",
+    "logo": "http://img.ibiaozhi.com/uploads/allimg/c120629/1340961312560-12504.png",
+    "info": "获取今天的人民日报内容",
+    "baseUrl": "http://paper.people.com.cn",
+    "type": 3,
+    "grade": 1,
+    "needProxy": false,
+    "encode": "UTF-8",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+    "version": "1.0.0",
+    "openSource": true,
+    "engine": 25,
+    "imgMode": 0,
+    "enableSearch": false,
+    "disable": true,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            }
+        ],
+        "code": "ZnVuY3Rpb24gZ2V0RGF0ZVVybCgpIHsKICAgIGxldCBkYXRlID0gbmV3IERhdGUoKTsKICAgIGxldCB5ZWFyID0gZGF0ZS5nZXRGdWxsWWVhcigpOwogICAgbGV0IG1vbnRoID0gZGF0ZS5nZXRNb250aCgpICsgMTsKICAgIGxldCBkYXkgPSBkYXRlLmdldERhdGUoKTsKICAgIHJldHVybiBgL3JtcmIvaHRtbC8ke3llYXJ9LSR7bW9udGggPiAxMCA/IG1vbnRoIDogJzAnICsgbW9udGh9LyR7ZGF5ID4gMTAgPyBkYXkgOiAnMCcgKyBkYXl9L2A7Cn0KCmZ1bmN0aW9uIGhvbWVfYnVpbGRfdXJsKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgcmV0dXJuIGAke2dldERhdGVVcmwoKX0vbmJzLkQxMTAwMDByZW5tcmJfMDEuaHRtYDsKfQoKZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIGxldCAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGxpc3QgPSBbXTsKICAgIGxldCBkYXRlID0gJCgnLmRhdGUubGVmdCcpLnRleHQoKS5yZXBsYWNlKCfkurrmsJHml6XmiqUnLCAnJykudHJpbSgpOwogICAgJCgnLnN3aXBlci1jb250YWluZXIgPiAuc3dpcGVyLXNsaWRlJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIHZhciBsaW5rID0gJCh0aGlzKS5jaGlsZHJlbignYScpLmF0dHIoJ2hyZWYnKTsKICAgICAgICBpZiAobGluay5zdGFydHNXaXRoKCcuLycpKSB7CiAgICAgICAgICAgIGxpbmsgPSBsaW5rLnJlcGxhY2UoJy4vJywgJycpOwogICAgICAgIH0KICAgICAgICBsaXN0LnB1c2goCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHRpdGxlOiAkKHRoaXMpLmNoaWxkcmVuKCdhJykudGV4dCgpLAogICAgICAgICAgICAgICAgbGluazogYCR7Z2V0RGF0ZVVybCgpfSR7bGlua31gLAogICAgICAgICAgICAgICAgaW5mbzogZGF0ZSwKICAgICAgICAgICAgfQogICAgICAgICk7CiAgICB9KTsKCiAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkobGlzdCk7Cn0KCmZ1bmN0aW9uIGJvb2tfcGFyc2UodXJsLCBodG1sLCBoZWFkZXJzKSB7CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sKTsKICAgIHZhciBib29rID0gewogICAgICAgIHRpdGxlOiAkKCdkaXYucGFwZXItYm90ID4gcC5sZWZ0LmJhbicpLnRleHQoKSwKICAgICAgICBjb3ZlcjogJCgnZGl2LnBhcGVyID4gaW1nJykuYXR0cignc3JjJykucmVwbGFjZSgnLi4vLi4vLi4nLCAnaHR0cDovL3BhcGVyLnBlb3BsZS5jb20uY24vcm1yYicpCiAgICB9OwogICAgdmFyIGNoYXB0ZXJzID0gW107CiAgICAkKCcubmV3cy1saXN0ID4gbGknKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgY2hhcHRlcnMucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiAkKHRoaXMpLmNoaWxkcmVuKCdhJykudGV4dCgpLAogICAgICAgICAgICBsaW5rOiBgJHtnZXREYXRlVXJsKCl9JHskKHRoaXMpLmNoaWxkcmVuKCdhJykuYXR0cignaHJlZicpfWAsCiAgICAgICAgfSk7CiAgICB9KTsKICAgIGJvb2suc2VjdGlvbnMgPSB7ICLnm67lvZUiOiBjaGFwdGVycyB9OwogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGJvb2spOwp9CgpmdW5jdGlvbiBkZXRhaWxzX3BhcnNlKHVybCwgaHRtbCwgaGVhZGVycykgewogICAgbGV0ICQgPSBjaGVlcmlvLmxvYWQoaHRtbCk7CiAgICB2YXIgZGV0YWlscyA9IHt9OwogICAgZGV0YWlscy50eXBlID0gInRleHQiOwogICAgZGV0YWlscy5jb250ZW50cyA9IHhwYXRoLnF1ZXJ5KCcvLypbQGlkPSJvem9vbSJdL3AvdGV4dCgpJywgaHRtbCkuZmlsdGVyKCh0KSA9PiB0ICE9ICcnKS5tYXAoKHQpID0+IHQudHJpbSgpKTsKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShkZXRhaWxzKTsKfQ=="
+    },
+    "home": {
+        "title": "今日新闻",
+        "buildUrl": "home_build_url",
+        "method": "GET",
+        "parse": "home_parse",
+        "cacheAge": "1h"
+    },
+    "book": {
+        "title": "详情",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "details": {
+        "title": "内容",
+        "parse": "details_parse",
+        "cacheAge": "1h"
+    }
+}
