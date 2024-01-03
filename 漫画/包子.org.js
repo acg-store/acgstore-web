@@ -4,7 +4,7 @@ function home_parse(url, html, headers) {
     $('.pb-2').each(function (i, e) {
         var self = $(this);
         list.push({
-            title: self.find('.font-medium').text(),
+            title: self.find('h3.cardtitle').text(),
             link: self.children('a').attr('href').replace(/manga/i, 'chapterlist'),
             cover: self.find('img').first().attr('src') + '@@headers={"protocol":"h2"}',
         });
@@ -17,7 +17,7 @@ function book_parse(url, html, headers) {
     var $ = cheerio.load(html);
     var book = {
         sections: {},
-        isSectionAsc: 0,
+        isSectionAsc: 1,
     };
     var sections = [];
 
