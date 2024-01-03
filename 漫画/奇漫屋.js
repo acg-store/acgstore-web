@@ -8,7 +8,7 @@ function home_parse(url, html, headers) {
                 link: `/${element.id}/`,
                 author: element.author,
                 cover: element.imgurl,
-                info: '最新章节:' + element.remarks + '\n' + element.intro,
+                newest: element.remarks,
             });
         });
     } else {
@@ -33,11 +33,10 @@ function search_parse(url, html, headers) {
 function book_parse(url, html, headers) {
     let $ = cheerio.load(html);
     var book = {
-        cover: $('.banner > .cartoon-poster').attr('src'),
-        title: $('.banner > .cartoon-title').text(),
-        author: $('.author').text(),
-        info: $('.introduction').text(),
-        sections: new Map(),
+        cover: $('div.box-back1 > img').attr('src'),
+        title: $('div.box-back1 > img').text(),
+        info: $('.comic-intro').text(),
+        sections: {},
         isSectionAsc: 0
     };
     var time = html.match(/更新时间：(.*?)<\//);
