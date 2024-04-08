@@ -13,6 +13,7 @@
     "version": "1.1.5",
     "engine": 28,
     "imgMode": 2,
+    "disable": true,
     "headers": "Connection:keep-alive\nAccept:*/*\nAccept-Encoding:gzip, deflate, br",
     "author": {
         "name": "静静",

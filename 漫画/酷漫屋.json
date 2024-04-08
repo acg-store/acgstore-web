@@ -12,6 +12,7 @@
     "version": "1.0.12",
     "engine": 23,
     "imgMode": 2,
+    "disable": true,
     "author": {
         "name": "静静",
         "info": "我是静静，App和轻应用有问题都可以联系我哦",
