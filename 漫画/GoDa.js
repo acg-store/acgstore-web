@@ -4,7 +4,7 @@ function home_parse(url, html, headers) {
     $('.pb-2').each(function (i, e) {
         var self = $(this);
         list.push({
-            title: self.find('h3.cardtitle').text(),
+            title: self.find('h3.cardtitle').text().trim(),
             link: self.children('a').attr('href').replace(/manga/i, 'chapterlist'),
             cover: self.find('img').first().attr('src') + '@@headers={"protocol":"h2"}',
         });
@@ -48,6 +48,9 @@ function details_parse(url, html, headers) {
 
     $('.w-full.h-full > img').each(function (e, i) {
         let src = $(this).attr('data-src');
+        if (!src) {
+            src = $(this).attr('src');
+        }
         if (src && src.startsWith('http')) {
             details.images.push(src);
         }

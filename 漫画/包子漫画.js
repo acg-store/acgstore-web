@@ -4,7 +4,7 @@ function home_parse(url, html, headers) {
     $('.comics-card').each(function (i, e) {
         var self = $(this);
         list.push({
-            title: self.find('amp-img').first().attr('alt'),
+            title: self.find('amp-img').first().attr('alt').trim(),
             link: self.children('a').first().attr('href'),
             cover: self.find('amp-img').first().attr('src'),
             info: self.find('small.tags').first().text().trim(),
@@ -17,7 +17,7 @@ function home_parse(url, html, headers) {
 function book_parse(url, html, headers) {
     var $ = cheerio.load(html);
     var book = {
-        title: $('.comics-detail__title').text(),
+        title: $('.comics-detail__title').text().trim(),
         info: $('.comics-detail__author').text() + $('.supporting-text.mt-2').children('div').last().text().trim()
     };
     var map = new Map();
@@ -63,8 +63,8 @@ function details_parse(url, html, headers) {
     let $ = cheerio.load(html);
     var details = {
         images: [],
-        headers:{
-            referer: 'https://cn.webmota.com/',
+        headers: {
+            referer: this.baseUrl,
         },
     };
 
