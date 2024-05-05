@@ -1,1 +1,63 @@
-{"sid":"4dc0bb02-0eba-4642-a100-fbe0ddce454a","name":"包子.org","info":"包子漫畫爲您提供優質的漫畫閱讀體驗。連載漫畫，免費漫畫，玄幻漫畫，言情漫畫，穿越漫畫，都市漫畫，仙俠漫畫，武俠漫畫，現代言情漫畫，古代言情漫畫，靈異漫畫","baseUrl":"https://baozimh.one/","type":1,"grade":8,"cloudflare":false,"http2":true,"encode":"utf-8","referer":"https://baozimh.one/","version":"1.0.5","engine":23,"imgMode":2,"author":{"name":"静静","info":"我是静静，App和轻应用有问题都可以联系我哦","contact":"1077674403","donateLink":["https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg","https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"]},"script":{"requires":[{"lib":"cheerio"}],"code":"ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciBsaXN0ID0gW107CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sLnJlcGxhY2UoL2NsYXNzTmFtZS9pLCAnJykpOwogICAgJCgnLnBiLTInKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiBzZWxmLmZpbmQoJ2gzLmNhcmR0aXRsZScpLnRleHQoKS50cmltKCksCiAgICAgICAgICAgIGxpbms6IHNlbGYuY2hpbGRyZW4oJ2EnKS5hdHRyKCdocmVmJykucmVwbGFjZSgvbWFuZ2EvaSwgJ2NoYXB0ZXJsaXN0JyksCiAgICAgICAgICAgIGNvdmVyOiBzZWxmLmZpbmQoJ2ltZycpLmZpcnN0KCkuYXR0cignc3JjJykgKyAnQEBoZWFkZXJzPXsicHJvdG9jb2wiOiJoMiJ9JywKICAgICAgICB9KTsKICAgIH0pOwoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShsaXN0KTsKfQoKZnVuY3Rpb24gYm9va19wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGJvb2sgPSB7CiAgICAgICAgc2VjdGlvbnM6IHt9LAogICAgICAgIGlzU2VjdGlvbkFzYzogMSwKICAgIH07CiAgICB2YXIgc2VjdGlvbnMgPSBbXTsKCiAgICAkKCdkaXYuZmxleC1jb2wgPiBkaXYudy1mdWxsJykuY2hpbGRyZW4oJ2EnKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgbGV0IHRpbWUgPSAkKHRoaXMpLmZpbmQoJ3NwYW4nKS5sYXN0KCkudGV4dCgpOwogICAgICAgIGlmICh0aW1lICE9ICIiKSB7CiAgICAgICAgICAgIHNlY3Rpb25zLnB1c2goewogICAgICAgICAgICAgICAgdGl0bGU6ICQodGhpcykuZmluZCgnc3BhbicpLmZpcnN0KCkudGV4dCgpLAogICAgICAgICAgICAgICAgbGluazogJCh0aGlzKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgICAgICB1cGRhdGVUaW1lOiB0aW1lLAogICAgICAgICAgICB9KTsKICAgICAgICB9CiAgICB9KTsKCiAgICBib29rLnNlY3Rpb25zWyLnm67lvZUiXSA9IHNlY3Rpb25zOwoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShib29rKTsKfQoKZnVuY3Rpb24gZGV0YWlsc19wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIGxldCAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGRldGFpbHMgPSB7CiAgICAgICAgaW1hZ2VzOiBbXSwKICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICAgIHJlZmVyZXI6IHRoaXMuYmFzZVVybCwKICAgICAgICB9LAogICAgfTsKCiAgICAkKCcudy1mdWxsLmgtZnVsbCA+IGltZycpLmVhY2goZnVuY3Rpb24gKGUsIGkpIHsKICAgICAgICBsZXQgc3JjID0gJCh0aGlzKS5hdHRyKCdkYXRhLXNyYycpOwogICAgICAgIGlmICghc3JjKSB7CiAgICAgICAgICAgIHNyYyA9ICQodGhpcykuYXR0cignc3JjJyk7CiAgICAgICAgfQogICAgICAgIGlmIChzcmMgJiYgc3JjLnN0YXJ0c1dpdGgoJ2h0dHAnKSkgewogICAgICAgICAgICBkZXRhaWxzLmltYWdlcy5wdXNoKHNyYyk7CiAgICAgICAgfQogICAgfSk7CgogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGRldGFpbHMpOwp9"},"home":{"title":"热门更新","url":"/dayup/page/@page","method":"GET","parse":"home_parse","cacheAge":"1h","startPage":1},"search":{"title":"搜索","url":"/s/@key?page=@page","method":"GET","parse":"home_parse","cacheAge":"1h"},"book":{"title":"详情","method":"GET","parse":"book_parse","cacheAge":"1h"},"details":{"title":"内容","method":"GET","parse":"details_parse","cacheAge":"1h"}}
+{
+    "sid": "4dc0bb02-0eba-4642-a100-fbe0ddce454a",
+    "name": "包子.org",
+    "info": "包子漫畫爲您提供優質的漫畫閱讀體驗。連載漫畫，免費漫畫，玄幻漫畫，言情漫畫，穿越漫畫，都市漫畫，仙俠漫畫，武俠漫畫，現代言情漫畫，古代言情漫畫，靈異漫畫",
+    "baseUrl": "https://m.baozimh.one/",
+    "type": 1,
+    "grade": 8,
+    "cloudflare": false,
+    "http2": true,
+    "encode": "utf-8",
+    "referer": "https://m.baozimh.one/",
+    "version": "1.0.6",
+    "engine": 23,
+    "imgMode": 2,
+    "author": {
+        "name": "静静",
+        "info": "我是静静，App和轻应用有问题都可以联系我哦",
+        "contact": "1077674403",
+        "donateLink": [
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_alipay.jpg",
+            "https://otaku-time-1s.oss-cn-beijing.aliyuncs.com/otaku/image/img_donate_wechat.png"
+        ]
+    },
+    "script": {
+        "requires": [
+            {
+                "lib": "cheerio"
+            }
+        ],
+        "code": "ZnVuY3Rpb24gaG9tZV9wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciBsaXN0ID0gW107CiAgICBsZXQgJCA9IGNoZWVyaW8ubG9hZChodG1sLnJlcGxhY2UoL2NsYXNzTmFtZS9pLCAnJykpOwogICAgJCgnLnBiLTInKS5lYWNoKGZ1bmN0aW9uIChpLCBlKSB7CiAgICAgICAgdmFyIHNlbGYgPSAkKHRoaXMpOwogICAgICAgIGxpc3QucHVzaCh7CiAgICAgICAgICAgIHRpdGxlOiBzZWxmLmZpbmQoJ2gzLmNhcmR0aXRsZScpLnRleHQoKS50cmltKCksCiAgICAgICAgICAgIGxpbms6IHNlbGYuY2hpbGRyZW4oJ2EnKS5hdHRyKCdocmVmJyksCiAgICAgICAgICAgIGNvdmVyOiBzZWxmLmZpbmQoJ2ltZycpLmZpcnN0KCkuYXR0cignc3JjJykgKyAnQEBoZWFkZXJzPXsicHJvdG9jb2wiOiJoMiJ9JywKICAgICAgICB9KTsKICAgIH0pOwoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShsaXN0KTsKfQoKYXN5bmMgZnVuY3Rpb24gYm9va19wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIHZhciAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGJvb2sgPSB7CiAgICAgICAgc2VjdGlvbnM6IHt9LAogICAgICAgIGluZm86ICQoJyNpbmZvIC50ZXh0LW1lZGl1bS5saW5lLWNsYW1wLTQubXktdW5pdC1tZCcpLnRleHQoKS50cmltKCksCiAgICAgICAgaXNTZWN0aW9uQXNjOiAxLAogICAgfTsKCiAgICAvLyDkvb/nlKjmraPliJnooajovr7lvI/ojrflj5ZodG1s5Lit55qEZGF0YS1taWQ9IjExIueahOWAvAogICAgbGV0IG1pZCA9IGh0bWwubWF0Y2goL2RhdGEtbWlkPSIoXGQrKSIvKVsxXTsKICAgIGxldCBkYXRhID0gYXdhaXQgcmVxdWVzdENoYXB0ZXIobWlkKTsKICAgIHZhciAkJCA9IGNoZWVyaW8ubG9hZChkYXRhKTsKCiAgICB2YXIgc2VjdGlvbnMgPSBbXTsKCiAgICAkJCgnZGl2LmNoYXB0ZXJpdGVtJykuZWFjaChmdW5jdGlvbiAoaSwgZSkgewogICAgICAgIGxldCB0aW1lID0gJCQodGhpcykuZmluZCgnc3BhbicpLmxhc3QoKS50ZXh0KCk7CiAgICAgICAgbGV0IGNpZCA9ICQkKHRoaXMpLmNoaWxkcmVuKCdhJykuZGF0YSgnY3MnKTsKICAgICAgICBpZiAodGltZSAhPSAiIikgewogICAgICAgICAgICBzZWN0aW9ucy5wdXNoKHsKICAgICAgICAgICAgICAgIHRpdGxlOiAkJCh0aGlzKS5maW5kKCdzcGFuJykuZmlyc3QoKS50ZXh0KCksCiAgICAgICAgICAgICAgICBsaW5rOiBgL2NoYXB0ZXIvZ2V0aW5mbz9tPSR7bWlkfSZjPSR7Y2lkfWAsCiAgICAgICAgICAgICAgICB1cGRhdGVUaW1lOiB0aW1lLAogICAgICAgICAgICB9KTsKICAgICAgICB9CiAgICB9KTsKCiAgICBib29rLnNlY3Rpb25zWyLnm67lvZUiXSA9IHNlY3Rpb25zOwoKICAgIHJldHVybiBKU09OLnN0cmluZ2lmeShib29rKTsKfQoKZnVuY3Rpb24gZGV0YWlsc19wYXJzZSh1cmwsIGh0bWwsIGhlYWRlcnMpIHsKICAgIGxldCAkID0gY2hlZXJpby5sb2FkKGh0bWwpOwogICAgdmFyIGRldGFpbHMgPSB7CiAgICAgICAgaW1hZ2VzOiBbXSwKICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICAgIHJlZmVyZXI6IHRoaXMuYmFzZVVybCwKICAgICAgICB9LAogICAgfTsKCiAgICAkKCcudy1mdWxsLmgtZnVsbCA+IGltZycpLmVhY2goZnVuY3Rpb24gKGUsIGkpIHsKICAgICAgICBsZXQgc3JjID0gJCh0aGlzKS5hdHRyKCdkYXRhLXNyYycpOwogICAgICAgIGlmICghc3JjKSB7CiAgICAgICAgICAgIHNyYyA9ICQodGhpcykuYXR0cignc3JjJyk7CiAgICAgICAgfQogICAgICAgIGlmIChzcmMgJiYgc3JjLnN0YXJ0c1dpdGgoJ2h0dHAnKSkgewogICAgICAgICAgICBkZXRhaWxzLmltYWdlcy5wdXNoKHNyYyk7CiAgICAgICAgfQogICAgfSk7CgogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KGRldGFpbHMpOwp9Cgphc3luYyBmdW5jdGlvbiByZXF1ZXN0Q2hhcHRlcihtaWQpIHsKICAgIGNvbnN0IHVybCA9IGAke3RoaXMuYmFzZVVybH1tYW5nYS9nZXQ/bWlkPSR7bWlkfSZtb2RlPWFsbGA7CiAgICBjb25zb2xlLmxvZyh1cmwpOwogICAgbGV0IHJlc3AgPSBhd2FpdCBmZXRjaCh1cmwsIHsKICAgICAgICAicmVmZXJyZXIiOiB0aGlzLmJhc2VVcmwsCiAgICB9KTsKICAgIHJldHVybiBhd2FpdCByZXNwLnRleHQoKTsKfQoKYXN5bmMgZnVuY3Rpb24gcmVxdWVzdENvbnRlbnQobWlkLCBjaWQpIHsKICAgIGNvbnN0IHVybCA9IGAke3RoaXMuYmFzZVVybH1jaGFwdGVyL2dldGluZm8/bT0ke21pZH0mYz0ke2NpZH1gOwogICAgY29uc29sZS5sb2codXJsKTsKICAgIGxldCByZXNwID0gYXdhaXQgZmV0Y2godXJsLCB7CiAgICAgICAgInJlZmVycmVyIjogdGhpcy5iYXNlVXJsLAogICAgfSk7CiAgICByZXR1cm4gYXdhaXQgcmVzcC50ZXh0KCk7Cn0="
+    },
+    "home": {
+        "title": "热门更新",
+        "url": "/dayup/page/@page",
+        "method": "GET",
+        "parse": "home_parse",
+        "cacheAge": "1h",
+        "startPage": 1
+    },
+    "search": {
+        "title": "搜索",
+        "url": "/s/@key?page=@page",
+        "method": "GET",
+        "parse": "home_parse",
+        "cacheAge": "1h"
+    },
+    "book": {
+        "title": "详情",
+        "method": "GET",
+        "parse": "book_parse",
+        "cacheAge": "1h"
+    },
+    "details": {
+        "title": "内容",
+        "method": "GET",
+        "parse": "details_parse",
+        "cacheAge": "1h",
+        "headers": {
+            "origin": "https://baozimh.one",
+            "referer": "https://baozimh.one"
+        }
+    }
+}

@@ -5,7 +5,7 @@ function home_parse(url, html, headers) {
         var self = $(this);
         list.push({
             title: self.find('h3.cardtitle').text().trim(),
-            link: self.children('a').attr('href').replace(/manga/i, 'chapterlist'),
+            link: self.children('a').attr('href'),
             cover: self.find('img').first().attr('src') + '@@headers={"protocol":"h2"}',
         });
     });
@@ -13,20 +13,28 @@ function home_parse(url, html, headers) {
     return JSON.stringify(list);
 }
 
-function book_parse(url, html, headers) {
+async function book_parse(url, html, headers) {
     var $ = cheerio.load(html);
     var book = {
         sections: {},
+        info: $('#info .text-medium.line-clamp-4.my-unit-md').text().trim(),
         isSectionAsc: 1,
     };
+
+    // 使用正则表达式获取html中的data-mid="11"的值
+    let mid = html.match(/data-mid="(\d+)"/)[1];
+    let data = await requestChapter(mid);
+    var $$ = cheerio.load(data);
+
     var sections = [];
 
-    $('div.flex-col > div.w-full').children('a').each(function (i, e) {
-        let time = $(this).find('span').last().text();
+    $$('div.chapteritem').each(function (i, e) {
+        let time = $$(this).find('span').last().text();
+        let cid = $$(this).children('a').data('cs');
         if (time != "") {
             sections.push({
-                title: $(this).find('span').first().text(),
-                link: $(this).attr('href'),
+                title: $$(this).find('span').first().text(),
+                link: `/chapter/getinfo?m=${mid}&c=${cid}`,
                 updateTime: time,
             });
         }
@@ -57,4 +65,13 @@ function details_parse(url, html, headers) {
     });
 
     return JSON.stringify(details);
+}
+
+async function requestChapter(mid) {
+    const url = `${this.baseUrl}manga/get?mid=${mid}&mode=all`;
+    console.log(url);
+    let resp = await fetch(url, {
+        "referrer": this.baseUrl,
+    });
+    return await resp.text();
 }
