@@ -6,7 +6,7 @@ function home_parse(url, html, headers) {
         list.push({
             title: self.find('h3.cardtitle').text().trim(),
             link: self.children('a').attr('href'),
-            cover: self.find('img').first().attr('src') + '@@headers={"protocol":"h2"}',
+            cover: self.find('img').first().attr('src'),
         });
     });
 
@@ -23,26 +23,35 @@ async function book_parse(url, html, headers) {
 
     // 使用正则表达式获取html中的data-mid="11"的值
     let mid = html.match(/data-mid="(\d+)"/)[1];
-    let data = await requestChapter(mid);
-    var $$ = cheerio.load(data);
-
-    var sections = [];
-
-    $$('div.chapteritem').each(function (i, e) {
-        let time = $$(this).find('span').last().text();
-        let cid = $$(this).children('a').data('cs');
-        if (time != "") {
-            sections.push({
-                title: $$(this).find('span').first().text(),
-                link: `/chapter/getinfo?m=${mid}&c=${cid}`,
-                updateTime: time,
-            });
-        }
-    });
-
-    book.sections["目录"] = sections;
+    book.sectionLink = [`https://api-get-v2.mgsearcher.com/api/manga/get?mid=${mid}`];
 
     return JSON.stringify(book);
+}
+
+function sections_parse(url, html, headers) {
+    console.log(html);
+    let json = JSON.parse(html);
+    let chapters = json.data;
+    var sections = [];
+    if (chapters && chapters.chapters) {
+        chapters.chapters.forEach(element => {
+            let time = element.attributes.updatedAt;
+            // 根据time（格式为2024-09-03T05:32:24.045Z）计算多久前更新
+            let date = new Date(time);
+            let now = new Date();
+            let diff = now - date;
+            let days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            let timeAgo = `${days}天前更新`;
+            sections.push({
+                title: element.attributes.title,
+                link: `/manga/${chapters.slug}/${element.attributes.slug}`,
+                updateTime: timeAgo,
+            });
+        });
+    }
+    var map = new Map();
+    map['目录'] = sections;
+    return JSON.stringify(map);
 }
 
 function details_parse(url, html, headers) {
@@ -68,7 +77,8 @@ function details_parse(url, html, headers) {
 }
 
 async function requestChapter(mid) {
-    const url = `${this.baseUrl}manga/get?mid=${mid}&mode=all`;
+    //https://api-get-v2.mgsearcher.com/api/manga/get?mid=5
+    const url = `https://api-get-v2.mgsearcher.com/api/manga/get?mid=${mid}`;
     console.log(url);
     let resp = await fetch(url, {
         "referrer": this.baseUrl,

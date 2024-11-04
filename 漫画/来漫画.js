@@ -1,16 +1,17 @@
 function home_parse(url, html) {
-    var $ = cheerio.load(html);
-    var list = [];
+    let $ = cheerio.load(html);
+    let list = [];
+    let that = this;
     $('li').each(function (i, e) {
-        var self = $(this);
-        var aggregate = {};
-        var a = self.children('a').first();
+        let self = $(this);
+        let aggregate = {};
+        let a = self.children('a').first();
         aggregate.title = a.children('h3').text();
         aggregate.link = a.attr('href');
-        aggregate.cover = a.find('img').attr('data-src') + '@@headers={"referer":"https://m.laimanhua.net","protocol":"h2"}';
+        aggregate.cover = a.find('img').attr('data-src') + `@@headers={"referer":"${that.baseUrl}","protocol":"h2"}`;
         aggregate.info = '';
         self.find('dl').each(function (i, e) {
-            var info = $(this);
+            let info = $(this);
             if (i != 3) {
                 aggregate.info += info.text() + '\n';
             }
@@ -22,15 +23,16 @@ function home_parse(url, html) {
 }
 
 function search_parse(url, html, headers) {
-    var $ = cheerio.load(html);
-    var list = [];
+    let $ = cheerio.load(html);
+    let list = [];
+    let that = this;
     $('.dmList.clearfix').find('li').each(function (i, e) {
-        var self = $(this);
-        var aggregate = {};
-        var a = self.find('a').first();
+        let self = $(this);
+        let aggregate = {};
+        let a = self.find('a').first();
         aggregate.title = a.children('img').attr('alt');
         aggregate.link = a.attr('href');
-        aggregate.cover = a.children('img').attr('src') + `@@headers={"referer":"${this.baseUrl}","protocol":"h2"}`;
+        aggregate.cover = a.children('img').attr('src') + `@@headers={"referer":"${that.baseUrl}","protocol":"h2"}`;
         aggregate.info = self.find('.intro').text();
         aggregate.updateTime = self.find('dd').last().children('p').first().text();
         list.push(aggregate);
@@ -39,18 +41,18 @@ function search_parse(url, html, headers) {
 }
 
 function book_parse(url, html) {
-    var $ = cheerio.load(html);
-    var book = {};
-    var top = $('.book-detail');
-    book.cover = top.find('img').first().attr('src') + '@@headers={"referer":"https://m.laimanhua.net","protocol":"h2"}';;
+    let $ = cheerio.load(html);
+    let book = {};
+    let top = $('.book-detail');
+    book.cover = top.find('img').first().attr('src') + `@@headers={"referer":"${this.baseUrl}","protocol":"h2"}`;
     book.title = top.find('img').first().attr('title');
     book.info = $('.book-intro.book-intro-more').text();
-    var map = new Map();
-    var sections = [];
+    let map = new Map();
+    let sections = [];
     $('.chapter-list').find('li').each(function (i, e) {
-        var self = $(this);
-        var a = self.children('a');
-        var section = {};
+        let self = $(this);
+        let a = self.children('a');
+        let section = {};
         section.title = a.text().replace(/\s+/g, '');
         section.link = a.attr('href');
         sections.push(section);
@@ -62,8 +64,8 @@ function book_parse(url, html) {
 }
 
 function gethost() {
-    var hosts = ["xwdf.kingwar.cn", "mhreswhm.kingwar.cn", "qwe123.kingwar.cn", "resmhpic.kingwar.cn", "reszxc.kingwar.cn"];
-    var ddl = Math.round(Math.random() * 4);
+    let hosts = ["xwdf.kingwar.cn", "mhreswhm.kingwar.cn", "qwe123.kingwar.cn", "resmhpic.kingwar.cn", "reszxc.kingwar.cn"];
+    let ddl = Math.round(Math.random() * 4);
     return "https://" + hosts[ddl];
 }
 
@@ -73,21 +75,21 @@ function getcurpic(host,chapterId, path,img) {
 }
 
 function details_parse(url, html) {
-    var $ = cheerio.load(html);
-    var script = $('script').filter(function (i, e) {
+    let $ = cheerio.load(html);
+    let script = $('script').filter(function (i, e) {
         return $(e).text().trim().startsWith('var');
     });
-    var code = script.text().trim();
+    let code = script.text().trim();
 
     eval(code);
 
-    var details = {};
+    let details = {};
     details.images = [];
     let host = gethost();
     mhInfo.images.forEach(function (ele) {
         details.images.push(getcurpic(host,mhInfo.chapterId, mhInfo.path, ele));
     });
-    details.headers = { referer: "https://www.laimanhua.net/" }
+    details.headers = { referer: this.baseUrl }
 
     return JSON.stringify(details);
 }
